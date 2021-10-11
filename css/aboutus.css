@@ -1,0 +1,65 @@
+.box
+{
+    color: #FFFFFF;
+}
+
+.heading
+{
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 172px;
+    padding-top: 30px;
+    padding-left: 0px;
+    font-size: 42px;
+    line-height: 53px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.about-us
+{
+    margin-top: 162px;
+    margin-right: 199px;
+    margin-left: 177px;
+    padding: 0 0 0 0;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+}
+.btn:focus, a:focus
+{
+    color:#0C8A2F;
+    box-shadow: none;
+
+    
+}
+.btn:active, a:active
+{ 
+    color:#0C8A2F;
+    box-shadow: none;
+    
+}
+#bt1,#bt2,#bt3
+{ 
+    box-shadow: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border: none;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+}
+#bt3
+{
+    padding-right: 30px;
+}
+
+.main4
+{
+    color: #FFFFFF;
+    font-size: 26px;
+    line-height: 31px;
+}
