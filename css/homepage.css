@@ -12,6 +12,7 @@
 .gear {
     transform: scale(0.9);
 }
+
 .gearmoving {
     display: -webkit-box;
     display: -ms-flexbox;

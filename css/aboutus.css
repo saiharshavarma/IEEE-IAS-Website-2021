@@ -1,8 +1,3 @@
-.box
-{
-    color: #FFFFFF;
-}
-
 .heading
 {
     color: #FFFFFF;
@@ -27,19 +22,20 @@
     font-style: normal;
     font-weight: normal;
 }
+
 .btn:focus, a:focus
 {
     color:#0C8A2F;
-    box-shadow: none;
-
-    
+    box-shadow: none;   
 }
+
 .btn:active, a:active
 { 
     color:#0C8A2F;
     box-shadow: none;
     
 }
+
 #bt1,#bt2,#bt3
 { 
     box-shadow: none;
@@ -52,6 +48,7 @@
     font-weight: normal;
     font-size: 36px;
 }
+
 #bt3
 {
     padding-right: 30px;
