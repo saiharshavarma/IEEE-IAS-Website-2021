@@ -47,7 +47,7 @@
     height: auto;
     position: relative;
     top: 260px;
-
+    z-index: 0;
 }
 
 .gear-container {
