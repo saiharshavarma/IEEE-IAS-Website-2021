@@ -1,15 +1,20 @@
-.box
-{
-    color: #FFFFFF;
-    padding: 0 0 0 0;
-}
-
 .aboutus{
     margin-top: 25%;
     z-index: 1;
 }
 
-.heading
+.aboutus .about-us
+{
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 10%;
+    padding: 0 0 0 0;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.aboutus .heading
 {
     color: #FFFFFF;
     margin-top: 3%;
@@ -22,27 +27,19 @@
     font-style: normal;
     font-weight: normal;
 }
-.about-us
-{
-    margin-top: 5%;
-    margin-right: 5%;
-    margin-left: 10%;
-    padding: 0 0 0 0;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: normal;
-}
+
+
 @media screen and (max-width: 430px){
 
-    .about-us{
+    .aboutus .about-us{
         width: 300px;
         margin: 80px 10px 20px 28px;
     }
 
-    .heading{
+    .aboutus .heading{
         margin-left:30%;
     }
-    .main4{
+    .aboutus .main4{
         font-size:7px !important;
         font-weight: normal !important;
         margin: 15px 14px 20px 25px;
@@ -52,57 +49,57 @@
         border-radius: 10px;
         padding: 2px 2px 2px 2px;
     }
-    #bt1,#bt2,#bt3{
+    .aboutus #bt1,#bt2,#bt3{
         font-size:20px !important;
         margin-bottom:0px !important;
         padding: 8px 8px 8px;
     }
-    #bt3{
+    .aboutus #bt3{
         padding-left: 10px;
     }
-    .box{ 
+    .aboutus .box{ 
         text-align: center !important;
         width: 300px;
     }
 }
 @media screen and (max-width: 576px){
-    .main4{
+    .aboutus .main4{
         font-size:12px !important;
         font-weight: normal !important;
     }
-    #bt1,#bt2,#bt3{
+    .aboutus #bt1,#bt2,#bt3{
         font-size:20px !important;
     }
 }
 @media screen and (max-width: 788px){
-    .main4{
+    .aboutus .main4{
         font-size:15px !important;
         line-height:105% !important;
         font-weight: normal !important;
     }
-    #bt1,#bt2,#bt3{
+    .aboutus #bt1,#bt2,#bt3{
         font-size:25px !important;
     }
 }
 
-.btn:hover{
+.aboutus .btn:hover{
     color:#0C8A2F;
     background-color: #0E0E0E;
 }
-.btn:focus, a:focus
+.aboutus .btn:focus, .aboutus a:focus
 {
     color:#0C8A2F;
     box-shadow: none;
 
     
 }
-.btn:active, a:active
+.aboutus .btn:active, .aboutus a:active
 { 
     color:#0C8A2F;
     box-shadow: none;
     
 }
-#bt1,#bt2,#bt3
+.aboutus #bt1,#bt2,#bt3
 { 
     box-shadow: none;
     padding-top: 10px;
@@ -114,12 +111,12 @@
     font-weight: normal;
     font-size: 36px;
 }
-#bt3
+.aboutus #bt3
 {
     padding-right: 30px;
 }
 
-.main4
+.aboutus .main4
 {
     color: #FFFFFF;
     font-size: 26px;

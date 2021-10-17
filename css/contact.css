@@ -1,0 +1,329 @@
+.contact #platform {
+    position: relative;
+    top: calc(43% - 10vh);
+    left: calc(43% - 40vw);
+    width: 80vw;
+    height: 20vh;
+    perspective: 600px;
+    padding-bottom: 7rem;
+  }
+  /* Guy */
+.contact .guy {
+    font-size: 10vw;
+    position: absolute;
+      left:calc(50% - 0.5em);
+      top: calc(50% - 1em);
+    width: 1em;
+    height: 1em;
+    transform-style: preserve-3d;
+    color: transparent;
+    transition: all ease 0.3s;
+    animation: spinIt linear 20s infinite;
+    margin-bottom: 10%;
+  }
+  @keyframes spinIt {
+    0% {
+      transform:translateZ(-10vw) rotateY(180deg) ;
+    }
+    100% {
+      transform: translateZ(-10vw) rotateY(-180deg);
+    }
+  }
+  .contact .head .front-face:before,
+  .contact .head .front-face:after {
+    position: absolute;
+      top: 30%;
+      left: 20%;
+    content: '';
+    display:inline-block ;
+    border-radius: 50%;
+    width: 0.2em;
+    height: 0.2em;
+    background: #000;
+  }
+  .contact .head .front-face:after {
+    left: auto;
+    right: 20%;
+  }
+  .contact b {
+    display: block;
+    width: 1em;
+    height: 1em;
+    background: rgba(0,255,255,0.3);
+    box-shadow: inset 0 0 0.1em rgba(0,255,0,0.1),inset 0 0 0.3em rgba(0,0,0,0.8);
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all ease 3s;
+  }
+  .contact .guy:hover b {
+    background: rgba(255,0,255,0.3);
+  }
+  .contact .guy:active b {
+    background: rgba(0,255,255,0.3);
+    transform: rotateY(0deg) translateY(0vw) translateZ(0vw) !important;
+    box-shadow: inset 0 0 0.1em rgba(0,255,0,0.1);
+  }
+  .contact .rightArm {
+    transform-style: preserve-3d;
+    position: absolute;
+      left: -0.5em;
+  }
+  .contact .leftArm {
+    transform-style: preserve-3d;
+    position: absolute;
+      left: 1.0em;
+  }
+  .contact .rightLeg {
+    transform-style: preserve-3d;
+    position: absolute;
+      bottom: -1em;
+      left: 0.0em;
+  }
+  .contact .leftLeg {
+    transform-style: preserve-3d;
+    position: absolute;
+      bottom: -1em;
+      left: 0.5em;
+  }
+  .contact .rightArm b,
+  .contact .leftArm b,
+  .contact .rightLeg b,
+  .contact .leftLeg b {
+    font-size: 5vw;
+  }
+  .contact .walk .rightArm,
+  .contact .walk .leftArm,
+  .contact .walk .rightLeg,
+  .contact .walk .leftLeg {
+    animation: walk linear 1s infinite;
+  }
+  .contact .walk .rightArm,
+  .contact .walk .leftLeg {
+    animation-delay: -0.5s;
+  }
+  @keyframes walk {
+    0% {
+      transform:rotateX(-45deg);
+    }
+    50% {
+      transform:rotateX(45deg);
+    }
+    100% {
+      transform:rotateX(-45deg);
+    }
+  }
+  .contact .run .rightArm,
+  .contact .run .leftArm,
+  .contact .run .rightLeg,
+  .contact .run .leftLeg {
+    animation: run linear 0.5s infinite;
+  }
+  .contact .run .rightArm,
+  .contact .run .leftLeg {
+    animation-delay: -0.25s;
+  }
+  @keyframes run {
+    0% {
+      transform:rotateX(-45deg);
+    }
+    50% {
+      transform:rotateX(45deg);
+    }
+    100% {
+      transform:rotateX(-45deg);
+    }
+  }
+  .contact .jump .rightArm,
+  .jump .leftArm,
+  .jump .rightLeg,
+  .jump .leftLeg {
+    animation: run linear 0.25s;
+  }
+  @keyframes jump {
+    0% {
+      transform:rotateX(-45deg);
+    }
+    50% {
+      transform:rotateX(45deg);
+    }
+    100% {
+      transform:rotateX(-45deg);
+    }
+  }
+  .contact #cont{
+      margin:1% 5% 1%;
+     
+  }
+  .contact .fontawesome{
+      position:relative;
+     margin-top: 120%;
+      border-radius:100%;
+      width: auto;
+      color:#3cfca6
+  }
+  .contact .the-walk{
+      text-align: center;
+      
+  }
+  .contact .mar{
+
+    margin: auto 1%;
+
+  }
+  .contact .mar1{
+
+    color:#3cfca6
+
+  }
+  .contact .paddi{
+      padding-top:10%;
+      color:aquamarine
+  }
+  .contact .for-cen{
+      text-align:center;
+  }
+  .contact .fas1{
+      margin:20% auto;
+      padding-top:25%;
+    
+
+  }
+  .contact .fas2{
+    
+    color:#42fabd;
+
+}
+  .contact .outfit{
+      margin-top: 10%;
+  }
+  .contact .master-black{
+      background-color: #222;
+      color: antiquewhite;
+      box-shadow: 0px 0px 30px 1px #00ee9fec;
+  }
+  .contact .emailing{
+    margin-left:15%;
+    padding-top: 9%;
+  }
+      
+  .contact .eliminating-border{
+      border-style: bold;
+      border:0;
+      
+      
+  }
+.contact input,.contact textarea {
+    border: 0;
+    outline: 0;
+   
+    border-bottom: 2px solid #92ff7cda;
+    font-size: 1.4rem;
+    color: rgb(0, 255, 34);
+          
+  }
+  .contact .btn {
+    background: #34b8d9;
+    background-image: -webkit-linear-gradient(top, #34b8d9, #00ff84);
+    background-image: -moz-linear-gradient(top, #34b8d9, #00ff84);
+    background-image: -ms-linear-gradient(top, #34b8d9, #00ff84);
+    background-image: -o-linear-gradient(top, #34b8d9, #00ff84);
+    background-image: linear-gradient(to bottom, #34b8d9, #00ff84);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: Arial;
+    color: #000;
+    font-size: 20px;
+    padding: 8px 40px 9px 40px;
+    text-decoration: none;
+  }
+  
+  .contact .btn:hover {
+    background: #3cfca6;
+    background-image: -webkit-linear-gradient(top, #3cfca6, #76d934);
+    background-image: -moz-linear-gradient(top, #3cfca6, #76d934);
+    background-image: -ms-linear-gradient(top, #3cfca6, #76d934);
+    background-image: -o-linear-gradient(top, #3cfca6, #76d934);
+    background-image: linear-gradient(to bottom, #3cfca6, #76d934);
+    text-decoration: none;
+  }
+  .contact .disp{
+      display: inline;
+
+      
+  }
+  .contact .first{
+      
+     padding-top: 15%;
+     
+  }
+  .contact .tobeshif{
+      padding-left: 6%;/* in mobile view this shifts the content 6 px towards write making it incoherent */
+
+  }
+  .contact .takecare{
+      padding-top:20%;
+      width: 85%;
+      
+  }
+  .contact .full{
+      margin-top: 15%;
+  }
+  .contact .gogreeen{
+    color:#3cfca6
+  }
+
+  @media screen and (max-width:993px)
+
+  {
+    .contact .paddi{
+      text-align:center;
+  }
+    
+    
+    .contact .fas1{
+      margin:5% auto;
+      padding-top:10%;
+    
+
+  }
+  .contact #platform {
+    position: relative;
+    top: calc(50% - 10vh);
+    left: calc(50% - 40vw);
+    width: 80vw;
+    height: 2vh;
+    perspective: 900px;
+    padding-bottom: -10rem;
+  }
+.contact .gogreen{
+  text-align: center;
+}
+.contact .the-walk{
+  padding-top: -20rem;
+}
+
+.contact .tobeshif{
+  padding-left: 0%;
+  padding-top: 6%;/* in mobile view this shifts the content 6 px towards write making it incoherent */
+
+}
+
+.contact .fontawesome{
+  position:relative;
+ margin-top: 30%;
+ 
+  
+  width: auto;
+  color:#3cfca6
+}
+  }
+
+  .contact .row{
+    margin: 3% 3% 3%;
+  }
+  .contact .footer{
+    text-align: center;
+    color:#3cfca6;
+    margin:5% auto;
+  }

@@ -1,30 +1,18 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Bellota Text', cursive;
-}
-
-body {
-    width: 100%;
-    background: #0E0E0E;
-}
-
-.row {
+.domain .row {
     color: white;
     margin-top: 30px;
 
 }
 
-.rotate{
+.domain .rotate{
     width: 100px;
     height: 100px;
 }
-#img1,#im,#im1,#im2,#im3,#im4{
+.domain #img1, .domain #im,.domain #im1, .domain #im2, .domain #im3, .domain #im4{
     height:200px;
     width:200px;
 }
-.img2, #imgD{        	
+.domain .img2, .domain #imgD{        	
     margin-top: -225px;
     margin-left: 15px;
     margin-right:20px;
@@ -32,7 +20,7 @@ body {
     border-radius: 50%;
     transform-style: preserve-3d;
 }
-.i1{
+.domain .i1{
     margin-top: -225px;
     margin-left:15px;
     margin-right:20px;
@@ -46,7 +34,7 @@ body {
     padding-right:20px;
     padding-bottom:20px;
 }
-.i2{
+.domain .i2{
     height:100px;
     width:100px;
     margin-top: -225px;
@@ -60,7 +48,7 @@ body {
     padding-top:30px;*/
     transform-style: preserve-3d;
 }
-.i3{
+.domain .i3{
     height:170px;
     width:170px;
     margin-left:10px;
@@ -77,7 +65,7 @@ body {
     transform-style: preserve-3d;
     
 }
-.i4{
+.domain .i4{
     margin-top: -225px;
     margin-left: 15px;
     margin-right:20px;
@@ -90,25 +78,25 @@ body {
 }
 
 
-.img2 {
+.domain .img2 {
     width: 170px;
     height: 170px;
 }
 
-#imgD{
+.domain #imgD{
     padding:5px 10px;
     
 }
 
 @media only screen and (max-width:600px){
     
-    .img2, #imgD{
+    .domain .img2, .domain #imgD{
         margin-top:0px;
         margin-left: -95px;
        
     }
 
-    #text{
+    .domain #text{
         padding:20px 0px;
     }
     
