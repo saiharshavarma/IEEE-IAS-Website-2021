@@ -124,3 +124,43 @@
     padding: 20px 0 0 10px;
 
 }
+/* Swiper Js pagination */
+.aboutus .swiper {
+    width: 250px;
+    height: 500px;
+    margin-left: auto;
+  }
+ .aboutus .swiper-slide {
+    text-align: center;
+    font-size: 12px;
+    background: #0E0E0E;
+    
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    height: 800px;
+    
+  }
+
+.aboutus .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+.aboutus .slogan{
+    color:#0C8A2F;
+}
+.aboutus .boundary
+{
+    border: 4px solid #ffffff;
+    height: auto;
+    padding: 2px;
+    border-radius: 8px;
+}
+.aboutus .swiper-pagination-bullet{
+    background-color: #ffffff;
+}
