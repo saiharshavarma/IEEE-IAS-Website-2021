@@ -4,42 +4,54 @@
 
 }
 
-.domain .rotate{
+.domain .rotate {
     width: 100px;
     height: 100px;
 }
-.domain #img1, .domain #im,.domain #im1, .domain #im2, .domain #im3, .domain #im4{
-    height:200px;
-    width:200px;
+
+.domain #img1,
+.domain #im,
+.domain #im1,
+.domain #im2,
+.domain #im3,
+.domain #im4 {
+    height: 200px;
+    width: 200px;
 }
-.domain .img2, .domain #imgD{        	
+
+.domain .img2,
+.domain #imgD {
     margin-top: -225px;
     margin-left: 15px;
-    margin-right:20px;
+    margin-right: 20px;
     background: rgba(255, 255, 255, 0.15);
     border-radius: 50%;
     transform-style: preserve-3d;
 }
-.domain .i1{
+
+.domain .i1 {
     margin-top: -225px;
-    margin-left:15px;
-    margin-right:20px;
+    margin-left: 15px;
+    margin-right: 20px;
     background: rgba(255, 255, 255, 0.15);
     border-radius: 50%;
     transform-style: preserve-3d;
-    height:170px;
-    width:170px;
-    padding-left:30px;
-    padding-top:20px;
-    padding-right:20px;
-    padding-bottom:20px;
+    height: 170px;
+    width: 170px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
-.domain .i2{
-    height:100px;
-    width:100px;
+
+.domain .i2 {
+    height: 170px;
+    width: 170px;
     margin-top: -225px;
-    margin-left:55px;
-    margin-right:20px;
+    margin-left: 15px;
+    margin-right: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 50%;
     /*background: rgba(255, 255, 255, 0.15);
     border-radius: 50%;*/
     /*padding-left:6px;
@@ -48,33 +60,17 @@
     padding-top:30px;*/
     transform-style: preserve-3d;
 }
-.domain .i3{
-    height:170px;
-    width:170px;
-    margin-left:10px;
-    padding-top:80px;
-    padding-right:70px;
-    padding-bottom:30px;
-    padding-left:35px;
-    
-    margin-right:10px;
-    margin-left:15px;
-    margin-top:-275px;
-    background: rgba(255, 255, 255, 0.15);
-    border-radius: 50%;
-    transform-style: preserve-3d;
-    
-}
-.domain .i4{
+
+.domain .i4 {
     margin-top: -225px;
     margin-left: 15px;
-    margin-right:20px;
+    margin-right: 20px;
     background: rgba(255, 255, 255, 0.15);
     border-radius: 50%;
     transform-style: preserve-3d;
-    height:170px;
-    width:170px;
-    padding-bottom:20px;
+    height: 170px;
+    width: 170px;
+    padding-bottom: 20px;
 }
 
 
@@ -83,21 +79,121 @@
     height: 170px;
 }
 
-.domain #imgD{
-    padding:5px 10px;
-    
+.domain #imgD {
+    padding: 5px 10px;
+
 }
 
-@media only screen and (max-width:600px){
-    
-    .domain .img2, .domain #imgD{
-        margin-top:0px;
-        margin-left: -95px;
-       
+.domain #content-desktop {
+    display: block;
+}
+
+.domain #content-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .domain .row {
+        color: white;
+        margin: 30px 0;
     }
 
-    .domain #text{
-        padding:20px 0px;
+    .domain .tech {
+        margin-top: 25px;
     }
-    
+
+    .domain .rotate {
+        width: 100px;
+        height: 100px;
+    }
+
+    .domain #img1,
+    .domain #im,
+    .domain #im1,
+    .domain #im2,
+    .domain #im3,
+    .domain #im4 {
+        height: 120px;
+        width: 120px;
+    }
+
+    .domain .img2 {
+        margin-top: -147px;
+        margin-left: 10px;
+        /*margin-right:100px;*/
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 50%;
+        transform-style: preserve-3d;
+    }
+
+    .domain #imgD {
+        height: 100px;
+        width: 100px;
+        margin-top: -145px;
+        margin-left: 10px;
+        /*margin-right:100px;*/
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 50%;
+        transform-style: preserve-3d;
+    }
+
+    .domain .i1 {
+        margin-top: -147px;
+        margin-left: 10px;
+        margin-right: 100px;
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 50%;
+        transform-style: preserve-3d;
+        height: 100px;
+        width: 100px;
+        padding-left: 30px;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    .domain .i2 {
+        height: 100px;
+        width: 100px;
+        margin-top: -150px;
+        margin-left: 10px;
+        /*margin-right:200px;*/
+        transform-style: preserve-3d;
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 50%;
+
+    }
+
+    .domain .i4 {
+        margin-top: -147px;
+        margin-left: 10px;
+        margin-right: 20px;
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 50%;
+        transform-style: preserve-3d;
+        height: 100px;
+        width: 100px;
+        padding-bottom: 20px;
+    }
+
+
+    .domain .img2 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .domain #imgD {
+        padding: 5px 10px;
+    }
+
+
+
+    .domain #content-desktop {
+        display: none;
+    }
+
+    .domain #content-mobile {
+        display: block;
+    }
+
 }
