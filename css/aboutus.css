@@ -125,12 +125,12 @@
 
 }
 /* Swiper Js pagination */
- .swiper {
+.aboutus .swiper {
     width: 250px;
     height: 500px;
     margin-left: auto;
   }
-.swiper-slide {
+.aboutus .swiper-slide {
     text-align: center;
     font-size: 12px;
     background: #0E0E0E;
@@ -144,23 +144,23 @@
     
   }
 
-.swiper-slide img {
+.aboutus .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
     
   }
-.slogan{
+.aboutus .slogan{
     color:#0C8A2F;
 }
-.boundary
+.aboutus .boundary
 {
     border: 4px solid #ffffff;
     height: auto;
     padding: 2px;
     border-radius: 8px;
 }
- .swiper-pagination-bullet{
+ .aboutus .swiper-pagination-bullet{
     background-color: #ffffff;
 }

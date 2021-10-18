@@ -1,4 +1,3 @@
-
 if (screen.width>430){
   let  x=document.getElementById("swipe");
    x.style.display="none";
