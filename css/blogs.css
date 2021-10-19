@@ -58,7 +58,7 @@
 .blogs .dotCircle { width: 100%; height: 100%; position: absolute; margin: auto; top: 0; left: 0; right: 0; bottom: 0; border-radius: 100%; z-index: 20; }
 .blogs .dotCircle  .itemDot { display: block; width: 100px; height: 100px; position: absolute; box-shadow: 1px 1px 10px rgba(0, 255, 0, 0.4) ;background: #000000; color: green; border-radius: 50%; text-align: center; line-height: 80px; font-size: 30px; z-index: 3; cursor: pointer; border: 0px solid #e6e6e600; }
 .blogs .dotCircle  .itemDot .forActive { width: 56px; height: 56px; position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: none; }
-.blogs .dotCircle  .itemDot .forActive::after { content: ''; width: 5px; height: 5px; border: 3px solid green; bottom: -31px; left: -14px; filter: blur(1px); position: absolute; border-radius: 100%; }
+/* .blogs .dotCircle  .itemDot .forActive::after { content: ''; width: 5px; height: 5px; border: 3px solid green; bottom: -31px; left: -14px; filter: blur(1px); position: absolute; border-radius: 100%; } */
 .blogs .dotCircle  .itemDot .forActive::before { content: ''; width: 6px; height: 6px; filter: blur(5px); top: -15px; position: absolute; transform: rotate(-45deg); border: 6px solid green; right: -39px; }
 .blogs .dotCircle  .itemDot.active .forActive { display: block; }
 
@@ -109,7 +109,6 @@
     transform: scale(0.7);
   }
   .blogs .dotCircle{
-    transform: scale(0.7);
     top: 0;
     right: 0;
     bottom: 0;

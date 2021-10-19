@@ -17,7 +17,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/foundation/6.1.1/foundation.min.css'>
-    <link rel='stylesheet' href='https://cdn.snipcart.com/themes/base/snipcart.min.css'>      
+    <link rel='stylesheet' href='https://cdn.snipcart.com/themes/base/snipcart.min.css'>     
+    <link rel="stylesheet" href="css/preloader.css"> 
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/homepage.css">
     <link rel="stylesheet" href="css/aboutus.css">
@@ -29,7 +30,16 @@
 
     <title>IEEE IAS</title>
 </head>
-<body>
+<body id="body">
+
+<!-- Preloader -->
+<div class="iaspreloader" id="iaspreloader">
+    <div class="preloaderBg" id="preloader">
+      <div class="preloader"></div>
+      <div class="preloader2"></div>
+    </div>
+</div>
+<!-- Preloader Ending -->
 
 <!-- Navbar -->
 <nav class="navbar">
@@ -168,61 +178,119 @@
 
 <!-- Domain Page -->
 <div class="domain">
-<div class="container">
-    <div class="row">
-        <div class="col-4 col-sm-4 col-md-4">
-            <h4 style="margin-top:30px">OUR DOMAINS</h4>
-            <p id="para" style="margin-top:60px;font-size: 20px;"></p>
+    <div id="content-desktop">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-12 col-md-4">
+                    <h4 style="margin-top:30px">OUR DOMAINS</h4>
+                    <p id="para" style="margin-top:60px;font-size: 20px;"></p>
+                </div>
+                <div class="col-md-3 col-sm-12" style="margin-top:40px;">
+                    <div class="tech">
+                        <img id="img1" class="rotate" src="images/domain/Ellipse 4 (1).png" />
+                        <img class="img2" onmouseover="rotateAnimation('img1', 20)" onmouseout="stoprotate()"
+                            src="images/domain/technical_vec_green 1 (1).png" alt="" type="button" onclick="myFunction()" />
+                        <h3 style="margin-left:30px" id="text">Technical</h3>
+                    </div>
+                    <br>
+                    <div class="tech">
+                        <img id="im" class="rotate" src="images/domain/Ellipse 4 (1).png" />
+                        <img class="i2" onmouseover="rotateAnimation('im', 20)" onmouseout="stoprotate()"
+                            src="images/domain/bi_vector-pen.png" alt="" type="button" onclick="myFunction1()" />
+                        <h3 style="margin-left:50px" id="text">Ui/Ux</h3>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12" style="margin-top:40px">
+                    <div class="tech">
+                        <img id="im1" class="rotate" src="images/domain/Ellipse 4 (1).png" />
+                        <img class="i1" onmouseover="rotateAnimation('im1', 20)" onmouseout="stoprotate()"
+                            src="images/domain/Vector (1).png" alt="" type="button" onclick="myFunction2()" />
+                        <h3 id="text" style="margin-left:50px">Finance</h3>
+                    </div>
+                    <br>
+                    <div class="tech">
+                        <img id="im2" class="rotate" src="images/domain/Ellipse 4 (1).png" />
+                        <img class="img2" onmouseover="rotateAnimation('im2', 20)" onmouseout="stoprotate()"
+                            src="images/domain/pnm1.png" style="padding:0 10px" alt="" type="button" onclick="myFunction()" />
+                        <h3 style="margin-left:70px;" id="text">PnM</h3>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-12" style="margin-top:40px">
+                    <div class="tech">
+                        <img id="im3" class="rotate" src="images/domain/Ellipse 4 (1).png" />
+                        <img class="i4" onmouseover="rotateAnimation('im3', 20)" onmouseout="stoprotate()"
+                            src="images/domain/Design (2).png" alt="" type="button" onclick="myFunction2()" />
+                        <h3 style="margin-left:57px" id="text">Design</h3>
+                    </div>
+                    <br>
+                    <div class="tech">
+                        <img id="im4" class="rotate" src="images/domain/Ellipse 4 (1).png" />
+                        <img id="imgD" onmouseover="rotateAnimation('im4', 20)" onmouseout="stoprotate()"
+                            src="images/domain/Group 87.png" style="width:170px;height:170px" alt="" type="button"
+                            onclick="myFunction1()" />
+                        <h3 id="text" style="margin-left:45px">Editorial</h3>
+                    </div>
+                </div>
+
+            </div>
         </div>
-        <div class="col-md-3 col-sm-3 main" style="margin-top:40px;">
-            <div class="tech">
-                <img id="img1" class="rotate" src="images/domain/Ellipse 4 (1).png" />
-                <img class="img2" onmouseover="rotateAnimation('img1', 20)" onmouseout="stoprotate()"
-                    src="images/domain/technical_vec_green 1 (1).png" alt="" type="button" onclick="myFunction()" />
-                <h3 style="margin-left:30px" id="text">Technical</h3>
-            </div>
-            <br>
-            <div class="tech">
-                <img id="im" class="rotate" src="images/domain/Ellipse 4 (1).png" />
-                <img class="i2" onmouseover="rotateAnimation('im', 20)" onmouseout="stoprotate()"
-                    src="images/domain/Vector (2).png" alt="" type="button" onclick="myFunction1()" />
-                <img class="i3" onmouseover="rotateAnimation('im', 20)" onmouseout="stoprotate()"
-                    src="images/domain/Vector (3).png" alt="" type="button" onclick="myFunction1()" />
-                <h3 style="margin-left:50px" id="text">Ui/Ux</h3>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-3 main" style="margin-top:40px">
-            <div class="tech">
-                <img id="im1" class="rotate" src="images/domain/Ellipse 4 (1).png" />
-                <img class="i1" onmouseover="rotateAnimation('im1', 20)" onmouseout="stoprotate()" 
-                    src="images/domain/Vector (1).png" alt="" type="button" onclick="myFunction2()" />
-                <h3 id="text" style="margin-left:50px">Finance</h3>
-            </div>
-            <br>
-            <div class="tech">
-                <img id="im2" class="rotate" src="images/domain/Ellipse 4 (1).png" />
-                <img class="img2" onmouseover="rotateAnimation('im2', 20)" onmouseout="stoprotate()" 
-                    src="images/domain/pnm1.png" style="padding:0 10px" alt="" type="button" onclick="myFunction()" />
-                <h3 style="margin-left:70px;" id="text">PnM</h3>
-            </div>
-        </div>
-        <div class="col-md-2 col-sm-2 main" style="margin-top:40px">
-            <div class="tech">
-                <img id="im3" class="rotate" src="images/domain/Ellipse 4 (1).png" />
-                <img class="i4" onmouseover="rotateAnimation('im3', 20)" onmouseout="stoprotate()" 
-                    src="images/domain/Design (2).png" alt="" type="button" onclick="myFunction2()" />
-                <h3 style="margin-left:57px" id="text">Design</h3>
-            </div>
-            <br>
-            <div class="tech">
-                <img id="im4" class="rotate" src="images/domain/Ellipse 4 (1).png" />
-                <img id="imgD" onmouseover="rotateAnimation('im4', 20)" onmouseout="stoprotate()" 
-                    src="images/domain/Group 87.png" style="width:170px;height:170px" alt="" type="button" onclick="myFunction1()" />
-                <h3 id="text" style="margin-left:45px">Editorial</h3>
-            </div>
-        </div>        
     </div>
-</div>
+
+    <div id="content-mobile">
+        <div class="container" >
+            <div class="row">
+                <div class="col-12" style="text-align: center;">
+                    <h5>OUR DOMAINS</h5>
+                    <p id="para" style="margin-top:30px;font-size: 15px;"></p>
+                </div>
+    
+                <div class="tech col-6 col-md-4">
+                    <img id="img1" class="rotate" src="images/domain/Ellipse 4 (1).png" />
+                    <img class="img2" onmouseover="rotateAnimation('img1', 20)" onmouseout="stoprotate()"
+                        src="images/domain/technical_vec_green 1 (1).png" alt="" type="button" onclick="myFunction()" />
+                    <h3 style="margin-left:0px" id="text">Technical</h3>
+    
+                </div>
+                <br>
+                <div class="tech col-6 col-md-4">
+                    <img id="im" class="rotate" src="images/domain/Ellipse 4 (1).png" />
+                    <img class="i2" onmouseover="rotateAnimation('im', 20)" onmouseout="stoprotate()"
+                        src="images/domain/bi_vector-pen.png" alt="" type="button" onclick="myFunction1()" />
+                    <h3 id="text" style="margin-left:17px">Ui/Ux</h3>
+    
+                </div>
+    
+                <div class="tech col-6 col-md-4">
+                    <img id="im1" class="rotate" src="images/domain/Ellipse 4 (1).png" />
+                    <img class="i1" onmouseover="rotateAnimation('im1', 20)" onmouseout="stoprotate()" src="images/domain/Vector (1).png"
+                        alt="" type="button" onclick="myFunction2()" />
+                    <h3 id="text" style="margin-left:17px">Finance</h3>
+                </div>
+                <br>
+                <div class="tech col-6 col-md-4">
+                    <img id="im2" class="rotate" src="images/domain/Ellipse 4 (1).png" />
+                    <img class="img2" onmouseover="rotateAnimation('im2', 20)" onmouseout="stoprotate()" src="images/domain/pnm1.png"
+                        style="padding:0 10px" alt="" type="button" onclick="myFunction()" />
+                    <h3 style="margin-left:30px;" id="text">PnM</h3>
+                </div>
+    
+                <div class="tech col-6 col-md-4">
+                    <img id="im3" class="rotate" src="images/domain/Ellipse 4 (1).png" />
+                    <img class="i4" onmouseover="rotateAnimation('im3', 20)" onmouseout="stoprotate()" src="images/domain/Design (2).png"
+                        alt="" type="button" onclick="myFunction2()" />
+                    <h3 style="margin-left:20px" id="text">Design</h3>
+                </div>
+                <br>
+                <div class="tech col-6 col-md-4">
+                    <img id="im4" class="rotate" src="images/domain/Ellipse 4 (1).png" />
+                    <img id="imgD" onmouseover="rotateAnimation('im4', 20)" onmouseout="stoprotate()" src="images/domain/Group 87.png"
+                        alt="" type="button" onclick="myFunction1()" />
+                    <h3 id="text" style="margin-left:20px">Editorial</h3>
+                </div>
+    
+            </div>
+        </div>
+    </div>
 </div>
 <!-- Domain Page Ending -->
 
@@ -555,145 +623,142 @@
 
 <!-- Contact us Page -->
 <div class="contact">
-  <section id="cont">       
-    <div class="row">
-        <div class=" master-black col-lg-6 col-md-12">
-            <div class="row">
-                <div><h2  class="paddi">CONTACT INFO</h2></div>
-                <div class="col-lg-4  for-cen">
-                    
-                   <div class="fas1"><i class=" fas2 fas fa-map-marker-alt fa-2x"></i>
-                    <h3>Address</h3>
-                    <p>VIT,Vellore Campus,Tiruvalam Rd</p>
-                    <p>Tamil Nadu 632014</p>
-                      </div>
-                   <div class="fas1"><i class=" fas2 fas fa-phone fa-2x"></i>
-                    <h3>Phone</h3>
-                    <p>+91 9709700873</p><p>+91 9709700873</p></div>
-                   <div class="fas1"><i class="fas2 fas fa-envelope fa-2x"></i>
-                    <h3>Email</h3>
-                    <p>Ieee.ias@vit.ac.in</p>
-                      <p>Ieee.ias@vit.ac.in</p></div>
-                   
-                </div>
-            <!-- Hover and click on the guy to see him fall in love and go 2d! -->
-            <div class=" the-walk col-lg-8">
-               
-           
-           <div id="platform">
-             <div class="guy walk">
-                 <div class="head">
-                     <b style="transform: rotateX(60deg) rotateY(60deg) translateZ(8.5vw);"></b>
-                      <b style="transform: rotateX(60deg) rotateY(120deg) translateZ(8.5vw);"></b>
-                           <b style="transform: rotateX(60deg) rotateY(180deg) translateZ(8.5vw);"></b>
-                        <b style="transform: rotateX(60deg) rotateY(240deg) translateZ(8.5vw);"></b>
-                             <b style="transform: rotateX(60deg) rotateY(300deg) translateZ(8.5vw);"></b>
-                    <b style="transform: rotateX(60deg) rotateY(360deg) translateZ(8.5vw);"></b>
-                     <b style="transform: rotateX(120deg) rotateY(60deg) translateZ(8.5vw);"></b>
-                      <b style="transform: rotateX(120deg) rotateY(120deg) translateZ(8.5vw);"></b>
-                         <b style="transform: rotateX(120deg) rotateY(180deg) translateZ(8.5vw);"></b>
-                      <b style="transform: rotateX(120deg) rotateY(240deg) translateZ(8.5vw);"></b>
-                      <b style="transform: rotateX(120deg) rotateY(300deg) translateZ(8.5vw);"></b>
-                   <b style="transform: rotateX(120deg) rotateY(360deg) translateZ(8.5vw);"></b>
-                   <b style="transform: rotateX(180deg) rotateY(60deg) translateZ(8.5vw);"></b>
-                   <b style="transform: rotateX(180deg) rotateY(120deg) translateZ(8.5vw);"></b>
-                   <b class="front-face" style="transform: rotateX(180deg) rotateY(180deg) translateZ(8.5vw);"></b>
-                   <b style="transform: rotateX(180deg) rotateY(240deg) translateZ(8.5vw);"></b>
-                   <b style="transform: rotateX(180deg) rotateY(300deg) translateZ(8.5vw);"></b>
-                   <b style="transform: rotateX(180deg) rotateY(360deg) translateZ(8.5vw);"></b>
-                  </div><!--/head-->
-              <div class="body">
-                       <b style="transform: rotateX(90deg) rotateY(90deg) translateZ(0.5em);"></b>
-<b style="transform: rotateX(90deg) rotateY(180deg) translateZ(0.5em);"></b>
-<b style="transform: rotateX(90deg) rotateY(360deg) translateZ(0.5em);"></b>
-<b style="transform: rotateX(180deg) rotateY(180deg) translateZ(0.5em);"></b>
-<b style="transform: rotateX(180deg) rotateY(270deg) translateZ(0.5em);"></b>
-<b style="transform: rotateX(180deg) rotateY(360deg) translateZ(0.5em);"></b>
-
-<div class="rightArm">
-  <b style="transform: rotateX(90deg) rotateY(90deg) translateZ(0.5em);"></b>
-  <b style="transform: rotateX(90deg) rotateY(180deg) translateZ(0.5em);"></b>
-  <b style="transform: rotateX(90deg) rotateY(360deg) translateZ(0.5em);"></b>
-  <b style="transform: rotateX(180deg) rotateY(180deg) translateZ(0.5em);"></b>
-  <b style="transform: rotateX(180deg) rotateY(270deg) translateZ(0.5em);"></b>
-  <b style="transform: rotateX(180deg) rotateY(360deg) translateZ(0.5em);"></b>
-</div><!--/rightArm-->
-<div class="leftArm">
-  <b style="transform: rotateX(90deg) rotateY(90deg) translateZ(0.5em);"></b>
-  <b style="transform: rotateX(90deg) rotateY(180deg) translateZ(0.5em);"></b>
-  <b style="transform: rotateX(90deg) rotateY(360deg) translateZ(0.5em);"></b>
-  <b style="transform: rotateX(180deg) rotateY(180deg) translateZ(0.5em);"></b>
-  <b style="transform: rotateX(180deg) rotateY(270deg) translateZ(0.5em);"></b>
-  <b style="transform: rotateX(180deg) rotateY(360deg) translateZ(0.5em);"></b>
-</div><!--/leftArm-->
-<div class="rightLeg">
-  <b style="transform: rotateX(90deg) rotateY(90deg) translateZ(0.5em);"></b>
-  <b style="transform: rotateX(90deg) rotateY(180deg) translateZ(0.5em);"></b>
-  <b style="transform: rotateX(90deg) rotateY(360deg) translateZ(0.5em);"></b>
-  <b style="transform: rotateX(180deg) rotateY(180deg) translateZ(0.5em);"></b>
-  <b style="transform: rotateX(180deg) rotateY(270deg) translateZ(0.5em);"></b>
-  <b style="transform: rotateX(180deg) rotateY(360deg) translateZ(0.5em);"></b>
-</div><!--/rightArm-->
-<div class="leftLeg">
-  <b style="transform: rotateX(90deg) rotateY(90deg) translateZ(0.5em);"></b>
-  <b style="transform: rotateX(90deg) rotateY(180deg) translateZ(0.5em);"></b>
-  <b style="transform: rotateX(90deg) rotateY(360deg) translateZ(0.5em);"></b>
-  <b style="transform: rotateX(180deg) rotateY(180deg) translateZ(0.5em);"></b>
-  <b style="transform: rotateX(180deg) rotateY(270deg) translateZ(0.5em);"></b>
-  <b style="transform: rotateX(180deg) rotateY(360deg) translateZ(0.5em);"></b>
-</div><!--/leftArm-->
-</div><!--/body-->
-</div><!--/guy-->
-</div> 
-<div class="fontawesome">
-<a href="https://instagram.com/ieeeiasvit?utm_medium=copy_link" class="mar1" ><i class="mar fab fa-instagram-square fa-2x"></i></a>
-<a href="https://www.facebook.com/460823727425069/" class="mar1" ><i class=" mar fab fa-facebook-square fa-2x"></i></a>
-<a href="https://www.linkedin.com/company/ieeeiasvit" class="mar1"><i class="mar fab fa-linkedin fa-2x"></i></a>
-<a href="" class="mar1"> <i class=" mar fab fa-twitter-square fa-2x"></i></a>
-</div>   
-</div>
-</div>
-
-</div>
-<div class="col-lg-6 col-md-12">
-<div class="emailing">
-<h2 class="gogreeen">Send a Message</h2>
-<div class="outfit" 	>
-            <form method="post" action="send_mail.php">
-                <div class="first">               
-            <p class="disp">            
-            <input  type="text" name="first_name" required placeholder="First Name">             
-            </p> 
-            <p class="disp tobeshif">            
-                <input  type="text" name="last_name" required placeholder="Last Name">            
-            </p>
-        </div>            
-        <div class="first">        
-            <p class="disp" >            
-            <input  type="email" name="email_address" placeholder="Email">           
-            </p>
-            <p class="disp tobeshif">            
-                <input  type="text" name="mobile_number" required placeholder="Mobile Number">            
-            </p>
+    <section id="cont">
+        <div class="jok">
+           <div class="row fexxx">
+              <div class=" master-black col-lg-6 col-md-12">
+                 <div class="row">
+                    <div>
+                       <h2  class="paddi">CONTACT INFO</h2>
+                    </div>
+                    <div class="col-lg-4  for-cen">
+                       <div class="fas1">
+                          <i class=" fas2 fas fa-map-marker-alt fa-2x"></i>
+                          <h3>Address</h3>
+                          <p>VIT,Vellore Campus,Tiruvalam Rd</p>
+                          <p>Tamil Nadu 632014</p>
+                       </div>
+                       <div class="fas1">
+                          <i class=" fas2 fas fa-phone fa-2x"></i>
+                          <h3>Phone</h3>
+                          <p>+91 9709700873</p>
+                          <p>+91 9709700873</p>
+                       </div>
+                       <div class="fas1">
+                          <i class="fas2 fas fa-envelope fa-2x"></i>
+                          <h3>Email</h3>
+                          <p>Ieee.ias@vit.ac.in</p>
+                          <p>Ieee.ias@vit.ac.in</p>
+                       </div>
+                    </div>
+                    <!-- Hover and click on the guy to see him fall in love and go 2d! -->
+                    <div class=" the-walk col-lg-8">
+                       <div id="platform">
+                          <div class="guy walk">
+                             <div class="head">
+                                <b style="transform: rotateX(60deg) rotateY(60deg) translateZ(8.5vw);"></b>
+                                <b style="transform: rotateX(60deg) rotateY(120deg) translateZ(8.5vw);"></b>
+                                <b style="transform: rotateX(60deg) rotateY(180deg) translateZ(8.5vw);"></b>
+                                <b style="transform: rotateX(60deg) rotateY(240deg) translateZ(8.5vw);"></b>
+                                <b style="transform: rotateX(60deg) rotateY(300deg) translateZ(8.5vw);"></b>
+                                <b style="transform: rotateX(60deg) rotateY(360deg) translateZ(8.5vw);"></b>
+                                <b style="transform: rotateX(120deg) rotateY(60deg) translateZ(8.5vw);"></b>
+                                <b style="transform: rotateX(120deg) rotateY(120deg) translateZ(8.5vw);"></b>
+                                <b style="transform: rotateX(120deg) rotateY(180deg) translateZ(8.5vw);"></b>
+                                <b style="transform: rotateX(120deg) rotateY(240deg) translateZ(8.5vw);"></b>
+                                <b style="transform: rotateX(120deg) rotateY(300deg) translateZ(8.5vw);"></b>
+                                <b style="transform: rotateX(120deg) rotateY(360deg) translateZ(8.5vw);"></b>
+                                <b style="transform: rotateX(180deg) rotateY(60deg) translateZ(8.5vw);"></b>
+                                <b style="transform: rotateX(180deg) rotateY(120deg) translateZ(8.5vw);"></b>
+                                <b class="front-face" style="transform: rotateX(180deg) rotateY(180deg) translateZ(8.5vw);"></b>
+                                <b style="transform: rotateX(180deg) rotateY(240deg) translateZ(8.5vw);"></b>
+                                <b style="transform: rotateX(180deg) rotateY(300deg) translateZ(8.5vw);"></b>
+                                <b style="transform: rotateX(180deg) rotateY(360deg) translateZ(8.5vw);"></b>
+                             </div>
+                             <!--/head-->
+                             <div class="body">
+                                <b style="transform: rotateX(90deg) rotateY(90deg) translateZ(0.5em);"></b>
+                                <b style="transform: rotateX(90deg) rotateY(180deg) translateZ(0.5em);"></b>
+                                <b style="transform: rotateX(90deg) rotateY(360deg) translateZ(0.5em);"></b>
+                                <b style="transform: rotateX(180deg) rotateY(180deg) translateZ(0.5em);"></b>
+                                <b style="transform: rotateX(180deg) rotateY(270deg) translateZ(0.5em);"></b>
+                                <b style="transform: rotateX(180deg) rotateY(360deg) translateZ(0.5em);"></b>
+                                <div class="rightArm">
+                                   <b style="transform: rotateX(90deg) rotateY(90deg) translateZ(0.5em);"></b>
+                                   <b style="transform: rotateX(90deg) rotateY(180deg) translateZ(0.5em);"></b>
+                                   <b style="transform: rotateX(90deg) rotateY(360deg) translateZ(0.5em);"></b>
+                                   <b style="transform: rotateX(180deg) rotateY(180deg) translateZ(0.5em);"></b>
+                                   <b style="transform: rotateX(180deg) rotateY(270deg) translateZ(0.5em);"></b>
+                                   <b style="transform: rotateX(180deg) rotateY(360deg) translateZ(0.5em);"></b>
+                                </div>
+                                <!--/rightArm-->
+                                <div class="leftArm">
+                                   <b style="transform: rotateX(90deg) rotateY(90deg) translateZ(0.5em);"></b>
+                                   <b style="transform: rotateX(90deg) rotateY(180deg) translateZ(0.5em);"></b>
+                                   <b style="transform: rotateX(90deg) rotateY(360deg) translateZ(0.5em);"></b>
+                                   <b style="transform: rotateX(180deg) rotateY(180deg) translateZ(0.5em);"></b>
+                                   <b style="transform: rotateX(180deg) rotateY(270deg) translateZ(0.5em);"></b>
+                                   <b style="transform: rotateX(180deg) rotateY(360deg) translateZ(0.5em);"></b>
+                                </div>
+                                <!--/leftArm-->
+                                <div class="rightLeg">
+                                   <b style="transform: rotateX(90deg) rotateY(90deg) translateZ(0.5em);"></b>
+                                   <b style="transform: rotateX(90deg) rotateY(180deg) translateZ(0.5em);"></b>
+                                   <b style="transform: rotateX(90deg) rotateY(360deg) translateZ(0.5em);"></b>
+                                   <b style="transform: rotateX(180deg) rotateY(180deg) translateZ(0.5em);"></b>
+                                   <b style="transform: rotateX(180deg) rotateY(270deg) translateZ(0.5em);"></b>
+                                   <b style="transform: rotateX(180deg) rotateY(360deg) translateZ(0.5em);"></b>
+                                </div>
+                                <!--/rightArm-->
+                                <div class="leftLeg">
+                                   <b style="transform: rotateX(90deg) rotateY(90deg) translateZ(0.5em);"></b>
+                                   <b style="transform: rotateX(90deg) rotateY(180deg) translateZ(0.5em);"></b>
+                                   <b style="transform: rotateX(90deg) rotateY(360deg) translateZ(0.5em);"></b>
+                                   <b style="transform: rotateX(180deg) rotateY(180deg) translateZ(0.5em);"></b>
+                                   <b style="transform: rotateX(180deg) rotateY(270deg) translateZ(0.5em);"></b>
+                                   <b style="transform: rotateX(180deg) rotateY(360deg) translateZ(0.5em);"></b>
+                                </div>
+                                <!--/leftArm-->
+                             </div>
+                             <!--/body-->
+                          </div>
+                          <!--/guy-->
+                       </div>
+                       <div class="fontawesome">
+                          <a href="https://instagram.com/ieeeiasvit?utm_medium=copy_link" class="mar1" ><i class="mar fab fa-instagram-square fa-3x circle"></i></a>
+                          <a href="https://www.facebook.com/460823727425069/" class="mar1" ><i class=" mar fab fa-facebook-square fa-3x circle"></i></a>
+                          <a href="https://www.linkedin.com/company/ieeeiasvit" class="mar1"><i class="mar fab fa-linkedin fa-3x circle"></i></a>
+                          <a href="" class="mar1"> <i class=" mar fab fa-twitter-square fa-3x circle"></i></a>
+                          <div class="hai"><button class="heya">Reach Us</button></h3></div>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+              <div class="col-md-6">
+                 <div class="text-center px-1">
+                    <div class="forms p-2 py-5 ">
+                       <div class="carding">
+                          <h5 class="heads">Send Message</h5>
+                          <div class="mt-4 inputs">
+                             <form method="post" action="send_mail.php">
+                                <p class="inli"><input type="text" class="form-control overriding" name="first_name" placeholder="First name"><input type="text" class="form-control overriding lastt" name="last_name" placeholder="Last name"></p>
+                                <p class="inli"><input type="text" class="form-control overriding" name="mobile_number" placeholder="Mobile no"> <input type="text" class="form-control overriding lastt" name="email_address" placeholder="Email"> </p>
+                                <p class="hect"><textarea class="form-control overriding neeche" name="comments" placeholder="Type your message here..."></textarea> </p>
+                          </div>
+                       </div>
+                       <div class="button btn mt-4 text-left"> <button class="btn btn-success ">Send</button> </div>
+                       </form>
+                    </div>
+                 </div>
+              </div>
+           </div>
+           <div class=footer>
+              <p><i class="fas fa-copyright"></i> 2021 IEEE-IAS VIT</p>
+           </div>
         </div>
-        <div class="full">
-            <p>
-              <textarea  class="takecare" name="comments" maxlength="500" placeholder="Write your message here..."></textarea>
-            </p>
-        </div>
-            <p></p><button class="btn ">Send</button></p>
-            </form>
-        </div>
-    </div>
-        </div>
-    </div>
-    <div class=footer>
-      <p><i class="fas fa-copyright"></i> 2021 IEEE-IAS VIT</p>
-    </div>
-</section>
+     </section>
 </div>
 <!-- Contact us Page Ending -->
-
 
 
 <!-- Javascript -->
@@ -723,6 +788,7 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/utils/Draggable.min.js'></script>
 <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/152635/CSSPlugin.js'></script>
 <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/152635/codepen-ga.js'></script>
+<script src="js/preloader.js"></script>
 <script src="js/navbar.js"></script>
 <script src="js/homepage.js"></script>
 <script src="js/aboutus.js"></script>
