@@ -72,6 +72,7 @@
     width: 9em;
     height: 10em;
     padding: 0;
+    margin: 0;
     border-radius: 50%;
     list-style: none;
     -webkit-animation: spin 10s linear infinite;
@@ -132,8 +133,8 @@
 .home .ring {
     display: block;
     position: absolute;
-    width: 6em;
-    height: 6em;
+    width: 9.25em;
+    height: 9.25em;
     border-radius: 50%;
     border: solid 1.75em green;
 }
@@ -244,8 +245,8 @@
 .home .ring2 {
     display: block;
     position: absolute;
-    width: 15em;
-    height: 15em;
+    width: 18em;
+    height: 18em;
     border-radius: 50%;
     border: solid 3em #A9A9A9;
 }
@@ -273,6 +274,7 @@
     height: 16em;
     padding: 0;
     border-radius: 50%;
+    margin: 0;
     list-style: none;
     -webkit-animation: spin 12.5s linear infinite;
     animation: spin 12.5s linear infinite;
@@ -342,8 +344,8 @@
 .home .ring3 {
     display: block;
     position: absolute;
-    width: 11em;
-    height: 11em;
+    width: 15em;
+    height: 15em;
     border-radius: 50%;
     border: solid 2em white;
 }
