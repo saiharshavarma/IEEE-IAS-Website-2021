@@ -1,9 +1,9 @@
 .home .title {
     color: #FFFDFD;
     margin-left: 2%;
-    margin-top: 15%;
+    margin-top: 11%;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 900;
     font-size: 1.6rem;
     font-family: 'Mulish', sans-serif;
 
@@ -17,19 +17,18 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    float: right;
     -webkit-box-pack: right;
     -ms-flex-pack: right;
     justify-content: right;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-
     position: absolute;
     width: 648px;
     height: 640px;
-    left: 810px;
-    bottom:-40px;
-
+    left: 900px;
+    bottom: -12px;
 }
 
 .home .typewrite {
@@ -155,8 +154,8 @@
 
 .home .center-circle2 {
     position: relative;
-    width: 15em;
-    height: 20em;
+    width: 12.5em;
+    height: 12em;
     padding: 0;
     border-radius: 50%;
     list-style: none;
