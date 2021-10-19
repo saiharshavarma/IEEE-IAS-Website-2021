@@ -9,4 +9,5 @@ function preloader() {
 
 function showPage() {
   document.getElementById("iaspreloader").style.display = "none";
+  document.getElementById("body").style.overflow="visible";
 }
