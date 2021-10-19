@@ -10,5 +10,5 @@ function preloader() {
 function showPage() {
   document.getElementById("iaspreloader").style.display = "none";
   document.getElementById("body").style.overflow="visible";
-  document.getElementById("body").style.overflow-x="hidden";
+  document.getElementById("body").style.overflowX="hidden";
 }
