@@ -1,12 +1,20 @@
-.home .title {
+.home .title .mheading {
     color: #FFFDFD;
-    margin-left: 2%;
-    margin-top: 11%;
     font-style: normal;
-    font-weight: 900;
-    font-size: 1.6rem;
     font-family: 'Mulish', sans-serif;
+    margin-left: 2%;
+    margin-top: 12%;
+    font-size: 3rem;
+    font-weight: 800;
+}
 
+.home .title .mheading1 {
+    color: #FFFDFD;
+    font-style: normal;
+    font-family: 'Mulish', sans-serif;
+    margin-left: 2%;
+    font-size: 3rem;
+    font-weight: 800;
 }
 
 .home .gear {
@@ -32,9 +40,9 @@
 }
 
 .home .typewrite {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-family: 'Raleway', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     color: #FFFFFF;
     text-decoration: none;
     margin-left: 2%;
@@ -238,7 +246,7 @@
 
 .home .tooth {
     display: block;
-    border-radius: 7px;
+    border-radius: 6px;
 }
 
 .home .ring2 {
@@ -247,7 +255,7 @@
     width: 18em;
     height: 18em;
     border-radius: 50%;
-    border: solid 3em #A9A9A9;
+    border: solid 2.7em #A9A9A9;
 }
 
 .home .gear-container3 {
@@ -412,12 +420,13 @@
     }
 
     .home .gear {
-        transform: scale(0.5);
+        transform: scale(0.6);
     }
 
     .home .gearmoving {
         position: absolute;
-        left: 800px;
+        left: 700px;
+
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -434,15 +443,21 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .home .title {
-        font-size: 1.6rem;
+    .home .title .mheading {
+        margin-top: 15%;
+        font-size: 3rem;
         margin-left: 3%;
         font-weight: 900;
     }
 
-    .home .typewrite {
+    .home .title .mheading1 {
         margin-left: 3%;
-        font-size: 1.7rem;
+
+    }
+
+    .home .typewrite {
+        margin-left: 4.5%;
+        font-size: 1.6rem;
 
     }
 
@@ -456,8 +471,6 @@
         position: absolute;
         top: 450px;
         left: 100px;
-        right: auto;
-
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -472,7 +485,7 @@
 
     .home .vimage img {
         position: absolute;
-        top: 380px;
+        top: 480px;
         transform: rotate(-10deg);
     }
 
@@ -480,14 +493,21 @@
 }
 
 @media screen and (max-width: 700px) {
-    .home .title {
+    .home .title .mheading {
+        margin-top: 20%;
+        font-size: 1.5rem;
+        margin-left: 5%;
+    }
+
+    .home .title .mheading1 {
         font-size: 1.3rem;
-        margin-left: 7%;
+        margin-left: 5%;
     }
 
     .home .typewrite {
-        margin-left: 7%;
-        font-size: 1.2rem;
+        margin-left: 6%;
+        font-size: 1.1rem;
+        font-weight: 500;
 
     }
 
@@ -514,7 +534,7 @@
 
     .home .vimage img {
         position: absolute;
-        top: 300px;
+        top: 350px;
         transform: rotate(-10deg);
     }
 
