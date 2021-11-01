@@ -31,13 +31,13 @@ function stoprotate() {
 }
 
 function myFunction() {
-    document.getElementById('para').innerHTML = "IEEE-IAS is a great platform for<br> students to hone their Technical,<br> Leadership skills & gain experience in<br>organizing events and where holistic<br> development takes place. Our chapter<br> work on several important domains.";
+    document.getElementById('para').innerHTML = "IEEE-IAS is a great platform for students to hone their Technical, Leadership skills & gain experience in organizing events and where holistic development takes place. Our chapter work on several important domains.";
 }
 function myFunction1() {
-    document.getElementById('para').innerHTML = "The one-stop place to put our pen<br> down and creativity up. This domain<br>is the back of the weekly blogs, DYK's,<br>Newsletters and many more. It's the<br> saving grace in true essence.";
+    document.getElementById('para').innerHTML = "The one-stop place to put our pen down and creativity up. This domain is the back of the weekly blogs, DYK's, Newsletters and many more. It's the saving grace in true essence.";
     ;
 }
 function myFunction2() {
-    document.getElementById('para').innerHTML = "Creative minds come together and<br> produce starling posters and videos.<br> This artistic contributions will make<br>our projects more intellectual and<br>  colourful.";
+    document.getElementById('para').innerHTML = "Creative minds come together and produce starling posters and videos. This artistic contributions will make our projects more intellectual and colourful.";
     ;
 }
