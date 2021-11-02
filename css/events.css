@@ -26,7 +26,7 @@
 }
 
 .events .events-spinner{
-  top: 3900px;
+  top: 3670px;
   right: 46%;
   position: absolute;
   transform: rotate(90deg);
@@ -163,6 +163,10 @@
   .events .info{
     width: 50vw;
   }  
+  .events .events-spinner{  
+    top: 3100px;
+    right: 95%;
+  }
 }
 
 @media only screen and (min-width:660px) and (max-width:750px) { 
@@ -172,6 +176,10 @@
   .events .info{
     width: 55vw;
   }  
+  .events .events-spinner{  
+    top: 3100px;
+    right: 100%;
+  }
 }
 
 @media only screen and (min-width:590px) and (max-width:660px) { 
@@ -196,7 +204,7 @@
     text-align: center;
   }  
   .events .events-spinner{  
-    top: 390px;
+    top: 3200px;
     right: 95%;
     position: absolute;
     transform: scale(0.55) rotate(90deg) !important;
@@ -228,7 +236,7 @@
     text-align: center;
   }  
   .events .events-spinner{  
-    top: 390px;
+    top: 3000px;
     right: 100%;
     position: absolute;
     transform: scale(0.55) rotate(90deg) !important;
@@ -260,7 +268,7 @@
     text-align: center;
   }  
   .events .events-spinner{  
-    top: 380px;
+    top: 2900px;
     right: 95%;
     position: absolute;
     transform: scale(0.5) rotate(90deg) !important;
@@ -292,7 +300,7 @@
     text-align: center;
   }  
   .events .events-spinner{  
-    top: 400px;
+    top: 2900px;
     right: 100%;
     position: absolute;
     transform: scale(0.5) rotate(90deg) !important;
@@ -324,7 +332,7 @@
     text-align: center;
   }  
   .events .events-spinner{  
-    top: 390px;
+    top: 2900px;
     right: 100%;
     position: absolute;
     transform: scale(0.45) rotate(90deg) !important;
@@ -356,7 +364,7 @@
     text-align: center;
   }  
   .events .events-spinner{  
-    top: 390px;
+    top: 2900px;
     right: 110%;
     position: absolute;
     transform: scale(0.45) rotate(90deg) !important;
@@ -388,7 +396,7 @@
     text-align: center;
   }  
   .events .events-spinner{  
-    top: 390px;
+    top: 2900px;
     right: 105%;
     position: absolute;
     transform: scale(0.4) rotate(90deg) !important;
@@ -420,7 +428,7 @@
     text-align: center;
   }  
   .events .events-spinner{  
-    top: 380px;
+    top: 2900px;
     right: 115%;
     position: absolute;
     transform: scale(0.4) rotate(90deg) !important;
