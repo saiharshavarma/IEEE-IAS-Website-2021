@@ -1,4 +1,6 @@
 .events{
+  background-image: url("../images/events/Group.svg");
+  background-size: cover;
   display: flex;
   height: 100%;
 }
