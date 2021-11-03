@@ -494,7 +494,7 @@
 
 @media screen and (max-width: 700px) {
     .home .title .mheading {
-        margin-top: 20%;
+        margin-top: 15%;
         font-size: 1.5rem;
         margin-left: 5%;
     }
@@ -520,7 +520,7 @@
         transform: rotate(34.21deg);
         position: absolute;
         left: -150px;
-        top: 400px;
+        top: 375px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -533,8 +533,9 @@
     }
 
     .home .vimage img {
+        max-width: 100%;
         position: absolute;
-        top: 350px;
+        top: 320px;
         transform: rotate(-10deg);
     }
 
