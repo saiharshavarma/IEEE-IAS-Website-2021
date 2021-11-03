@@ -1,10 +1,9 @@
-.aboutus{
+.aboutus {
     margin-top: 25%;
     z-index: 1;
 }
 
-.aboutus .about-us
-{
+.aboutus .about-us {
     margin-top: 5%;
     margin-right: 5%;
     margin-left: 10%;
@@ -14,14 +13,13 @@
     font-weight: normal;
 }
 
-.aboutus .heading
-{
+.aboutus .heading {
     color: #FFFFFF;
     margin-top: 3%;
     margin-left: 10%;
     padding-top: 30px;
     padding-left: 0px;
-    font-size: 42px;
+    font-size: 45px;
     line-height: 53px;
     font-family: Mulish;
     font-style: normal;
@@ -29,18 +27,21 @@
 }
 
 
-@media screen and (max-width: 430px){
+@media screen and (max-width: 430px) {
 
-    .aboutus .about-us{
+    .aboutus .about-us {
         width: 300px;
-        margin: 80px 10px 20px 28px;
+        margin: 60px 10px 20px 15px;
     }
 
-    .aboutus .heading{
-        margin-left:30%;
+    .aboutus h1 {
+        font-size: 35px;
+        margin-top: 300px;
+        margin-left: 10%;
     }
-    .aboutus .main4{
-        font-size:7px !important;
+
+    .aboutus .main4 {
+        font-size: 5px !important;
         font-weight: normal !important;
         margin: 15px 14px 20px 25px;
         border: 4px solid #ffffff;
@@ -49,58 +50,75 @@
         border-radius: 10px;
         padding: 2px 2px 2px 2px;
     }
-    .aboutus #bt1,#bt2,#bt3{
-        font-size:20px !important;
-        margin-bottom:0px !important;
+
+    .aboutus #bt1,
+    #bt2,
+    #bt3 {
+        font-size: 20px !important;
+        margin-bottom: 0px !important;
         padding: 8px 8px 8px;
     }
-    .aboutus #bt3{
+
+    .aboutus #bt3 {
         padding-left: 10px;
     }
-    .aboutus .box{ 
+
+    .aboutus .box {
         text-align: center !important;
         width: 300px;
     }
 }
-@media screen and (max-width: 576px){
-    .aboutus .main4{
-        font-size:12px !important;
+
+@media screen and (max-width: 576px) {
+    .aboutus .main4 {
+        font-size: 12px !important;
         font-weight: normal !important;
     }
-    .aboutus #bt1,#bt2,#bt3{
-        font-size:20px !important;
-    }
-}
-@media screen and (max-width: 788px){
-    .aboutus .main4{
-        font-size:15px !important;
-        line-height:105% !important;
-        font-weight: normal !important;
-    }
-    .aboutus #bt1,#bt2,#bt3{
-        font-size:25px !important;
+
+    .aboutus #bt1,
+    #bt2,
+    #bt3 {
+        font-size: 20px !important;
     }
 }
 
-.aboutus .btn:hover{
-    color:#0C8A2F;
+@media screen and (max-width: 788px) {
+    .aboutus .main4 {
+        font-size: 15px !important;
+        line-height: 105% !important;
+        font-weight: normal !important;
+    }
+
+    .aboutus #bt1,
+    #bt2,
+    #bt3 {
+        font-size: 25px !important;
+    }
+}
+
+.aboutus .btn:hover {
+    color: #0C8A2F;
     background-color: #0E0E0E;
 }
-.aboutus .btn:focus, .aboutus a:focus
-{
-    color:#0C8A2F;
+
+.aboutus .btn:focus,
+.aboutus a:focus {
+    color: #0C8A2F;
     box-shadow: none;
 
-    
+
 }
-.aboutus .btn:active, .aboutus a:active
-{ 
-    color:#0C8A2F;
+
+.aboutus .btn:active,
+.aboutus a:active {
+    color: #0C8A2F;
     box-shadow: none;
-    
+
 }
-.aboutus #bt1,#bt2,#bt3
-{ 
+
+.aboutus #bt1,
+#bt2,
+#bt3 {
     box-shadow: none;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -111,57 +129,60 @@
     font-weight: normal;
     font-size: 36px;
 }
-.aboutus #bt3
-{
+
+.aboutus #bt3 {
     padding-right: 30px;
 }
 
-.aboutus .main4
-{
+.aboutus .main4 {
     color: #FFFFFF;
     font-size: 26px;
     line-height: 31px;
     padding: 20px 0 0 10px;
 
 }
+
 /* Swiper Js pagination */
 .aboutus .swiper {
     width: 250px;
     height: 600px;
     margin-left: auto;
-  }
+}
+
 .aboutus .swiper-slide {
     text-align: center;
     font-size: 12px;
     background: #0E0E0E;
-    color:#ffffff;
-    
+    color: #ffffff;
+
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
     height: 801px;
-    
-  }
+
+}
 
 .aboutus .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
-  }
-.aboutus .slogan{
-    color:#0C8A2F !important;
+
 }
-.aboutus .boundary
-{
+
+.aboutus .slogan {
+    color: #0C8A2F !important;
+}
+
+.aboutus .boundary {
     border: 4px solid #ffffff;
     height: auto;
     padding: 2px;
     border-radius: 8px;
 }
- .aboutus .swiper-pagination-bullet{
+
+.aboutus .swiper-pagination-bullet {
     background-color: #ffffff;
 }
