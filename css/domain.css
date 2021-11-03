@@ -1,4 +1,4 @@
-.domain{
+.domain {
     font-family: Raleway;
     text-align: justify;
 }
@@ -7,7 +7,7 @@
     color: white;
 }
 
-.domain .container{
+.domain .container {
     margin-top: 5% !important;
     margin-left: 8% !important;
     margin-bottom: 5% !important;
@@ -20,7 +20,7 @@
     height: 100px;
 }
 
-.domain .dcontent{
+.domain .dcontent {
     margin-right: 2%;
 }
 
@@ -88,7 +88,6 @@
     padding-bottom: 20px;
 }
 
-
 .domain .img2 {
     width: 170px;
     height: 170px;
@@ -96,7 +95,6 @@
 
 .domain #imgD {
     padding: 5px 10px;
-
 }
 
 .domain #content-desktop {
@@ -107,11 +105,11 @@
     display: none;
 }
 
-.domain .tech{
+.domain .tech {
     transform: scale(0.7);
 }
 
-.domain .para{
+.domain .para {
     font-style: italic;
 }
 
@@ -184,7 +182,6 @@
         transform-style: preserve-3d;
         background: rgba(255, 255, 255, 0.15);
         border-radius: 50%;
-
     }
 
     .domain .i4 {
@@ -199,7 +196,6 @@
         padding-bottom: 20px;
     }
 
-
     .domain .img2 {
         width: 100px;
         height: 100px;
@@ -209,8 +205,6 @@
         padding: 5px 10px;
     }
 
-
-
     .domain #content-desktop {
         display: none;
     }
@@ -218,5 +212,4 @@
     .domain #content-mobile {
         display: block;
     }
-
 }

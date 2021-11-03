@@ -1,6 +1,6 @@
 var preloadTime;
 
-preloader()
+preloader();
 
 function preloader() {
   preloadTime = setTimeout(showPage, 2000);

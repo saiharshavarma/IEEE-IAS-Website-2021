@@ -1,4 +1,4 @@
-  .contact #platform {
+.contact #platform {
     position: relative;
     top: calc(43% - 10vh);
     left: calc(43% - 40vw);
@@ -6,468 +6,401 @@
     height: 20vh;
     perspective: 600px;
     padding-bottom: 7rem;
-  }
-  /* Guy */
-  .contact .guy {
+}
+/* Guy */
+.contact .guy {
     font-size: 10vw;
     position: absolute;
-      left:calc(50% - 0.5em);
-      top: calc(50% - 1em);
+    left: calc(50% - 0.5em);
+    top: calc(50% - 1em);
     width: 1em;
     height: 1em;
-    transform-style:preserve-3d;
+    transform-style: preserve-3d;
     color: transparent;
     transition: all ease 0.3s;
     animation: spinIt linear 20s infinite;
     margin-bottom: 10%;
-  }
-  @keyframes spinIt {
+}
+@keyframes spinIt {
     0% {
-      transform:translateZ(-10vw) rotateY(180deg) ;
+        transform: translateZ(-10vw) rotateY(180deg);
     }
     100% {
-      transform: translateZ(-10vw) rotateY(-180deg);
+        transform: translateZ(-10vw) rotateY(-180deg);
     }
-  }
-  .contact .head .front-face:before,
-  .contact .head .front-face:after {
+}
+.contact .head .front-face:before,
+.contact .head .front-face:after {
     position: absolute;
-      top: 30%;
-      left: 20%;
-    content: '';
-    display:inline-block ;
+    top: 30%;
+    left: 20%;
+    content: "";
+    display: inline-block;
     border-radius: 50%;
     width: 0.2em;
     height: 0.2em;
     background: #000;
-  }
-  .contact .head .front-face:after {
+}
+.contact .head .front-face:after {
     left: auto;
     right: 20%;
-  }
-  .contact b {
+}
+.contact b {
     display: block;
     width: 1em;
     height: 1em;
-    background: rgba(0,255,255,0.3);
-    box-shadow: inset 0 0 0.1em rgba(0,255,0,0.1),inset 0 0 0.3em rgba(0,0,0,0.8);
+    background: rgba(0, 255, 255, 0.3);
+    box-shadow: inset 0 0 0.1em rgba(0, 255, 0, 0.1),
+        inset 0 0 0.3em rgba(0, 0, 0, 0.8);
     position: absolute;
     transform-style: preserve-3d;
     transition: all ease 3s;
-  }
-  .contact .guy:hover b {
-    background: rgba(255,0,255,0.3);
-  }
-  .contact .guy:active b {
-    background: rgba(0,255,255,0.3);
+}
+.contact .guy:hover b {
+    background: rgba(255, 0, 255, 0.3);
+}
+.contact .guy:active b {
+    background: rgba(0, 255, 255, 0.3);
     transform: rotateY(0deg) translateY(0vw) translateZ(0vw) !important;
-    box-shadow: inset 0 0 0.1em rgba(0,255,0,0.1);
-  }
-  /* Body */
-  .contact .body {
+    box-shadow: inset 0 0 0.1em rgba(0, 255, 0, 0.1);
+}
+/* Body */
+.contact .body {
     position: absolute;
-      bottom: -0.3em;
-  }
-  .contact .rightArm {
+    bottom: -0.3em;
+}
+.contact .rightArm {
     transform-style: preserve-3d;
     position: absolute;
-      left: -0.5em;
-  }
-  .contact .leftArm {
+    left: -0.5em;
+}
+.contact .leftArm {
     transform-style: preserve-3d;
     position: absolute;
-      left: 1.0em;
-  }
-  .contact .rightLeg {
+    left: 1em;
+}
+.contact .rightLeg {
     transform-style: preserve-3d;
     position: absolute;
-      bottom: -1em;
-      left: 0.0em;
-  }
-  .contact .leftLeg {
+    bottom: -1em;
+    left: 0em;
+}
+.contact .leftLeg {
     transform-style: preserve-3d;
     position: absolute;
-      bottom: -1em;
-      left: 0.5em;
-  }
-  .contact .rightArm b,
-  .contact .leftArm b,
-  .contact .rightLeg b,
-  .contact .leftLeg b {
+    bottom: -1em;
+    left: 0.5em;
+}
+.contact .rightArm b,
+.contact .leftArm b,
+.contact .rightLeg b,
+.contact .leftLeg b {
     font-size: 5vw;
-  }
-  .contact .walk .rightArm,
-  .contact .walk .leftArm,
-  .contact .walk .rightLeg,
-  .contact .walk .leftLeg {
+}
+.contact .walk .rightArm,
+.contact .walk .leftArm,
+.contact .walk .rightLeg,
+.contact .walk .leftLeg {
     animation: walk linear 1s infinite;
-  }
-  .contact .walk .rightArm,
-  .contact .walk .leftLeg {
+}
+.contact .walk .rightArm,
+.contact .walk .leftLeg {
     animation-delay: -0.5s;
-  }
-  @keyframes walk {
+}
+@keyframes walk {
     0% {
-      transform:rotateX(-45deg);
+        transform: rotateX(-45deg);
     }
     50% {
-      transform:rotateX(45deg);
+        transform: rotateX(45deg);
     }
     100% {
-      transform:rotateX(-45deg);
+        transform: rotateX(-45deg);
     }
-  }
-  .contact .run .rightArm,
-  .contact .run .leftArm,
-  .contact .run .rightLeg,
-  .contact .run .leftLeg {
+}
+.contact .run .rightArm,
+.contact .run .leftArm,
+.contact .run .rightLeg,
+.contact .run .leftLeg {
     animation: run linear 0.5s infinite;
-  }
-  .contact .run .rightArm,
-  .contact .run .leftLeg {
+}
+.contact .run .rightArm,
+.contact .run .leftLeg {
     animation-delay: -0.25s;
-  }
-  @keyframes run {
+}
+@keyframes run {
     0% {
-      transform:rotateX(-45deg);
+        transform: rotateX(-45deg);
     }
     50% {
-      transform:rotateX(45deg);
+        transform: rotateX(45deg);
     }
     100% {
-      transform:rotateX(-45deg);
+        transform: rotateX(-45deg);
     }
-  }
-  .contact .jump .rightArm,
-  .contact .jump .leftArm,
-  .contact .jump .rightLeg,
-  .contact .jump .leftLeg {
+}
+.contact .jump .rightArm,
+.contact .jump .leftArm,
+.contact .jump .rightLeg,
+.contact .jump .leftLeg {
     animation: run linear 0.25s;
-  }
-  @keyframes jump {
+}
+@keyframes jump {
     0% {
-      transform:rotateX(-45deg);
+        transform: rotateX(-45deg);
     }
     50% {
-      transform:rotateX(45deg);
+        transform: rotateX(45deg);
     }
     100% {
-      transform:rotateX(-45deg);
+        transform: rotateX(-45deg);
     }
-  }
-  .contact #cont{
-      
-      background-color: #0E0E0E;
-      background-image: url('../images/contact/Group.svg');   
-     
-     
-  }
-
- 
-  .contact .fontawesome{
-      position:relative;
-      margin-top: 120%;
-      padding-top: 3rem;
-     
-      width: auto;
-     
-  }
-  .contact .the-walk{
-      text-align: center;
-      
-  }
-  .contact .mar{
- 
-    margin: auto 1%;
-   color:#0C8A2F;
-   background-color: #222;
-
-  }
-  
-  .contact .mar1{
-
-    color:#0C8A2F
-
-  }
-  .contact .paddi{
-      padding-top:10%;
-      color:aquamarine
-  }
-  .contact .for-cen{
-      text-align:center;
-  }
-  .contact .fas1{
-      margin:20% auto;
-      padding-top:25%;
-    
-
-  }
-  .contact .fas2{
-    
-    color:#0C8A2F;
-
+}
+.contact #cont {
+    background-color: #0e0e0e;
+    background-image: url("../images/contact/Group.svg");
 }
 
-  .contact .master-black{
-      background-color: #0E0E0E;
-      color: antiquewhite;
-      box-shadow: 0px 0px 30px 1px #0C8A2F;
-  }
-  .contact .heads{
+.contact .fontawesome {
+    position: relative;
+    margin-top: 120%;
+    padding-top: 3rem;
+
+    width: auto;
+}
+.contact .the-walk {
+    text-align: center;
+}
+.contact .mar {
+    margin: auto 1%;
+    color: #0c8a2f;
+    background-color: #222;
+}
+
+.contact .mar1 {
+    color: #0c8a2f;
+}
+.contact .paddi {
+    padding-top: 10%;
+    color: aquamarine;
+}
+.contact .for-cen {
+    text-align: center;
+}
+.contact .fas1 {
+    margin: 20% auto;
+    padding-top: 25%;
+}
+.contact .fas2 {
+    color: #0c8a2f;
+}
+
+.contact .master-black {
+    background-color: #0e0e0e;
+    color: antiquewhite;
+    box-shadow: 0px 0px 30px 1px #0c8a2f;
+}
+.contact .heads {
     font-size: 2rem;
-    color: #0C8A2F;
-  }
+    color: #0c8a2f;
+}
 
-      
-
-  
-  .contact .heya{
+.contact .heya {
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
     font-family: Arial;
     color: #ffffff;
     font-size: 20px;
-    background: #0C8A2F;
+    background: #0c8a2f;
     padding: 3px 14px 4px 13px;
     text-decoration: none;
-  }
-  .contact .hai{
-    margin-top:1rem
-    
-  }
-
-  
-
-  
-.contact .btn-send {
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  width: 80%;
-  margin-left: 3px
+}
+.contact .hai {
+    margin-top: 1rem;
 }
 
+.contact .btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-left: 3px;
+}
 
 .contact .card {
-  margin-left: 10px;
-  margin-right: 10px
+    margin-left: 10px;
+    margin-right: 10px;
 }
-.contact .form-control{
-margin-top: 2rem;
-
-      
-
+.contact .form-control {
+    margin-top: 2rem;
 }
-.contact .overriding{
-  background-color: #0E0E0E;
+.contact .overriding {
+    background-color: #0e0e0e;
 }
-
-
 
 .contact .inputs input {
- 
-  margin-bottom: 13px;
- 
-  
-  border: none;
-  border-bottom: 2px solid #0C8A2F;
-  background-color: #0E0E0E;
-  font-size: 1.4rem;
-  color:#0C8A2F;
+    margin-bottom: 13px;
+
+    border: none;
+    border-bottom: 2px solid #0c8a2f;
+    background-color: #0e0e0e;
+    font-size: 1.4rem;
+    color: #0c8a2f;
 }
 .contact .inputs input:focus {
-  margin-bottom: 13px;
-  border: none;
-  border-bottom: 2px solid #0C8A2F;
-  box-shadow: none;
-  background-color: #0E0E0E;
-  color:#0C8A2F;
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 2px solid #0c8a2f;
+    box-shadow: none;
+    background-color: #0e0e0e;
+    color: #0c8a2f;
 }
 
 .contact .inputs textarea {
-  margin-bottom: 1px;
-  border: none;
-  border-bottom: 2px solid #0C8A2F;
-  background-color: #0E0E0E;
-  width: 100%;
-  resize: none;
-  font-size: 1.4rem;
-  color:#0C8A2F;
-  
-  
-  
+    margin-bottom: 1px;
+    border: none;
+    border-bottom: 2px solid #0c8a2f;
+    background-color: #0e0e0e;
+    width: 100%;
+    resize: none;
+    font-size: 1.4rem;
+    color: #0c8a2f;
 }
-
 
 .contact .inputs textarea:focus {
-  margin-bottom: 13px;
-  border: none;
-  border-bottom: 2px solid #0C8A2F;
-  box-shadow: none;
-  resize: none;
-  background-color: #0E0E0E;
-  color:#0C8A2F;
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 2px solid #0c8a2f;
+    box-shadow: none;
+    resize: none;
+    background-color: #0e0e0e;
+    color: #0c8a2f;
+}
+@media screen and (min-width: 993px) {
+    .contact .inli {
+        display: inline-flex;
+    }
+    .contact .master-black {
+        padding-left: 2rem;
+        border-radius: 10%;
+    }
+    .contact .fexxx {
+        padding-left: 2rem;
+        padding-top: 2rem;
+    }
 
-
-}
-@media screen and (min-width:993px){
-
-.contact .inli{
-  display: inline-flex;
-  
-  
-}
-.contact .master-black{
-  padding-left: 2rem;
-  border-radius: 10%;
-}
-.contact .fexxx{
-  padding-left: 2rem;
-  padding-top: 2rem;
-
-}
-
-.contact .lastt{
-  margin-left:7px;
-}
-.contact .hect{
-  margin-left: 27px;
-  margin-right: 8px;
-}
-.contact .inputs{
-  padding-top: 5rem;
-}
-.contact .neeche{
-  margin-top: 5rem;
-}
+    .contact .lastt {
+        margin-left: 7px;
+    }
+    .contact .hect {
+        margin-left: 27px;
+        margin-right: 8px;
+    }
+    .contact .inputs {
+        padding-top: 5rem;
+    }
+    .contact .neeche {
+        margin-top: 5rem;
+    }
 }
 
+@media screen and (max-width: 993px) {
+    .contact .paddi {
+        text-align: center;
+    }
 
+    .contact .heya {
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 20px;
+        background: #0c8a2f;
+        padding: 3px 14px 4px 13px;
+        text-decoration: none;
+    }
+    .contact .hai {
+        margin-top: 1rem;
+    }
 
+    .contact .master-black {
+        border-radius: 8%;
+    }
+    .contact .inli {
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+    .contact .hect {
+        margin-left: 14px;
+        margin-right: 14px;
+    }
 
-  @media screen and (max-width:993px)
+    .contact input.form-control {
+        border: 0;
+        outline: 0;
 
-  {
-    .contact .paddi{
-      text-align:center;
-  }
- 
-  .contact .heya{
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 20px;
-    background: #0C8A2F;
-    padding: 3px 14px 4px 13px;
-    text-decoration: none;
-  }
-  .contact .hai{
-    margin-top:1rem
-    
-  }
-  
-  
+        border-bottom: 2px solid #0c8a2f;
+        font-size: 1.4rem;
+        color: #0c8a2f;
+    }
+    .contact .form-control {
+        background-color: #0e0e0e;
+    }
+    .contact .overriding {
+        background-color: #0e0e0e;
+    }
 
-  .contact .master-black{
-   
+    .contact .carding {
+        background-color: #0e0e0e;
 
-    border-radius: 8%;
-  }
-.contact .inli{
-  margin-left: 14px;
-  margin-right: 14px;
-}
-.contact .hect{
-  margin-left: 14px;
-  margin-right: 14px;
+        box-shadow: 0px 0px 30px 1px #0c8a2f;
+        margin: 1rem 0.5rem 1rem;
+        padding-bottom: 1.8rem;
+        padding-top: 1.8rem;
+        border-radius: 8%;
+    }
 
-}
+    .contact .fas1 {
+        margin: 5% auto;
+        padding-top: 10%;
+    }
+    .contact #platform {
+        position: relative;
+        top: calc(50% - 10vh);
+        left: calc(50% - 40vw);
+        width: 80vw;
+        height: 2vh;
+        perspective: 900px;
+        padding-bottom: -10rem;
+    }
+    .contact .gogreen {
+        text-align: center;
+    }
+    .contact .the-walk {
+        padding-top: -20rem;
+    }
 
-  
-.contact input.form-control{
-  border: 0;
-  outline: 0;
- 
-  border-bottom: 2px solid #0C8A2F ;
-  font-size: 1.4rem;
-  color: #0C8A2F;
-        
-}
-.contact .form-control{
-  background-color: #0E0E0E;
-}
-.contact .overriding{
-  background-color: #0E0E0E;
-}
+    .contact .tobeshif {
+        padding-left: 0%;
+        padding-top: 6%; /* in mobile view this shifts the content 6 px towards write making it incoherent */
+    }
 
+    .contact .fontawesome {
+        position: relative;
+        margin-top: 30%;
 
-
-
-.contact .carding{
-  background-color: #0E0E0E;
-  
-  box-shadow: 0px 0px 30px 1px #0C8A2F;
-margin:1rem 0.5rem 1rem;
-padding-bottom: 1.8rem;
-padding-top: 1.8rem;
-border-radius: 8%;
-  
-
-}
-
-
-    
-    .contact .fas1{
-      margin:5% auto;
-      padding-top:10%;
-    
-
-  }
-  .contact #platform {
-    position: relative;
-    top: calc(50% - 10vh);
-    left: calc(50% - 40vw);
-    width: 80vw;
-    height: 2vh;
-    perspective: 900px;
-    padding-bottom: -10rem;
-  }
-.contact .gogreen{
-  text-align: center;
-}
-.contact .the-walk{
-  padding-top: -20rem;
+        width: auto;
+    }
 }
 
-.contact .tobeshif{
-  padding-left: 0%;
-  padding-top: 6%;/* in mobile view this shifts the content 6 px towards write making it incoherent */
-
-}
-
-
-.contact .fontawesome{
-position:relative;
- margin-top: 30%;
- 
-  
-  width: auto;
-  
-}
-  }
-
-  .contact .row{
+.contact .row {
     max-width: 100%;
     margin: 3%;
-  }
-  .contact .footer{
+}
+.contact .footer {
     text-align: center;
-    color:#3cfca6;
-    margin:5% auto;
-  }
-
-
-
+    color: #3cfca6;
+    margin: 5% auto;
+}
