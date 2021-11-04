@@ -1,6 +1,7 @@
 .board {
     margin-top: 10%;
     color: white;
+    transform: scale(0.8);
 }
 
 .board .boardhead {
