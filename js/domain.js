@@ -29,15 +29,28 @@ function stoprotate() {
     if (looper) clearTimeout(looper);
 }
 
-function myFunction() {
-    document.getElementById("para").innerHTML =
+function mydFunction() {
+    document.getElementById("dpara").innerHTML =
         "IEEE-IAS is a great platform for students to hone their Technical, Leadership skills & gain experience in organizing events and where holistic development takes place. Our chapter work on several important domains.";
 }
-function myFunction1() {
-    document.getElementById("para").innerHTML =
+function mydFunction1() {
+    document.getElementById("dpara").innerHTML =
         "The one-stop place to put our pen down and creativity up. This domain is the back of the weekly blogs, DYK's, Newsletters and many more. It's the saving grace in true essence.";
 }
-function myFunction2() {
-    document.getElementById("para").innerHTML =
+function mydFunction2() {
+    document.getElementById("dpara").innerHTML =
+        "Creative minds come together and produce starling posters and videos. This artistic contributions will make our projects more intellectual and colourful.";
+}
+
+function mymFunction() {
+    document.getElementById("mpara").innerHTML =
+        "IEEE-IAS is a great platform for students to hone their Technical, Leadership skills & gain experience in organizing events and where holistic development takes place. Our chapter work on several important domains.";
+}
+function mymFunction1() {
+    document.getElementById("mpara").innerHTML =
+        "The one-stop place to put our pen down and creativity up. This domain is the back of the weekly blogs, DYK's, Newsletters and many more. It's the saving grace in true essence.";
+}
+function mymFunction2() {
+    document.getElementById("mpara").innerHTML =
         "Creative minds come together and produce starling posters and videos. This artistic contributions will make our projects more intellectual and colourful.";
 }
