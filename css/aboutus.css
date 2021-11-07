@@ -17,7 +17,7 @@
     color: #ffffff;
     margin-top: 3%;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
     padding-top: 30px;
     padding-left: 0px;
     font-size: 45px;
@@ -31,7 +31,7 @@
     .aboutus .about-us {
         width: 300px;
         margin: 60px auto 20px auto;
-        padding-top:0px;
+        padding-top: 0px;
     }
 
     .aboutus h1 {
@@ -135,7 +135,7 @@
     color: #ffffff;
     font-size: 26px;
     line-height: 31px;
-    padding: 20px 0 0 10px;
+    margin: 0;
 }
 
 /* Swiper Js pagination */
@@ -167,7 +167,7 @@
 }
 
 .aboutus .slogan {
-    margin-top:10px !important;
+    margin-top: 10px !important;
     color: #0c8a2f !important;
 }
 
