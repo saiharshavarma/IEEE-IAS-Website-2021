@@ -128,17 +128,17 @@
         height: 100px;
     }
 
-    .domain #img1,
-    .domain #im,
-    .domain #im1,
-    .domain #im2,
-    .domain #im3,
-    .domain #im4 {
+    .domain #mimg1,
+    .domain #mim,
+    .domain #mim1,
+    .domain #mim2,
+    .domain #mim3,
+    .domain #mim4 {
         height: 120px;
         width: 120px;
     }
 
-    .domain .img2 {
+    .domain .mimg2 {
         margin-top: -147px;
         margin-left: 10px;
         /*margin-right:100px;*/
@@ -147,7 +147,7 @@
         transform-style: preserve-3d;
     }
 
-    .domain #imgD {
+    .domain #mimgD {
         height: 100px;
         width: 100px;
         margin-top: -145px;
@@ -158,7 +158,7 @@
         transform-style: preserve-3d;
     }
 
-    .domain .i1 {
+    .domain .mi1 {
         margin-top: -147px;
         margin-left: 10px;
         margin-right: 100px;
@@ -173,7 +173,7 @@
         padding-bottom: 20px;
     }
 
-    .domain .i2 {
+    .domain .mi2 {
         height: 100px;
         width: 100px;
         margin-top: -150px;
@@ -184,7 +184,7 @@
         border-radius: 50%;
     }
 
-    .domain .i4 {
+    .domain .mi4 {
         margin-top: -147px;
         margin-left: 10px;
         margin-right: 20px;
@@ -196,12 +196,12 @@
         padding-bottom: 20px;
     }
 
-    .domain .img2 {
+    .domain .mimg2 {
         width: 100px;
         height: 100px;
     }
 
-    .domain #imgD {
+    .domain #mimgD {
         padding: 5px 10px;
     }
 
