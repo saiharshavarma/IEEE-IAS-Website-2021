@@ -2,7 +2,10 @@
     background-image: url("../images/events/Group.svg");
     background-size: cover;
     display: flex;
+    flex-direction: row;
     height: 100%;
+    align-items: flex-start;
+    position: relative;
 }
 
 .events .description {
@@ -28,7 +31,7 @@
 }
 
 .events .events-spinner {
-    top: 3670px;
+    top: 40%;
     right: 46%;
     position: absolute;
     transform: rotate(90deg);
@@ -46,10 +49,6 @@ h6 {
 
 .events hr.small {
     width: 50px;
-}
-
-.events .content {
-    top: -100;
 }
 
 .events .details {
@@ -170,10 +169,10 @@ h6 {
     .events .info {
         width: 50vw;
     }
-    .events .events-spinner {
+    /* .events .events-spinner {
         top: 3100px;
         right: 95%;
-    }
+    } */
 }
 
 @media only screen and (min-width: 660px) and (max-width: 750px) {
@@ -183,16 +182,16 @@ h6 {
     .events .info {
         width: 55vw;
     }
-    .events .events-spinner {
+    /* .events .events-spinner {
         top: 3100px;
         right: 100%;
-    }
+    } */
 }
 
 @media only screen and (min-width: 590px) and (max-width: 660px) {
-    .events {
+    /* .events {
         display: block;
-    }
+    } */
     .events .description {
         padding: 0% 5%;
         width: 100vw;
@@ -210,21 +209,21 @@ h6 {
         width: 90vw;
         text-align: center;
     }
-    .events .events-spinner {
+    /* .events .events-spinner {
         top: 3200px;
         right: 95%;
         position: absolute;
         transform: scale(0.55) rotate(90deg) !important;
-    }
+    } */
     .events .details a .event-image {
         transform: rotate(-90deg) !important;
     }
 }
 
 @media only screen and (min-width: 560px) and (max-width: 590px) {
-    .events {
+    /* .events {
         display: block;
-    }
+    } */
     .events .description {
         padding: 0% 5%;
         width: 100vw;
@@ -242,21 +241,21 @@ h6 {
         width: 90vw;
         text-align: center;
     }
-    .events .events-spinner {
+    /* .events .events-spinner {
         top: 3000px;
         right: 100%;
         position: absolute;
         transform: scale(0.55) rotate(90deg) !important;
-    }
+    } */
     .events .details a .event-image {
         transform: rotate(-90deg) !important;
     }
 }
 
 @media only screen and (min-width: 540px) and (max-width: 560px) {
-    .events {
+    /* .events {
         display: block;
-    }
+    } */
     .events .description {
         padding: 0% 5%;
         width: 100vw;
@@ -274,21 +273,21 @@ h6 {
         width: 90vw;
         text-align: center;
     }
-    .events .events-spinner {
+    /* .events .events-spinner {
         top: 2900px;
         right: 95%;
         position: absolute;
         transform: scale(0.5) rotate(90deg) !important;
-    }
+    } */
     .events .details a .event-image {
         transform: rotate(-90deg) !important;
     }
 }
 
 @media only screen and (min-width: 490px) and (max-width: 540px) {
-    .events {
+    /* .events {
         display: block;
-    }
+    } */
     .events .description {
         padding: 0% 5%;
         width: 100vw;
@@ -306,21 +305,21 @@ h6 {
         width: 90vw;
         text-align: center;
     }
-    .events .events-spinner {
+    /* .events .events-spinner {
         top: 2900px;
         right: 100%;
         position: absolute;
         transform: scale(0.5) rotate(90deg) !important;
-    }
+    } */
     .events .details a .event-image {
         transform: rotate(-90deg) !important;
     }
 }
 
 @media only screen and (min-width: 440px) and (max-width: 490px) {
-    .events {
+    /* .events {
         display: block;
-    }
+    } */
     .events .description {
         padding: 0% 5%;
         width: 100vw;
@@ -338,21 +337,26 @@ h6 {
         width: 90vw;
         text-align: center;
     }
-    .events .events-spinner {
+    /* .events .events-spinner {
         top: 2900px;
         right: 100%;
         position: absolute;
         transform: scale(0.45) rotate(90deg) !important;
-    }
+    } */
     .events .details a .event-image {
         transform: rotate(-90deg) !important;
     }
 }
 
 @media only screen and (min-width: 400px) and (max-width: 440px) {
-    .events {
+    /* .events {
         display: block;
-    }
+    } */
+    /* .events {
+        flex-direction: column;
+        position: initial;
+        height: fit-content;
+    } */
     .events .description {
         padding: 0% 5%;
         width: 100vw;
@@ -370,21 +374,30 @@ h6 {
         width: 90vw;
         text-align: center;
     }
-    .events .events-spinner {
+    /* .events .events-spinner {
         top: 2900px;
         right: 110%;
         position: absolute;
         transform: scale(0.45) rotate(90deg) !important;
-    }
+    } */
+    /* .events .events-spinner {
+        position: initial;
+        margin-top: 60%;
+        margin-left: -28.5%;
+        margin-bottom: -40%;
+        transform: scale(0.55) rotate(90deg) !important;
+    } */
     .events .details a .event-image {
         transform: rotate(-90deg) !important;
     }
 }
 
 @media only screen and (min-width: 370px) and (max-width: 400px) {
-    .events {
-        display: block;
-    }
+    /* .events {
+        flex-direction: column;
+        position: initial; 
+        height: fit-content;
+    } */
     .events .description {
         padding: 0% 5%;
         width: 100vw;
@@ -402,21 +415,24 @@ h6 {
         width: 90vw;
         text-align: center;
     }
-    .events .events-spinner {
-        top: 2900px;
-        right: 105%;
-        position: absolute;
-        transform: scale(0.4) rotate(90deg) !important;
-    }
+    /* .events .events-spinner {
+        position: initial;
+        margin-top: 60%;
+        margin-left: -28.5%;
+        margin-bottom: -40%;
+        transform: scale(0.55) rotate(90deg) !important;
+    } */
     .events .details a .event-image {
         transform: rotate(-90deg) !important;
     }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 370px) {
-    .events {
+    /* .events {
         display: block;
-    }
+        flex-direction: column;
+        height: fit-content;
+    } */
     .events .description {
         padding: 0% 5%;
         width: 100vw;
@@ -434,13 +450,54 @@ h6 {
         width: 90vw;
         text-align: center;
     }
-    .events .events-spinner {
+    /* .events .events-spinner {
         top: 2900px;
         right: 115%;
         position: absolute;
         transform: scale(0.4) rotate(90deg) !important;
-    }
+    } */
+    /* .events .events-spinner {
+        position: initial;
+        margin-top: 60%;
+        margin-left: -27%;
+        margin-bottom: -40%;
+        transform: scale(0.5) rotate(90deg) !important;
+    } */
     .events .details a .event-image {
         transform: rotate(-90deg) !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .events {
+        flex-direction: column;
+        height: fit-content;
+    }
+    .events .events-spinner {
+        right: 102%;
+        top: 190%;
+        transform: scale(0.55) rotate(90deg) !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .events .events-spinner {
+        right: 121%;
+        top: 180%;
+        transform: scale(0.55) rotate(90deg) !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .events .events-spinner {
+        right: 124%;
+        transform: scale(0.5) rotate(90deg) !important;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .events .events-spinner {
+        right: 126%;
+        transform: scale(0.45) rotate(90deg) !important;
     }
 }
