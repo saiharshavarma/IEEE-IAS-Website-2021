@@ -1,3 +1,7 @@
+#cont {
+    transform: scale(0.68);
+}
+
 .contact #platform {
     position: relative;
     top: calc(43% - 10vh);
@@ -156,7 +160,7 @@
         transform: rotateX(-45deg);
     }
 }
-.contact #cont {
+.contact {
     background-color: #0e0e0e;
     background-image: url("../images/contact/Group.svg");
 }
@@ -294,7 +298,7 @@
         margin-left: 7px;
     }
     .contact .hect {
-        margin-left: 27px;
+        margin-left: 1px;
         margin-right: 8px;
     }
     .contact .inputs {
