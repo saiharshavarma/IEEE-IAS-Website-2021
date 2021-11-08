@@ -30,7 +30,7 @@
 @media screen and (max-width: 430px) {
     .aboutus .about-us {
         width: 300px;
-        margin: 60px auto 20px auto;
+        margin: 30px auto 20px auto;
         padding-top: 0px;
     }
 
@@ -167,6 +167,7 @@
 }
 
 .aboutus .slogan {
+    margin-left:0px !important;
     margin-top: 10px !important;
     color: #0c8a2f !important;
 }
