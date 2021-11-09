@@ -6,6 +6,8 @@
     height: 100%;
     align-items: flex-start;
     position: relative;
+    margin-bottom: -15%;
+    margin-top: 5%;
 }
 
 .events .description {
@@ -490,7 +492,6 @@ h6 {
 
 @media only screen and (max-width: 400px) {
     .events .events-spinner {
-        right: 124%;
         transform: scale(0.5) rotate(90deg) !important;
     }
 }
@@ -498,6 +499,7 @@ h6 {
 @media only screen and (max-width: 340px) {
     .events .events-spinner {
         right: 126%;
+        top: 165%;
         transform: scale(0.45) rotate(90deg) !important;
     }
 }
