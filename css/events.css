@@ -484,18 +484,18 @@ h6 {
 
 @media only screen and (max-width: 500px) {
     .events .events-spinner {
-        right: 122%;
+        right: 115%;
         top: 170%;
         transform: scale(0.5) rotate(90deg) !important;
     }
 }
 
-/* @media only screen and (max-width: 400px) {
+ @media only screen and (max-width: 400px) {
     .events .events-spinner {
-        transform: scale(0.5) rotate(90deg) !important;
+        transform: scale(0.45) rotate(90deg) !important;
     }
 }
-
+/*
 @media only screen and (max-width: 340px) {
     .events .events-spinner {
         right: 126%;
