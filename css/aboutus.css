@@ -1,6 +1,9 @@
 .aboutus {
     margin-top: 25%;
     z-index: 1;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 25%;
 }
 
 .aboutus .about-us {
@@ -28,6 +31,9 @@
 }
 
 @media screen and (max-width: 430px) {
+    .aboutus{
+        height: 150vh;
+    }
     .aboutus .about-us {
         width: 300px;
         margin: 30px auto 20px auto;
@@ -70,6 +76,9 @@
 }
 
 @media screen and (max-width: 576px) {
+    .aboutus{
+        height: 150vh;
+    }
     .aboutus .main4 {
         font-size: 12px !important;
         font-weight: normal !important;
