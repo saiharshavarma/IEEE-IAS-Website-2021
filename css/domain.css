@@ -1,6 +1,8 @@
 .domain {
     font-family: Raleway;
     text-align: justify;
+    height: 100vh;
+    width: 100vw;
 }
 
 .domain .row {
@@ -9,10 +11,11 @@
 
 .domain .container {
     margin-top: 5% !important;
-    margin-left: 8% !important;
+    margin-left: 0 !important;
     margin-bottom: 5% !important;
     margin-right: 0 !important;
     padding: 0 !important;
+    max-width:100vw !important;
 }
 
 .domain .rotate {
@@ -21,7 +24,8 @@
 }
 
 .domain .dcontent {
-    margin-right: 2%;
+    margin-right: 0;
+    padding-left: 10%;
 }
 
 .domain #img1,
@@ -112,8 +116,17 @@
 .domain .para {
     font-style: italic;
 }
+.row{
+    max-width:100%;
+    margin-left: 0;
+    margin-right: 0;
+}
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 1000px) {
+    .domain{
+        width:100vw;
+    }
     .domain .row {
         color: white;
         margin: 30px 0;

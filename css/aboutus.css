@@ -1,11 +1,14 @@
 .aboutus {
     margin-top: 25%;
     z-index: 1;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 5%;
 }
 
 .aboutus .about-us {
     margin-top: 5%;
-    margin-right: 5%;
+    margin-right: 5%; 
     margin-left: 10%;
     padding: 0 0 0 0;
     font-family: Raleway;
@@ -16,7 +19,8 @@
 .aboutus .heading {
     color: #ffffff;
     margin-top: 3%;
-    margin-left: 10%;
+    margin-left: 5%;
+    margin-right: auto;
     padding-top: 30px;
     padding-left: 0px;
     font-size: 45px;
@@ -27,10 +31,13 @@
 }
 
 @media screen and (max-width: 430px) {
+    .aboutus{
+        height: 150vh;
+    }
     .aboutus .about-us {
         width: 300px;
-        margin: 60px 10px 20px 15px;
-        padding-top:0px;
+        margin: 30px auto 20px auto;
+        padding-top: 0px;
     }
 
     .aboutus h1 {
@@ -69,6 +76,9 @@
 }
 
 @media screen and (max-width: 576px) {
+    .aboutus{
+        height: 150vh;
+    }
     .aboutus .main4 {
         font-size: 12px !important;
         font-weight: normal !important;
@@ -134,7 +144,7 @@
     color: #ffffff;
     font-size: 26px;
     line-height: 31px;
-    padding: 20px 0 0 10px;
+    margin: 0;
 }
 
 /* Swiper Js pagination */
@@ -166,7 +176,8 @@
 }
 
 .aboutus .slogan {
-    margin-top:10px !important;
+    margin-left:0px !important;
+    margin-top: 10px !important;
     color: #0c8a2f !important;
 }
 
