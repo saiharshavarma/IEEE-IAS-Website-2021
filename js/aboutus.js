@@ -5,7 +5,7 @@ if (screen.width > 430) {
     "click",
     (function1 = () => {
       document.querySelector("#pop").innerHTML =
-        "<p>IEEE IAS VIT joins the league of other prominent professional student chapters functioning at the university in the academic year 2015-16. Our chapter focuses specifically on the unique needs of industry and commerce. Through a network of events, national and international conferences, the society keeps members abreast of current developments in the area of technology in electricity and electronics.  IAS  enriches both its members and the industry as a whole through the sharing of specific industry-related solutions. The purposes of the chapter are industrial, technical and academic. IAS’s commitment to excellence and long-run learning is the propulsion behind all its initiatives. We, the student chapter of VIT, has conducted several events for the field students which can facilitate them to succeed in their life. To convert this progress into a prosperous/victorious volume, the suggestions, feedback & valuable specifications are adopted from esteemed identities whose concepts converge on a realistic note.</p>";
+        "<p>IEEE IAS VIT joins the league of prominent professional student chapters functioning at the university in the academic year 2015-16. We, the IEEE Industrial Applications Society, a group of undergraduates at VIT, aim to build a bridge between enthusiasm and excellence by providing a platform for brainstorming solutions to the industrial world, through the largest research conferences, expert talks, seminars, and bootcamps. We link research to practice, thereby connecting students to industrial experts.</p>";
     })
   );
 
@@ -22,7 +22,7 @@ if (screen.width > 430) {
     (function3 = () => {
       document.querySelector("#pop").innerHTML =
         "<p>IEEE IAS vision lies in the advancement of technology linking theory and practice in the application of electrical and electronic systems for the benefit of humanity. We value the sharing of knowledge in our domains and the professional development of our membership.</p>";
-    })
+    }) 
   );
 } else {
   document.getElementById("pop").remove();

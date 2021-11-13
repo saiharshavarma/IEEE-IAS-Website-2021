@@ -1,11 +1,11 @@
 .contact{
-    height: 100vh;
+    height: 135vh;
     width: 100vw;
 }
 
 #cont {
     transform: scale(0.68);
-}
+} 
 
 .contact #platform {
     position: relative;
