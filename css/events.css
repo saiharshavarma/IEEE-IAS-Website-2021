@@ -529,7 +529,7 @@ h6 {
         right: 0;
         transform: scale(0.85) rotate(90deg) !important;
     }
-    .content{
+    .events .content{
         position: relative;
     }
     .events .featured-slider {
@@ -552,9 +552,9 @@ h6 {
 }
 
 @media only screen and (max-width: 650px){
-    .events{       
+    /* .events{       
         margin-bottom: -115%;
-    }
+    } */
     .events .events-spinner{
         top: 5%;
         transform: scale(0.5) rotate(90deg) !important;

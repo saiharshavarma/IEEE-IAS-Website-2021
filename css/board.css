@@ -1,14 +1,19 @@
+.carousel{
+    height: 100%;
+}
+
 .board {
-    margin-top: 10%;
+    margin-top: 3%;
     color: white;
     transform: scale(0.8);
-    height: 100vh;
+    /* height: 100vh; */
+    height: 100%;
     width: 100vw;
 }
 
-.carousel-item{
+/* .carousel-item{
     height: 140vh;
-}
+} */
 
 .board .boardhead {
     text-align: center;
@@ -191,8 +196,10 @@
 }*/
 
 @media (max-width: 575px) {
-    .board{
-        height: fit-content;
+    .board {
+        margin-top: 0;
+        height: 100vh;
+        /* height: fit-content; */
     }
     .board .container {
         display: flex;
