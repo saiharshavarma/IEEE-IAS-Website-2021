@@ -1,11 +1,11 @@
 .contact{
-    height: 135vh;
+    /* height: 135vh; */
     width: 100vw;
 }
 
-#cont {
-    transform: scale(0.68);
-} 
+.contact .master-black{
+    transform: scale(0.8);
+}
 
 .contact #platform {
     position: relative;
@@ -209,6 +209,12 @@
     color: antiquewhite;
     box-shadow: 0px 0px 30px 1px #0c8a2f;
 }
+
+.contact .send-msg{
+    transform: scale(0.9);
+    margin: auto;
+}
+
 .contact .heads {
     font-size: 2rem;
     color: #0c8a2f;
