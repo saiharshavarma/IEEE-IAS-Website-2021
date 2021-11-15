@@ -1,8 +1,15 @@
 function HamburgerToggle() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
+  $('.topnav').addClass('responsive');
 }
+
+// $('#myTopnav a').on("click", () => {
+//   $('#myTopnav').hide();
+// });
+
+// $('.topnav .icon').on('click', function () {
+//   $('.topnav').addClass('responsive');
+// });
+
+$('.topnav a').on("click", function(){
+  $('.topnav').removeClass('responsive');
+});
