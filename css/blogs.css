@@ -1,7 +1,5 @@
 .blogs {
     margin: 0%;
-    margin-top: 10%;
-    margin-bottom: 10%;
     padding: 0;
     font-family: sans-serif;
     font-family: "Raleway", sans-serif;
@@ -208,10 +206,9 @@
 
 @media only screen and (min-width: 0px) and (max-width: 380px) {
     .blogs .blogheading {
-        margin-top: 10%;
     }
     .blogs .blogtitle {
-        font-size: 18px;
+        font-size: 34px !important;
     }
     .blogs .blogpara {
         font-size: 14px;
@@ -246,10 +243,9 @@
 
 @media only screen and (min-width: 380px) and (max-width: 480px) {
     .blogs .blogheading {
-        margin-top: 7%;
     }
     .blogs .blogtitle {
-        font-size: 18px;
+        font-size: 34px !important;
     }
     .blogs .blogpara {
         font-size: 14px;
@@ -284,10 +280,9 @@
 }
 @media only screen and (min-width: 480px) and (max-width: 576px) {
     .blogs .blogheading {
-        margin-top: 2%;
     }
     .blogs .blogtitle {
-        font-size: 24px;
+        font-size: 34px !important;
     }
     .blogs .blogpara {
         font-size: 18px;
@@ -318,7 +313,7 @@
 }
 @media only screen and (min-width: 575px) and (max-width: 700px) {
     .blogs .blogtitle {
-        font-size: 26px;
+        font-size: 34px !important;
     }
     .blogs .blogpara {
         font-size: 20px;

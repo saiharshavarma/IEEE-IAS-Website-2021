@@ -1,9 +1,8 @@
 .carousel{
-    height: 100%;
+    display: block;
 }
 
 .board {
-    margin-top: 3%;
     color: white;
     transform: scale(0.8);
     /* height: 100vh; */
@@ -228,5 +227,8 @@
     }
     .board .container777 h1 {
         writing-mode: vertical-lr;
+    }
+    .carousel .carousel-inner{
+        overflow-y: visible !important;
     }
 }
