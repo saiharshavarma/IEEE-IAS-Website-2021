@@ -1,6 +1,8 @@
 .contact{
     /* height: 135vh; */
     width: 100vw;
+    background: url("../images/homepage/Group1.png") no-repeat;
+    background-position: center bottom;
 }
 
 .contact .master-black{
@@ -167,7 +169,6 @@
 }
 .contact {
     background-color: #0e0e0e;
-    background-image: url("../images/contact/Group.svg");
 }
 
 .contact .fontawesome {
