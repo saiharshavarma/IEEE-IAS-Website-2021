@@ -34,9 +34,10 @@ body {
 }
 
 .navbar .nav-links,
-.navbar .logo {
+.navbar .logo img{
     text-decoration: none;
     color: white;
+    height: 4rem;
 }
 
 .navbar .topnav li {
@@ -100,6 +101,13 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+    #Home{
+        position: fixed !important;
+        width: 100%;
+    }
+    .navbar .logo img{
+        height: 3rem !important;
+    }
     .navbar {
         flex-direction: column;
         z-index: 90;
@@ -119,7 +127,7 @@ body {
         position: fixed;
         top: 0;
         right: 3%;
-        margin: 2rem 0;
+        margin: 1.5rem 0;
     }
     .navbar .logo:hover,
     .navbar .nav-links:hover,
