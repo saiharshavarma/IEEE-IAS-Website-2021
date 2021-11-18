@@ -43,6 +43,9 @@
     background: rgba(255, 255, 255, 0.15);
     border-radius: 50%;
     transform-style: preserve-3d;
+    height: 170px;
+    width: 170px;
+    border: black;
 }
 
 .domain .i1 {
