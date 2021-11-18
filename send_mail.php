@@ -9,9 +9,9 @@ $webmaster_email = "ieee.ias@vit.ac.in";
 This bit sets the URLs of the supporting pages.
 If you change the names of any of the pages, you will need to change the values here.
 */
-$feedback_page = "contact.html";
-$error_page = "error_message.html";
-$thankyou_page = "thank_you.html";
+$feedback_page = "index.html";
+$error_page = "index.html";
+$thankyou_page = "index.html";
 
 /*
 This next bit loads the form field data into variables.

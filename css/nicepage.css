@@ -22592,12 +22592,12 @@ a.u-link.u-hover-palette-1-base:hover {
 .u-container-layout.u-palette-2-dark-3:before,
 .u-table-alt-palette-2-dark-3 tr:nth-child(even) {
   color: #ffffff;
-  background-color: #332929;
+  background-color: #0e0e0e;
 }
 .u-button-style.u-palette-2-dark-3,
 .u-button-style.u-palette-2-dark-3[class*="u-border-"] {
   color: #ffffff !important;
-  background-color: #332929 !important;
+  background-color: #0e0e0e !important;
 }
 .u-button-style.u-palette-2-dark-3:hover,
 .u-button-style.u-palette-2-dark-3[class*="u-border-"]:hover,
@@ -22610,7 +22610,7 @@ a.u-link.u-hover-palette-1-base:hover {
 li.active > .u-button-style.u-button-style.u-palette-2-dark-3,
 li.active > .u-button-style.u-button-style.u-palette-2-dark-3[class*="u-border-"] {
   color: #ffffff !important;
-  background-color: #2e2525 !important;
+  background-color: #0e0e0e !important;
 }
 .u-hover-palette-2-dark-3:hover,
 .u-hover-palette-2-dark-3[class*="u-border-"]:hover,
@@ -22633,7 +22633,7 @@ a.u-button-style.u-button-style.active > .u-active-palette-2-dark-3[class*="u-bo
 li.active > a.u-button-style.u-button-style.u-active-palette-2-dark-3,
 li.active > a.u-button-style.u-button-style.u-active-palette-2-dark-3[class*="u-border-"] {
   color: #ffffff !important;
-  background-color: #332929 !important;
+  background-color: #0e0e0e !important;
 }
 a.u-link.u-hover-palette-2-dark-3:hover {
   color: #332929 !important;
