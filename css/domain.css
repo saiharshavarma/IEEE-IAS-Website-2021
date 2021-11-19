@@ -122,8 +122,19 @@ h2 {
         display: block;
     }
 
+    .domain .tech{
+        transform: scale(1);
+    }
+
+    .domain #text{
+        font-size: 18px;
+        margin-top: -10px;
+        margin-bottom: 30px;
+    }
+
     .domain h2{
         font-size: 1.75em;
+        margin-bottom: 10% !important;
     }
 
     .domain .row {
