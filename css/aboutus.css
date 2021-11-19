@@ -18,9 +18,13 @@
     margin-top: 5%;
     font-size: 45px;
     line-height: 53px;
-    font-family: Mulish;
+    font-family: 'Mulish' !important;
     font-style: normal;
     font-weight: normal;
+}
+
+.aboutus .heading h2{
+    font-family: 'Mulish';
 }
 
 .aboutus #pop{
