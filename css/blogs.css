@@ -36,7 +36,7 @@
     letter-spacing: 1px;
     text-align: justify;
     color: #ffffff;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 
 .blogs .blog_title_link {
@@ -201,7 +201,7 @@
 } */
 
 .blogs .title-box .title {
-    margin-top: 22.5%;
+    margin-top: 30%;
     text-align: center;
     letter-spacing: 2px;
     position: relative;
@@ -254,7 +254,7 @@
         text-align: center;
     }
     .blogs .title-box .title{
-        margin: 35% auto 50% auto;
+        margin: 30% auto 50% auto;
     }
 }
 
@@ -474,7 +474,7 @@
 .blogs .image-container img {
     margin: 0%;
     height: 100%;
-    box-shadow: 0px 0px 25px 5px rgba(35, 123, 60, 0.747);
+    box-shadow: 5px 5px 10px #0c8a2f;
 }
 
 .blogs .image-container img:hover {
