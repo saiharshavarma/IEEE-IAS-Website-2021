@@ -1,3 +1,7 @@
+h2 {
+    font-family: 'Mulish' !important;
+}
+
 .domain {
     font-family: 'Raleway';
     text-align: justify;
@@ -38,8 +42,6 @@
 .domain .img2,
 .domain #imgD {
     margin-top: -225px;
-    margin-left: 15px;
-    margin-right: 20px;
     background: rgba(255, 255, 255, 0.15);
     border-radius: 50%;
     transform-style: preserve-3d;
@@ -50,8 +52,6 @@
 
 .domain .i1 {
     margin-top: -225px;
-    margin-left: 15px;
-    margin-right: 20px;
     background: rgba(255, 255, 255, 0.15);
     border-radius: 50%;
     transform-style: preserve-3d;
@@ -67,8 +67,6 @@
     height: 170px;
     width: 170px;
     margin-top: -225px;
-    margin-left: 15px;
-    margin-right: 20px;
     background: rgba(255, 255, 255, 0.15);
     border-radius: 50%;
     transform-style: preserve-3d;
@@ -76,8 +74,6 @@
 
 .domain .i4 {
     margin-top: -225px;
-    margin-left: 15px;
-    margin-right: 20px;
     background: rgba(255, 255, 255, 0.15);
     border-radius: 50%;
     transform-style: preserve-3d;
@@ -105,15 +101,17 @@
 
 .domain .tech {
     transform: scale(0.8);
+    text-align: center;
 }
 
 .domain .para {
     font-style: italic;
 }
-.row{
+
+.domain .row{
     max-width:100%;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 auto;
+    text-align: center;
 }
 
 
@@ -133,10 +131,6 @@
         margin: 30px 0;
     }
 
-    .domain .tech {
-        padding-left: 10%;
-    }
-
     .domain .rotate {
         width: 100px;
         height: 100px;
@@ -154,7 +148,6 @@
 
     .domain .mimg2 {
         margin-top: -147px;
-        margin-left: 10px;
         background: rgba(255, 255, 255, 0.15);
         border-radius: 50%;
         transform-style: preserve-3d;
@@ -163,8 +156,7 @@
     .domain #mimgD {
         height: 100px;
         width: 100px;
-        margin-top: -145px;
-        margin-left: 10px;
+        margin-top: -147px;
         background: rgba(255, 255, 255, 0.15);
         border-radius: 50%;
         transform-style: preserve-3d;
@@ -172,8 +164,6 @@
 
     .domain .mi1 {
         margin-top: -147px;
-        margin-left: 10px;
-        margin-right: 100px;
         background: rgba(255, 255, 255, 0.15);
         border-radius: 50%;
         transform-style: preserve-3d;
@@ -188,8 +178,7 @@
     .domain .mi2 {
         height: 100px;
         width: 100px;
-        margin-top: -150px;
-        margin-left: 10px;
+        margin-top: -147px;
         transform-style: preserve-3d;
         background: rgba(255, 255, 255, 0.15);
         border-radius: 50%;
@@ -197,8 +186,6 @@
 
     .domain .mi4 {
         margin-top: -147px;
-        margin-left: 10px;
-        margin-right: 20px;
         background: rgba(255, 255, 255, 0.15);
         border-radius: 50%;
         transform-style: preserve-3d;
