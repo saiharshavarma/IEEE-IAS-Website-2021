@@ -19060,6 +19060,12 @@ a.pswp__share--download:hover {
 .u-section-row {
   position: relative;
 }
+.u-section-1 .u-sheet-1{
+  min-height: auto;
+}
+.u-section-1 .u-group-1{
+  margin-top: 0px;
+}
 .u-section-row.u-sticky-fixed {
   position: fixed;
   right: 0;
