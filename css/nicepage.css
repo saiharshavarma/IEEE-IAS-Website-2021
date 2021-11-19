@@ -20663,10 +20663,10 @@ a.u-button-style.u-button-style.active > .u-active-color-2-dark-1[class*="u-bord
 li.active > a.u-button-style.u-button-style.u-active-color-2-dark-1,
 li.active > a.u-button-style.u-button-style.u-active-color-2-dark-1[class*="u-border-"] {
   color: #ffffff !important;
-  background-color: #a35559 !important;
+  background-color: white !important;
 }
 a.u-link.u-hover-color-2-dark-1:hover {
-  color: #a35559 !important;
+  color: #0C8A2F !important;
 }
 .u-color-2,
 .u-body.u-color-2,
@@ -20674,12 +20674,12 @@ a.u-link.u-hover-color-2-dark-1:hover {
 .u-container-layout.u-color-2:before,
 .u-table-alt-color-2 tr:nth-child(even) {
   color: #ffffff;
-  background-color: #db545a;
+  background-color: white;
 }
 .u-button-style.u-color-2,
 .u-button-style.u-color-2[class*="u-border-"] {
   color: #ffffff !important;
-  background-color: #db545a !important;
+  background-color: white !important;
 }
 .u-button-style.u-color-2:hover,
 .u-button-style.u-color-2[class*="u-border-"]:hover,
@@ -20718,7 +20718,7 @@ li.active > a.u-button-style.u-button-style.u-active-color-2[class*="u-border-"]
   background-color: #db545a !important;
 }
 a.u-link.u-hover-color-2:hover {
-  color: #db545a !important;
+  color: #0C8A2F !important;
 }
 .u-color-2-light-1,
 .u-body.u-color-2-light-1,
@@ -20926,7 +20926,7 @@ li.active > a.u-button-style.u-button-style.u-active-color-2-base[class*="u-bord
   background-color: #db545a !important;
 }
 a.u-link.u-hover-color-2-base:hover {
-  color: #db545a !important;
+  color: #0C8A2F !important;
 }
 .u-color-3-dark-3,
 .u-body.u-color-3-dark-3,
@@ -25896,7 +25896,7 @@ li.active > a.u-button-style.u-button-style.u-border-active-color-2-dark-1 {
 }
 .u-button-style.u-border-color-2 {
   border-color: #db545a !important;
-  color: #db545a !important;
+  color: white !important;
   background-color: transparent !important;
 }
 .u-button-style.u-border-color-2:hover,
@@ -26036,7 +26036,7 @@ li.active > a.u-button-style.u-button-style.u-border-active-color-2-light-3 {
 }
 .u-button-style.u-border-color-2-base {
   border-color: #db545a !important;
-  color: #db545a !important;
+  color: white !important;
   background-color: transparent !important;
 }
 .u-button-style.u-border-color-2-base:hover,
@@ -26055,7 +26055,7 @@ a.u-button-style.u-button-style.u-border-active-color-2-base:active,
 a.u-button-style.u-button-style.u-border-active-color-2-base.active,
 a.u-button-style.u-button-style.active > .u-border-active-color-2-base,
 li.active > a.u-button-style.u-button-style.u-border-active-color-2-base {
-  color: #db545a !important;
+  color: white !important;
   border-color: #db545a !important;
 }
 .u-link.u-border-color-2-base[class*="u-border-"] {
@@ -27296,7 +27296,7 @@ li.active > a.u-button-style.u-button-style.u-border-active-palette-2-dark-1 {
 }
 .u-button-style.u-border-palette-2 {
   border-color: #db545a !important;
-  color: #db545a !important;
+  color: white !important;
   background-color: transparent !important;
 }
 .u-button-style.u-border-palette-2:hover,
@@ -27315,7 +27315,7 @@ a.u-button-style.u-button-style.u-border-active-palette-2:active,
 a.u-button-style.u-button-style.u-border-active-palette-2.active,
 a.u-button-style.u-button-style.active > .u-border-active-palette-2,
 li.active > a.u-button-style.u-button-style.u-border-active-palette-2 {
-  color: #db545a !important;
+  color: white !important;
   border-color: #db545a !important;
 }
 .u-link.u-border-palette-2[class*="u-border-"] {
@@ -27436,7 +27436,7 @@ li.active > a.u-button-style.u-button-style.u-border-active-palette-2-light-3 {
 }
 .u-button-style.u-border-palette-2-base {
   border-color: #db545a !important;
-  color: #db545a !important;
+  color: white !important;
   background-color: transparent !important;
 }
 .u-button-style.u-border-palette-2-base:hover,
@@ -31897,7 +31897,7 @@ a.u-link.u-text-hover-palette-2-light-3:hover {
 .u-text-palette-2-base,
 a.u-button-style.u-text-palette-2-base,
 a.u-button-style.u-text-palette-2-base[class*="u-border-"] {
-  color: #db545a !important;
+  color: white !important;
 }
 a.u-button-style.u-text-palette-2-base:hover,
 a.u-button-style.u-text-palette-2-base[class*="u-border-"]:hover,
@@ -31907,7 +31907,7 @@ a.u-button-style.u-button-style.u-text-palette-2-base:active,
 a.u-button-style.u-button-style.u-text-palette-2-base[class*="u-border-"]:active,
 a.u-button-style.u-button-style.u-text-palette-2-base.active,
 a.u-button-style.u-button-style.u-text-palette-2-base[class*="u-border-"].active {
-  color: #d63b42 !important;
+  color: #0C8A2F !important;
 }
 a.u-button-style:hover > .u-text-hover-palette-2-base,
 a.u-button-style:hover > .u-text-hover-palette-2-base[class*="u-border-"],
