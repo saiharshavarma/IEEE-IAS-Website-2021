@@ -49,7 +49,9 @@
     color: white;
 }
 
-
+.blogs .image-container img{
+	max-width: 100vw !important;
+}
 
 .blogs .blogpara p {
     margin: 2% 10% 1% 10%;
