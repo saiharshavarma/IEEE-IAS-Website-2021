@@ -220,8 +220,6 @@
 }
 
 @media only screen and (min-width: 0px) and (max-width: 380px) {
-    .blogs .blogheading {
-    }
     .blogs .blogtitle {
         font-size: 34px !important;
     }
@@ -259,8 +257,6 @@
 }
 
 @media only screen and (min-width: 380px) and (max-width: 480px) {
-    .blogs .blogheading {
-    }
     .blogs .blogtitle {
         font-size: 34px !important;
     }

@@ -1,3 +1,7 @@
+.contact{
+  margin-top: 5%;
+} 
+
  .u-section-1 {
  
   background-image: none;
@@ -158,9 +162,9 @@
 }
 
 [type=text], [type=password], [type=date], [type=datetime], [type=datetime-local], [type=month], [type=week], [type=email], [type=number], [type=search], [type=tel], [type=time], [type=url], [type=color], textarea {
-  border:5px 5px 10px #0C8A2F !important;
   background-color: #0E0E0E !important;
   border-radius: 5px;
+  border-bottom: 2px solid #0C8A2F !important;
 }
 
 .u-section-1 .u-list-item-3 {
