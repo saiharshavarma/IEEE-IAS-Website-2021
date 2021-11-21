@@ -3,9 +3,9 @@ var preloadTime;
 preloader();
 
 function preloader() {
-  preloadTime = setTimeout(showPage, 2000);
+    preloadTime = setTimeout(showPage, 2000);
 }
 
 function showPage() {
-  document.getElementById("iaspreloader").style.display = "none";
+    document.getElementById("iaspreloader").style.display = "none";
 }
