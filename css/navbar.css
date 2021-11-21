@@ -150,7 +150,7 @@ h3 {
         position: fixed;
         top: 0;
         right: 3%;
-        margin: 1.5rem 0;
+        margin: 1rem 0;
     }
     .navbar .logo:hover,
     .navbar .nav-links:hover,
@@ -173,7 +173,6 @@ h3 {
         top: 0;
         left: 0;
         width: 100%;
-        box-shadow: 0px 2px 18px rgba(12, 138, 47, 0.97);
         opacity: 0.9;
     }
     .navbar .topnav.responsive a {
@@ -189,5 +188,12 @@ h3 {
     }
     .navbar {
         padding-bottom: 0;
+    }
+    .navbar ul:not(.u-unstyled) {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .navbar ul {
+        padding: 0 !important;
     }
 }

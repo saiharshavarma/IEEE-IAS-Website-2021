@@ -275,9 +275,20 @@
     object-fit: cover;
 }
 
-
 .swiper-pagination-bullet {
-    background: var(--swiper-pagination-bullet-inactive-color,#FFF) !important;
+    background: var(--swiper-pagination-bullet-inactive-color, #fff) !important;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: 0px !important;
+    margin-top: 30px !important;
+}
+
+.swiper-pagination {
+    position: relative !important;
 }
 
 :root {
