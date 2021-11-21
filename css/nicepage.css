@@ -19060,9 +19060,9 @@ a.pswp__share--download:hover {
 .u-section-row {
   position: relative;
 }
-.u-section-1 .u-sheet-1{
+/* .u-section-1 .u-sheet-1{
   min-height: auto;
-}
+} */
 .u-section-1 .u-group-1{
   margin-top: 0px;
 }
@@ -20050,7 +20050,7 @@ h6 {
 }
 .u-body {
   color: #111111;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
 }
 /*end-variables color*/
 /*begin-variables font*/
@@ -34699,6 +34699,10 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-text-1 {
     width: 340px;
+  }
+
+  .u-body{
+    margin: 100px 0 150px;
   }
 }
 
