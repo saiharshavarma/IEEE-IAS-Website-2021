@@ -14,8 +14,9 @@
     display: none;
 }
 
-.board .boardhead {
+.boardhead {
     text-align: center;
+    color: white;
 }
 
 .board p {
@@ -207,6 +208,7 @@
     .mboard {
         display: block;
         transform: scale(0.8);
+        margin-top: -50px;
     }
     .board .container {
         display: flex;
@@ -271,4 +273,13 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+
+.swiper-pagination-bullet {
+    background: var(--swiper-pagination-bullet-inactive-color,#FFF) !important;
+}
+
+:root {
+    --swiper-theme-color: white !important;
 }
