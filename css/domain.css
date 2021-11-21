@@ -1,9 +1,9 @@
 h2 {
-    font-family: 'Mulish' !important;
+    font-family: "Mulish" !important;
 }
 
 .domain {
-    font-family: 'Raleway';
+    font-family: "Raleway";
     text-align: justify;
     width: 100vw;
 }
@@ -16,7 +16,7 @@ h2 {
     margin-left: 0 !important;
     margin-right: 0 !important;
     padding: 0 !important;
-    max-width:100vw !important;
+    max-width: 100vw !important;
 }
 
 .domain .rotate {
@@ -108,31 +108,30 @@ h2 {
     font-style: italic;
 }
 
-.domain .row{
-    max-width:100%;
+.domain .row {
+    max-width: 100%;
     margin: 0 auto;
     text-align: center;
 }
 
-
 @media screen and (max-width: 1000px) {
-    .domain{
-        width:100vw;
+    .domain {
+        width: 100vw;
         position: relative;
         display: block;
     }
 
-    .domain .tech{
-        transform: scale(1);
+    .domain .tech {
+        transform: scale(0.9);
     }
 
-    .domain #text{
+    .domain #text {
         font-size: 18px;
         margin-top: -10px;
         margin-bottom: 30px;
     }
 
-    .domain h2{
+    .domain h2 {
         font-size: 1.75em;
         margin-bottom: 10% !important;
     }
