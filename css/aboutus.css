@@ -18,22 +18,22 @@
     margin-top: 5%;
     font-size: 45px;
     line-height: 53px;
-    font-family: 'Mulish' !important;
+    font-family: "Mulish" !important;
     font-style: normal;
     font-weight: normal;
 }
 
-.aboutus .heading h2{
-    font-family: 'Mulish';
-}
-
-.aboutus #pop{
+.aboutus #pop {
     text-align: justify;
     padding: 0 15%;
 }
 
+.aboutus .container {
+    margin: 0 auto !important;
+}
+
 @media screen and (max-width: 430px) {
-    .aboutus{
+    .aboutus {
         margin-top: 100%;
         height: 110vh;
         position: relative;
@@ -41,20 +41,10 @@
     .aboutus .heading {
         margin-left: 0%;
     }
-    .aboutus h2{
-        text-align: center;
-        font-size: 0.75em;
-    }
     .aboutus .about-us {
         width: 300px;
         margin: 0px auto;
         padding-top: 0px;
-    }
-
-    .aboutus h1 {
-        font-size: 35px;
-        margin-top: 300px;
-        margin-left: 10%;
     }
 
     .aboutus .main4 {
@@ -89,17 +79,13 @@
 }
 
 @media screen and (max-width: 576px) {
-    .aboutus{
+    .aboutus {
         margin-top: 100%;
         height: 110vh;
         position: relative;
     }
     .aboutus .heading {
         margin-left: 0%;
-    }
-    .aboutus h2{
-        text-align: center;
-        font-size: 0.75em;
     }
     .aboutus .main4 {
         font-size: 12px !important;
@@ -114,18 +100,18 @@
 }
 
 @media screen and (max-width: 788px) {
-    .aboutus{
+    .aboutus {
         margin-top: 100%;
         height: 110vh;
         position: relative;
     }
-    .aboutus .about-us{
+    .aboutus .about-us {
         margin-left: 40px;
     }
     .aboutus .heading {
         margin-left: 0%;
     }
-    .aboutus h2{
+    .aboutus h2 {
         text-align: center;
         font-size: 0.75em;
     }
@@ -141,6 +127,10 @@
     #bt3 {
         font-size: 25px !important;
     }
+}
+
+.aboutus h3 {
+    font-family: "Mulish" !important;
 }
 
 .aboutus .btn:hover {
@@ -215,10 +205,9 @@
 }
 
 .aboutus .slogan {
-    
     font-variant-caps: small-caps;
     font-family: Mulish;
-    margin-left:0px !important;
+    margin-left: 0px !important;
     margin-top: 0px !important;
     margin-bottom: 0px;
     color: #0c8a2f !important;
