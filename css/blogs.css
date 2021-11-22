@@ -42,6 +42,7 @@
 
 .blogs .blogpara p {
     margin: 2% auto 1% auto;
+    width: fit-content;
 }
 
 .blogs .blogmain {
