@@ -35,7 +35,7 @@
 @media screen and (max-width: 430px) {
     .aboutus {
         margin-top: 100%;
-        height: 110vh;
+        height: 90vh;
         position: relative;
     }
     .aboutus .heading {
