@@ -12,6 +12,11 @@
     color: white;
 }
 
+.domain .sizze{
+    width:120px;
+    height: 120px;
+}
+
 
 .domain .green-border{
     box-shadow: 0 0 5px 5px  green;
