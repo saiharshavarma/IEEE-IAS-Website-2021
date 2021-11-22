@@ -17,6 +17,10 @@
     color: green;
 }
 
+.domain .character-entity{
+    color: rgb(8, 201, 8);
+}
+
 .domain .close{
     color: green;
 }
@@ -29,7 +33,7 @@
 }
 
 .domain .modal-header{
-    padding-top: rem;
+    padding-bottom: -0.2rem;
 }
 
 
