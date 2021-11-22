@@ -12,6 +12,15 @@
     color: white;
 }
 
+
+.domain .green-border{
+    box-shadow: 0 0 5px 5px  green;
+}
+
+.domain .modal-header{
+    border-bottom: none;
+}
+
 .domain .container {
     margin-left: 0 !important;
     margin-right: 0 !important;
@@ -178,6 +187,8 @@
         padding-right: 20px;
         padding-bottom: 20px;
     }
+
+ 
 
     .domain .mi2 {
         height: 100px;
