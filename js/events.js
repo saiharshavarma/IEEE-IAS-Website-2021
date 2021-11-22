@@ -96,6 +96,11 @@ function prevHandler() {
   rotateDraggable(-360 / $("#wheel li").length, dragActive);
 }
 
+// Auto Rotation at an interval of 3 seconds
+setInterval(function(){ 
+  rotateDraggable(360 / $("#wheel li").length, dragActive);
+}, 3000);
+
 $(".next").on("click", nextHandler);
 $(".prev").on("click", prevHandler);
 
