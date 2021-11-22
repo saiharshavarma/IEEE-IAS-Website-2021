@@ -42,12 +42,14 @@
 
 .blogs .blogpara p {
     margin: 2% 10% 1% 10%;
+    width: fit-content;
 }
 
 .blogs .blogmain {
     margin-bottom: 0%;
     max-height: 470px;
-    transform: scale(0.9);
+    max-width: 85vw;
+    margin: 0 auto !important;
 }
 
 .blogs .holderCircle {

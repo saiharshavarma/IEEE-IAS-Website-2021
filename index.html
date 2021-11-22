@@ -49,6 +49,7 @@
 <!-- Preloader Ending -->
 
 <!-- Navbar -->
+<div class="navbar-container">
 <nav class="navbar" id="Home">
     <a href="#Home" class="logo"><img src="images/navbar/ias.png"></a>
     <ul class="topnav" id="myTopnav">
@@ -76,8 +77,12 @@
     </ul>
     <a href="javascript:void(0);" class="icon" onclick="HamburgerToggle()">
         <i class="fa fa-bars"></i>
-      </a>
+    </a>
 </nav>
+<div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+</div>
+</div>
 <!-- Navbar Ending -->
 
 <!-- Landing Page -->
@@ -212,7 +217,7 @@
                                 <img id="im" class="rotate" src="images/domain/Ellipse 4 (1).png" />
                                 <img class="i2" onmouseover="rotateAnimation('im', 20)" onmouseout="stoprotate()"
                                     src="images/domain/bi_vector-pen.png" alt="" type="button" button type="button"
-                                    class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" />
+                                    class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" />
                                 <h3 id="text">UI/UX</h3>
                             </div>
                         </div>
@@ -221,7 +226,7 @@
                                 <img id="im1" class="rotate" src="images/domain/Ellipse 4 (1).png" />
                                 <img class="i1" onmouseover="rotateAnimation('im1', 20)" onmouseout="stoprotate()"
                                     src="images/domain/Vector (1).png" alt="" type="button" button type="button"
-                                    class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" />
+                                    class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2" />
                                 <h3 id="text">Finance</h3>
                             </div>
                             <div class="tech">
@@ -229,7 +234,7 @@
                                 <img class="img2" onmouseover="rotateAnimation('im2', 20)" onmouseout="stoprotate()"
                                     src="images/domain/pnm1.png" style="padding:0 10px" alt="" type="button" button
                                     type="button" class="btn btn-primary" data-toggle="modal"
-                                    data-target="#exampleModal" />
+                                    data-target="#exampleModal3" />
                                 <h3 id="text">PnM</h3>
                             </div>
                         </div>
@@ -238,14 +243,14 @@
                                 <img id="im3" class="rotate" src="images/domain/Ellipse 4 (1).png" />
                                 <img class="i4" onmouseover="rotateAnimation('im3', 20)" onmouseout="stoprotate()"
                                     src="images/domain/Design (2).png" alt="" type="button" button type="button"
-                                    class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" />
+                                    class="btn btn-primary" data-toggle="modal" data-target="#exampleModal4" />
                                 <h3 id="text">Design</h3>
                             </div>
                             <div class="tech">
                                 <img id="im4" class="rotate" src="images/domain/Ellipse 4 (1).png" />
                                 <img id="imgD" onmouseover="rotateAnimation('im4', 20)" onmouseout="stoprotate()"
-                                    src="images/domain/Group 87.png"  alt="" type="button" button type="button"
-                                    class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" />
+                                    src="images/domain/Group 87.png" alt="" type="button" button type="button"
+                                    class="btn btn-primary" data-toggle="modal" data-target="#exampleModal5" />
                                 <h3 id="text">Editorial</h3>
                             </div>
                         </div>
@@ -254,29 +259,150 @@
             </div>
         </div>
 
-        <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true" >
-    <div class="modal-dialog" role="document">
-        <div class="modal-content" style="margin-top: 50%;width:160%;margin-left:-35%">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">OUR DOMAINS</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <p>IEEE-IAS is a great platform for students to hone their Technical, Leadership skills & gain
-                experience in organizing events and where holistic development takes place. Our chapter work on
-                several important domains.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <!-- Modal 1-->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content green-border" style="width:100%; background-color: black;">
+                    <div class="modal-header ">
+                        <img class="modal-title sizze" id="exampleModalLabel"
+                        style="margin-left: 40%;" src="images/domain/Group 136.svg" alt="#">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white;">
+                            <span class="character-entity" aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                       <div class="center-heading"><h3>TECHNICAL</h3></div> 
+                        <p>IEEE-IAS is a great platform for students to hone their Technical, Leadership skills & gain
+                            experience in organizing events and where holistic development takes place. Our chapter work
+                            on
+                            several important domains.</p>
+                    </div>
+                   
+                </div>
             </div>
         </div>
-    </div>
-</div>
 
+        <!-- Modal 2-->
+        <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content green-border" style="width:100%; background-color: black;">
+                    <div class="modal-header">
+                        <img class="modal-title sizze" id="exampleModalLabel"
+                        style="margin-left: 40%;" src="images/domain/Group 139.svg" alt="#">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white;">
+                            <span class="character-entity" aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="center-heading"><h3>TECHNICAL</h3></div>
+                        <p>IEEE-IAS is a great platform for students to hone their Technical, Leadership skills & gain
+                            experience in organizing events and where holistic development takes place. Our chapter work
+                            on
+                            several important domains.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 3-->
+        <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content green-border" style="width:100%; background-color: black;">
+                    <div class="modal-header">
+                        <img class="modal-title sizze" id="exampleModalLabel"
+                        style="margin-left: 40%;" src="images/domain/Group 138.svg" alt="#">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white;">
+                            <span class="character-entity" aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="center-heading"><h3>TECHNICAL</h3></div>
+                        <p>IEEE-IAS is a great platform for students to hone their Technical, Leadership skills & gain
+                            experience in organizing events and where holistic development takes place. Our chapter work
+                            on
+                            several important domains.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 4 -->
+        <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content green-border" style="width:100%; background-color: black;">
+                    <div class="modal-header">
+                        <img class="modal-title sizze" id="exampleModalLabel"
+                        style="margin-left: 40%;" src="images/domain/Group 140.svg" alt="#">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white;">
+                            <span class="character-entity" aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="center-heading"><h3>TECHNICAL</h3></div>
+                        <p>IEEE-IAS is a great platform for students to hone their Technical, Leadership skills & gain
+                            experience in organizing events and where holistic development takes place. Our chapter work
+                            on
+                            several important domains.</p>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 5 -->
+        <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content green-border" style="width:100%; background-color: black;">
+                    <div class="modal-header">
+                        <img class="modal-title sizze" id="exampleModalLabel"
+                        style="margin-left: 40%;" src="images/domain/Group 141.svg" alt="#">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white;">
+                            <span class="character-entity" aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="center-heading"><h3>TECHNICAL</h3></div>
+                        <p>IEEE-IAS is a great platform for students to hone their Technical, Leadership skills & gain
+                            experience in organizing events and where holistic development takes place. Our chapter work
+                            on
+                            several important domains.</p>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 6 -->
+        <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content green-border" style="width:100%; background-color: black;">
+                    <div class="modal-header">
+                        <img class="modal-title sizze" id="exampleModalLabel"
+                        style="margin-left: 40%;" src="images/domain/Group 142.svg" alt="#">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white;">
+                            <span class="character-entity" aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="center-heading"><h3>TECHNICAL</h3></div>
+                        <p>IEEE-IAS is a great platform for students to hone their Technical, Leadership skills & gain
+                            experience in organizing events and where holistic development takes place. Our chapter work
+                            on
+                            several important domains.</p>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+	    
     <div id="content-mobile">
         <div class="container" >
             <div class="row">
@@ -900,7 +1026,7 @@
           <div class="u-container-layout u-valign-middle-xl u-valign-middle-xs u-container-layout-1">
             <h1 class="u-text u-text-1">Send Us Message</h1>
             <div class="u-align-left u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-form u-form-1">
-              <form action="#" method="POST" class="u-clearfix u-form-spacing-28 u-form-vertical u-inner-form" style="padding: 10px" source="custom" name="form">
+              <form action="send_mail.php" method="POST" class="u-clearfix u-form-spacing-28 u-form-vertical u-inner-form" style="padding: 10px" source="custom" name="form">
                 <div class="row">
                 <div class=" col-lg-6 u-form-group u-form-name u-form-group-1">
                   <label for="name-5a14" class="u-form-control-hidden u-label" wfd-invisible="true">Name</label>
@@ -915,7 +1041,7 @@
                 
                 <div class="col-lg-6 u-form-email u-form-group u-form-group-2">
                   <label for="email-5a14" class="u-form-control-hidden u-label" wfd-invisible="true">Email</label>
-                  <input type="email" placeholder="Mobile Number" id="email-5a14" name="mobile_number" class="u-input u-input-rectangle " required="">
+                  <input type="text" placeholder="Mobile Number" id="email-5a14" name="mobile_number" class="u-input u-input-rectangle " required="">
                 </div>
                 <div class="col-lg-6 u-form-email u-form-group u-form-group-2">
                     <label for="email-5a14" class="u-form-control-hidden u-label" wfd-invisible="true">Email</label>
