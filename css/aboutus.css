@@ -81,7 +81,7 @@
 @media screen and (max-width: 576px) {
     .aboutus {
         margin-top: 100%;
-        height: 110vh;
+        height: 90vh;
         position: relative;
     }
     .aboutus .heading {
@@ -102,7 +102,7 @@
 @media screen and (max-width: 788px) {
     .aboutus {
         margin-top: 100%;
-        height: 110vh;
+        height: 90vh;
         position: relative;
     }
     .aboutus .about-us {
