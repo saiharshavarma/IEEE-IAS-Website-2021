@@ -12,6 +12,46 @@
     color: white;
 }
 
+.domain .center-heading{
+    text-align: center;
+    color: green;
+}
+
+.domain .character-entity{
+    color: rgb(8, 201, 8);
+}
+
+.domain .close{
+    color: green;
+}
+
+.domain .modal-body{
+    padding-top: 0rem;
+    margin-left: 1rem;
+    margin-bottom: 0rem;
+    margin-right: 1rem;
+}
+
+.domain .modal-header{
+    padding-bottom: -0.2rem;
+}
+
+
+.domain .sizze{
+    padding-top: 1rem;
+    width:120px;
+    height: 120px;
+}
+
+
+.domain .green-border{
+    box-shadow: 0 0 5px 5px  green;
+}
+
+.domain .modal-header{
+    border-bottom: none;
+}
+
 .domain .container {
     margin-left: 0 !important;
     margin-right: 0 !important;
@@ -178,6 +218,8 @@
         padding-right: 20px;
         padding-bottom: 20px;
     }
+
+ 
 
     .domain .mi2 {
         height: 100px;
