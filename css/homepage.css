@@ -3,9 +3,9 @@
     font-style: normal;
     font-family: "Mulish", sans-serif;
     margin-left: 2%;
-    margin-top: 9%;
+    margin-top: 8%;
     font-size: 3rem;
-    font-weight: 800; 
+    font-weight: 800;
 }
 
 .home .title .mheading1 {
@@ -482,7 +482,7 @@
 }
 
 @media screen and (max-width: 700px) {
-    .home{
+    .home {
         margin-top: 30%;
     }
     .home .title .mheading {
