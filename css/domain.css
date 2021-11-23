@@ -30,6 +30,16 @@
     overflow-y: hidden;
 }
 
+.domain .modal .icon-container {
+    width: 99%;
+    text-align: center;
+}
+
+.domain .modal-header .close {
+    padding: 0;
+    margin: 0;
+}
+
 .domain .modal-dialog {
     margin-top: 8%;
 }
