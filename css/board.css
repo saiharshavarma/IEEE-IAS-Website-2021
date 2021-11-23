@@ -208,7 +208,6 @@
     .mboard {
         display: block;
         transform: scale(0.8);
-        margin-top: -50px;
     }
     .board .container {
         display: flex;
