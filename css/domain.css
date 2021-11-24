@@ -7,7 +7,7 @@
 }
 
 .domain h3 {
-    font-family: "Mulish";
+    font-family: "Mulish"; 
 }
 
 .domain .row {
@@ -225,6 +225,7 @@
         background: rgba(255, 255, 255, 0.15);
         border-radius: 50%;
         transform-style: preserve-3d;
+        border: 0px;
     }
 
     .domain .mi1 {
