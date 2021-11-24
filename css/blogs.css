@@ -190,7 +190,7 @@
 } */
 
 .blogs .title-box .title {
-    margin-top: 30%;
+    margin-top: 15%;
     text-align: center;
     letter-spacing: 2px;
     position: relative;
@@ -241,7 +241,7 @@
         text-align: center;
     }
     .blogs .title-box .title {
-        margin: 30% auto 50% auto;
+        margin: 15% auto 50% auto;
     }
 }
 
@@ -280,7 +280,7 @@
         font-size: 26px;
     }
     .blogs .title-box .title {
-        margin: 35% auto 50% auto;
+        margin: 15% auto 50% auto;
     }
 }
 @media only screen and (min-width: 480px) and (max-width: 576px) {
@@ -314,7 +314,7 @@
         display: none;
     }
     .blogs .title-box .title {
-        margin: 35% auto 50% auto;
+        margin: 15% auto 50% auto;
     }
 }
 @media only screen and (min-width: 575px) and (max-width: 700px) {
@@ -352,7 +352,7 @@
         font-size: 26px;
     }
     .blogs .title-box .title {
-        margin: 35% auto 50% auto;
+        margin: 15% auto 50% auto;
     }
 }
 @media only screen and (min-width: 700px) and (max-width: 1001px) {
