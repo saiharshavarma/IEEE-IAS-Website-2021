@@ -60,8 +60,7 @@ $(document).ready(function () {
     $(".CirItem" + i).addClass("active");
     $(".ImgItem").removeClass("active");
     $(".ImgItem" + i).addClass("active");
-    
-    console.log(i, dataTab_blogs);i++;
+    i++;
 
     $(".dotCircle").css({
       transform: "rotate(" + (360 - (i - 2) * 60) + "deg)",
@@ -70,7 +69,6 @@ $(document).ready(function () {
     $(".itemDot").css({
       transform: "rotate(" + (i - 2) * 60 + "deg)",
       transition: "1s",
-    });
-    
+    });    
   }, 5000);
 });

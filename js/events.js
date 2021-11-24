@@ -123,8 +123,8 @@ $(".item").click(function () {
 // Auto Rotation at an interval of 3 seconds
 $(document).ready(function () {
   function AutoRotate(){ 
-    rotateDraggable(360 / $("#wheel li").length, dragActive);
-    setTimeout(AutoRotate, 3000);
+    rotateDraggable(-360 / $("#wheel li").length, dragActive);
+    setTimeout(AutoRotate, 5000);
   }
   AutoRotate();
 });
