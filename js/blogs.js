@@ -1,4 +1,5 @@
 let alpha = 2;
+let vertices = 6;
 
 $(document).ready(function () {
     var radius = 200;
@@ -39,11 +40,12 @@ $(document).ready(function () {
         alpha = dataTab;
 
         $(".dotCircle").css({
-            transform: "rotate(" + (360 - (alpha - 1) * 60) + "deg)",
+            transform:
+                "rotate(" + (360 - (alpha - 1) * (360 / vertices)) + "deg)",
             transition: "2s",
         });
         $(".itemDot").css({
-            transform: "rotate(" + (alpha - 1) * 60 + "deg)",
+            transform: "rotate(" + (alpha - 1) * (360 / vertices) + "deg)",
             transition: "1s",
         });
     });
@@ -63,11 +65,12 @@ $(document).ready(function () {
         alpha++;
 
         $(".dotCircle").css({
-            transform: "rotate(" + (360 - (alpha - 2) * 60) + "deg)",
+            transform:
+                "rotate(" + (360 - (alpha - 2) * (360 / vertices)) + "deg)",
             transition: "2s",
         });
         $(".itemDot").css({
-            transform: "rotate(" + (alpha - 2) * 60 + "deg)",
+            transform: "rotate(" + (alpha - 2) * (360 / vertices) + "deg)",
             transition: "1s",
         });
     }, 5000);
