@@ -7,6 +7,7 @@
     width: 100vw;
     align-items: flex-start;
     margin-top: 0%;
+    background-position-y: 150px;
 }
 
 .events .description {
@@ -127,6 +128,7 @@ h6 {
     top: -500px;
     left: 73%;
     transform: scale(0.37) translateY(-100px);
+    padding: 0;
 }
 
 .events .featured-slider li {
