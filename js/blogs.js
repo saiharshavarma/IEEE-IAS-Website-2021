@@ -1,4 +1,4 @@
-let = 2;
+let alpha = 2;
 
 $(document).ready(function () {
     var radius = 200;
