@@ -351,6 +351,7 @@ textarea {
         padding-top: 65px;
         padding-left: 10px;
         padding-right: 10px;
+        box-shadow: none;
     }
 
     .u-section-1 .u-text-1 {
@@ -360,7 +361,7 @@ textarea {
 
     .u-section-1 .u-list-1 {
         width: 260px;
-        margin: -1785px auto -338px;
+        margin: -1820px auto -338px;
     }
 
     .u-section-1 .u-repeater-1 {
