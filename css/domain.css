@@ -2,12 +2,12 @@
     font-family: "Raleway";
     text-align: justify;
     width: 100vw;
-    background-image: url('../images/domain/Back_img.jpg');
+    background-image: url("../images/domain/Back_img.jpg");
     background-size: contain;
 }
 
 .domain h3 {
-    font-family: "Mulish"; 
+    font-family: "Mulish";
 }
 
 .domain .row {
@@ -96,6 +96,7 @@
 .domain #im4 {
     height: 200px;
     width: 200px;
+    border: 0px;
 }
 
 .domain .img2,
@@ -106,7 +107,7 @@
     transform-style: preserve-3d;
     height: 170px;
     width: 170px;
-    border: black;
+    border: 0px black;
 }
 
 .domain .i1 {
@@ -120,6 +121,7 @@
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
+    border: 0px;
 }
 
 .domain .i2 {
@@ -129,6 +131,7 @@
     background: rgba(255, 255, 255, 0.15);
     border-radius: 50%;
     transform-style: preserve-3d;
+    border: 0px;
 }
 
 .domain .i4 {
@@ -139,6 +142,7 @@
     height: 170px;
     width: 170px;
     padding-bottom: 20px;
+    border: 0px;
 }
 
 .domain .img2 {
@@ -178,7 +182,7 @@
         width: 100vw;
         position: relative;
         display: block;
-        background-image: url('../images/domain/backgr.jpg');
+        background-image: url("../images/domain/backgr.jpg");
         background-size: contain;
     }
 
@@ -209,6 +213,7 @@
     .domain #mim4 {
         height: 120px;
         width: 120px;
+        border: 0px;
     }
 
     .domain .mimg2 {
@@ -216,6 +221,7 @@
         background: rgba(255, 255, 255, 0.15);
         border-radius: 50%;
         transform-style: preserve-3d;
+        border: 0px;
     }
 
     .domain #mimgD {
@@ -239,6 +245,7 @@
         padding-top: 20px;
         padding-right: 20px;
         padding-bottom: 20px;
+        border: 0px;
     }
 
     .domain .mi2 {
@@ -248,6 +255,7 @@
         transform-style: preserve-3d;
         background: rgba(255, 255, 255, 0.15);
         border-radius: 50%;
+        border: 0px;
     }
 
     .domain .mi4 {
@@ -258,6 +266,7 @@
         height: 100px;
         width: 100px;
         padding-bottom: 20px;
+        border: 0px;
     }
 
     .domain .mimg2 {

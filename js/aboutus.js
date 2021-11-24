@@ -32,10 +32,10 @@ if (screen.width > 430) {
 }
 console.log(screen.width);
 
-function ColorChange(element){
-    document.getElementById("bt1").style.color= "#FFF";
-    document.getElementById("bt2").style.color= "#FFF";
-    document.getElementById("bt3").style.color= "#FFF";
+function ColorChange(element) {
+    document.getElementById("bt1").style.color = "#FFF";
+    document.getElementById("bt2").style.color = "#FFF";
+    document.getElementById("bt3").style.color = "#FFF";
 
-    element.style.color= "#0c8a2f";
+    element.style.color = "#0c8a2f";
 }

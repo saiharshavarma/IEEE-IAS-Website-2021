@@ -33,7 +33,7 @@
 .footer .copyright .copy-menu a {
     margin-right: 15px;
     padding-right: 15px;
-    border-right: 1px solid rgba(255, 255, 255, .3);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
     color: #999999;
     font-size: 16px;
     font-weight: 400;
@@ -54,9 +54,8 @@
     .footer .copyright .copy-menu {
         text-align: center;
     }
-    
+
     .footer .copyright .copy-text p {
         margin-bottom: 5px;
     }
-    
 }
