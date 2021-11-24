@@ -2,6 +2,8 @@
     font-family: "Raleway";
     text-align: justify;
     width: 100vw;
+    background-image: url('../images/domain/Back_img.jpg');
+    background-size: contain;
 }
 
 .domain h3 {
