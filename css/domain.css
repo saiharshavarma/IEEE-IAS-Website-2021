@@ -178,6 +178,8 @@
         width: 100vw;
         position: relative;
         display: block;
+        background-image: url('../images/domain/backgr.jpg');
+        background-size: contain;
     }
 
     .domain .tech {
