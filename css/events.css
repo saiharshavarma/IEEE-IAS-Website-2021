@@ -7,7 +7,6 @@
     width: 100vw;
     align-items: flex-start;
     margin-top: 0%;
-    background-position-y: 150px;
 }
 
 .events .description {
@@ -387,6 +386,7 @@ h6 {
     .events {
         margin-top: 8%;
         flex-direction: column;
+        background-position-y: 150px;
     }
     .events .events-spinner {
         width: 100%;

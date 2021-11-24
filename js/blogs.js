@@ -1,4 +1,4 @@
-let i = 2;
+let i = 1;
 
 $(document).ready(function () {
   var radius = 200;
@@ -29,14 +29,14 @@ $(document).ready(function () {
   });
 
   $(".itemDot").click(function () {
-    var dataTab = $(this).data("tab");
+    var dataTab_blogs = $(this).data("tab");
     $(".itemDot").removeClass("active");
     $(this).addClass("active");
     $(".CirItem").removeClass("active");
-    $(".CirItem" + dataTab).addClass("active");
+    $(".CirItem" + dataTab_blogs).addClass("active");
     $(".ImgItem").removeClass("active");
-    $(".ImgItem" + dataTab).addClass("active");
-    i = dataTab;
+    $(".ImgItem" + dataTab_blogs).addClass("active");
+    i = dataTab_blogs;
 
     $(".dotCircle").css({
       transform: "rotate(" + (360 - (i - 1) * 60) + "deg)",
@@ -49,9 +49,9 @@ $(document).ready(function () {
   });
 
   setInterval(function () {
-    var dataTab = $(".itemDot.active").data("tab");
-    if (dataTab > 6 || i > 6) {
-      dataTab = 1;
+    var dataTab_blogs = $(".itemDot.active").data("tab");
+    if (dataTab_blogs > 6 || i > 6) {
+      dataTab_blogs = 1;
       i = 1;
     }
     $(".itemDot").removeClass("active");
@@ -60,7 +60,8 @@ $(document).ready(function () {
     $(".CirItem" + i).addClass("active");
     $(".ImgItem").removeClass("active");
     $(".ImgItem" + i).addClass("active");
-    i++;
+    
+    console.log(i, dataTab_blogs);i++;
 
     $(".dotCircle").css({
       transform: "rotate(" + (360 - (i - 2) * 60) + "deg)",
@@ -70,5 +71,6 @@ $(document).ready(function () {
       transform: "rotate(" + (i - 2) * 60 + "deg)",
       transition: "1s",
     });
+    
   }, 5000);
 });
