@@ -46,10 +46,10 @@ function dragActive() {
 
     $("#wheel li.active").removeClass("active");
     $($("#wheel li")[index]).addClass("active");
-    var dataTab = index + 1;
+    var eventdataTab = index + 1;
     $(".details").removeClass("active");
-    $(".ImgItem" + dataTab).addClass("active");
-    i = dataTab;
+    $(".eImgItem" + eventdataTab).addClass("active");
+    i = eventdataTab;
 
     TweenMax.staggerTo(
         "#wheel li.active .details > *",
@@ -99,7 +99,7 @@ function prevHandler() {
 // Auto Rotation at an interval of 3 seconds
 setInterval(function () {
     rotateDraggable(360 / $("#wheel li").length, dragActive);
-}, 3000);
+}, 5000);
 
 $(".next").on("click", nextHandler);
 $(".prev").on("click", prevHandler);
@@ -108,19 +108,19 @@ var square =
     '<svg x="0px" y="0px" width="1200px" height="600px" viewBox="0 0 1200 600"><rect x="0.002" y="0.499" width="1200" height="600"/></svg>';
 
 $(".item").click(function () {
-    var dataTab = $(this).data("tab");
-    if (i == 4 && dataTab == 1) {
+    var eventdataTab = $(this).data("tab");
+    if (i == 4 && eventdataTab == 1) {
         prevHandler();
-    } else if (i == 1 && dataTab == 4) {
+    } else if (i == 1 && eventdataTab == 4) {
         nextHandler();
-    } else if (i < dataTab) {
+    } else if (i < eventdataTab) {
         prevHandler();
-    } else if (i > dataTab) {
+    } else if (i > eventdataTab) {
         nextHandler();
     }
     $(".item").removeClass("active");
     $(this).addClass("active");
     $(".details").removeClass("active");
-    $(".ImgItem" + dataTab).addClass("active");
-    i = dataTab;
+    $(".eImgItem" + eventdataTab).addClass("active");
+    i = eventdataTab;
 });
