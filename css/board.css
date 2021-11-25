@@ -1,6 +1,10 @@
 .carousel {
     display: block;
-    height: auto;
+    height: 130vh;
+}
+
+.carousel-inner{
+    height: 100%;
 }
 
 .board {
@@ -32,9 +36,9 @@
 
 .board .container .card {
     width: 200px;
-    height: 300px;
-    margin: 20px 20px 0px 20px;
-    box-shadow: 0px 4px 50px 0px #00000040;
+    height: 280px;
+    margin: 20px 20px 20px 20px;
+    box-shadow: 0px 4px 20px 30px #00000040;
     display: flex;
     justify-content: center;
     align-items: center;
