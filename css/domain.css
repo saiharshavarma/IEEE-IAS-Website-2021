@@ -2,11 +2,11 @@
     font-family: "Raleway";
     text-align: justify;
     width: 100vw;
-    background-image: url("../images/domain/Back_img.jpg");
+    background-image: url("../images/domain/Frame.jpg");
     background-size: contain;
 }
 
-.domain h3 {
+.domain h3 { 
     font-family: "Mulish";
 }
 
