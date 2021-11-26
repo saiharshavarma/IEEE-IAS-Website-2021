@@ -1,5 +1,11 @@
 .u-section-1 {
     background-image: none;
+    font-family: "Raleway", sans-serif;
+}
+
+.u-section-1 .u-text-1, .u-section-1 .u-text-4, .u-section-1 .u-text-2, .u-section-1 .u-text-8{
+    font-family: "Mulish", sans-serif;
+
 }
 
 .u-body {
@@ -189,6 +195,7 @@ textarea {
     background-color: #0e0e0e !important;
     border-radius: 5px;
     border-bottom: 2px solid #0c8a2f !important;
+    font-family: "Raleway", sans-serif;
 }
 
 .u-section-1 .u-list-item-3 {
