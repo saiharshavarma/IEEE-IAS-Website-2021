@@ -10,9 +10,9 @@
 }
 
 .events .description {
-    padding-left: 5%;
-    padding-right: 5%;
-    width: 50vw;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 60vw;
 }
 
 .events .title h1 {
@@ -24,11 +24,14 @@
 
 .events .info {
     color: white;
-    font-family: "Raleway";
-    width: 40vw;
-    font-size: 26px;
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    font-size: 24px !important;
     margin-top: 8%;
     text-align: justify !important;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
 }
 
 .events .events-spinner {
@@ -381,7 +384,7 @@ h6 {
     }
     .events .info {
         margin: 0%;
-        font-size: 14px;
+        font-size: 14px !important;
         width: 90vw;
         text-align: center;
     }

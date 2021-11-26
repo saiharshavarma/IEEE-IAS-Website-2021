@@ -4,10 +4,14 @@
     width: 100vw;
 }
 
+.gallery{
+    display: none;
+}
+
 .aboutus .about-us {
     text-align: center;
     padding: 0 0 0 0;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: normal;
 }
@@ -25,7 +29,11 @@
 
 .aboutus #pop {
     text-align: justify;
-    padding: 0 15%;
+    padding: 0 6%;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Raleway", sans-serif;
 }
 
 .aboutus .container {
@@ -126,6 +134,20 @@
     #bt2,
     #bt3 {
         font-size: 25px !important;
+    }
+}
+
+@media screen and (min-width: 788px) {
+    .aboutus-gallery{
+        display: flex;
+    }
+    .aboutus{
+        width: 70vw;
+    }    
+    .gallery{
+        display: block;
+        height: 100vh;
+        width: 30vw;
     }
 }
 

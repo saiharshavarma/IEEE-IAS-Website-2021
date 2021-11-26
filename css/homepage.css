@@ -1,3 +1,7 @@
+.home{
+    margin-top: 12%;
+}
+
 .home .title .mheading {
     color: #fffdfd;
     font-style: normal;
@@ -536,53 +540,4 @@ html::-webkit-scrollbar,
 html::-webkit-scrollbar-track,
 html::-webkit-scrollbar-thumb {
     display: none;
-}
-
-/***** Scroll Indicator *****/
-
-.vertical-progress-bar {
-    position: fixed;
-    top: 54%;
-    right: -7px;
-    transform: translateY(-50%);
-}
-
-.vertical-progress-bar ul {
-    list-style: none;
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    flex-flow: column;
-    position: relative;
-}
-
-.vertical-progress-bar ul li {
-    z-index: 1000;
-}
-
-.vertical-progress-bar ul li a {
-    display: block;
-    text-decoration: none;
-    height: 15px;
-    width: 15px;
-    background: white;
-    color: white;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
-    font-weight: bolder;
-    cursor: pointer;
-    box-shadow: 1px 1px 10px #0c8a2f;
-}
-
-ul .line {
-    position: absolute;
-    top: 0;
-    left: 25px;
-    height: 0px;
-    width: 6px;
-    background: white;
-    border-radius: 50px;
-    box-shadow: 1px 1px 10px white;
-    transition: all 0.2s ease-out;
 }
