@@ -1,4 +1,4 @@
-i = 1;
+j = 1;
 
 var wheel = Draggable.create("#wheel", {
     type: "rotation",
@@ -96,7 +96,7 @@ function prevHandler() {
     rotateDraggable(-360 / $("#wheel li").length, dragActive);
 }
 
-// Auto Rotation at an interval of 3 seconds
+// Auto Rotation at an interval of 5 seconds
 setInterval(function () {
     rotateDraggable(360 / $("#wheel li").length, dragActive);
 }, 5000);

@@ -30,7 +30,6 @@ if (screen.width > 430) {
     document.getElementById("bt2").remove();
     document.getElementById("bt3").remove();
 }
-console.log(screen.width);
 
 function ColorChange(element) {
     document.getElementById("bt1").style.color = "#FFF";
