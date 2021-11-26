@@ -533,11 +533,3 @@
         transform: rotate(-10deg);
     }
 }
-
-/***** Default ScrollBar Removed *****/
-
-html::-webkit-scrollbar,
-html::-webkit-scrollbar-track,
-html::-webkit-scrollbar-thumb {
-    display: none;
-}

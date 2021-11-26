@@ -8,6 +8,22 @@
     display: none;
 }
 
+.gallery .gcarousel{
+    left: -10px;
+    top: 150px;    
+}
+
+.gallery .carousel-item{
+    padding-right: 5%;
+    height: 345px;
+}
+
+.gallery img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
 .aboutus .about-us {
     text-align: center;
     padding: 0 0 0 0;
@@ -29,8 +45,8 @@
 
 .aboutus #pop {
     text-align: justify;
-    padding: 0 6%;
-    font-size: 24px;
+    padding: 0 6% 0 4.5%;
+    font-size: 22px;
     font-weight: 400;
     font-style: normal;
     font-family: "Raleway", sans-serif;
@@ -142,12 +158,12 @@
         display: flex;
     }
     .aboutus{
-        width: 70vw;
+        width: 60vw;
     }    
     .gallery{
         display: block;
         height: 100vh;
-        width: 30vw;
+        width: 40vw;
     }
 }
 

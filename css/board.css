@@ -1,9 +1,9 @@
-.carousel {
+.dboard {
     display: block;
     height: 130vh;
 }
 
-.carousel-inner{
+.dcarousel-inner{
     height: 100%;
 }
 
@@ -241,7 +241,7 @@
     .board .container777 h1 {
         writing-mode: vertical-lr;
     }
-    .carousel .carousel-inner {
+    .dboard .dcarousel-inner {
         overflow-y: visible !important;
     }
 }

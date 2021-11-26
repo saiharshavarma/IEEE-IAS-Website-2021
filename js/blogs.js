@@ -52,7 +52,7 @@ $(document).ready(function () {
 
     setInterval(function () {
         var dataTab = $(".itemDot.active").data("tab");
-        if (dataTab > 6 || alpha > 6) {
+        if (dataTab > vertices || alpha > vertices) {
             dataTab = 1;
             alpha = 1;
         }
