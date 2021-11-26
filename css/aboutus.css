@@ -4,26 +4,6 @@
     width: 100vw;
 }
 
-.gallery{
-    display: none;
-}
-
-.gallery .gcarousel{
-    left: -10px;
-    top: 150px;    
-}
-
-.gallery .carousel-item{
-    padding-right: 5%;
-    height: 345px;
-}
-
-.gallery img{
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-}
-
 .aboutus .about-us {
     text-align: center;
     padding: 0 0 0 0;
@@ -150,20 +130,6 @@
     #bt2,
     #bt3 {
         font-size: 25px !important;
-    }
-}
-
-@media screen and (min-width: 788px) {
-    .aboutus-gallery{
-        display: flex;
-    }
-    .aboutus{
-        width: 60vw;
-    }    
-    .gallery{
-        display: block;
-        height: 100vh;
-        width: 40vw;
     }
 }
 

@@ -16,7 +16,7 @@
 
 .domain .center-heading {
     text-align: center;
-    color: green;
+    color: #0C8A2F;
 }
 
 .domain .character-entity {
@@ -24,7 +24,7 @@
 }
 
 .domain .close {
-    color: green;
+    color: #0C8A2F;
 }
 
 .domain .modal {
@@ -63,12 +63,13 @@
     height: 120px;
 }
 
-.domain .green-border {
-    box-shadow: 0 0 30px 5px rgba(12, 138, 47);
-}
-
 .domain .modal-header {
     border-bottom: none;
+}
+
+.domain .modal-content{
+    background-color: #0E0E0E;
+    border: solid 1px #0C8A2F;
 }
 
 .domain .container {
