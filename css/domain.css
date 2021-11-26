@@ -2,9 +2,11 @@
     font-family: "Raleway";
     text-align: justify;
     width: 100vw;
+    background-image: url("../images/domain/Frame.jpg");
+    background-size: contain;
 }
 
-.domain h3 {
+.domain h3 { 
     font-family: "Mulish";
 }
 
@@ -86,6 +88,11 @@
     padding-left: 10%;
 }
 
+.domain .btn-primary:not(:disabled):not(.disabled):active{
+    background-color: rgba(255, 255, 255, 0.15) !important;
+    border-color: rgba(255, 255, 255, 0.15) !important;
+}
+
 .domain #img1,
 .domain #im,
 .domain #im1,
@@ -94,6 +101,7 @@
 .domain #im4 {
     height: 200px;
     width: 200px;
+    border: 0px;
 }
 
 .domain .img2,
@@ -104,7 +112,7 @@
     transform-style: preserve-3d;
     height: 170px;
     width: 170px;
-    border: black;
+    border: 0px black;
 }
 
 .domain .i1 {
@@ -118,6 +126,7 @@
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
+    border: 0px;
 }
 
 .domain .i2 {
@@ -127,6 +136,7 @@
     background: rgba(255, 255, 255, 0.15);
     border-radius: 50%;
     transform-style: preserve-3d;
+    border: 0px;
 }
 
 .domain .i4 {
@@ -137,6 +147,7 @@
     height: 170px;
     width: 170px;
     padding-bottom: 20px;
+    border: 0px;
 }
 
 .domain .img2 {
@@ -176,6 +187,8 @@
         width: 100vw;
         position: relative;
         display: block;
+        background-image: url("../images/domain/backgr.jpg");
+        background-size: contain;
     }
 
     .domain .tech {
@@ -205,13 +218,17 @@
     .domain #mim4 {
         height: 120px;
         width: 120px;
+        border: 0px;
     }
 
     .domain .mimg2 {
+        height: 100px;
+        width: 100px;
         margin-top: -147px;
         background: rgba(255, 255, 255, 0.15);
         border-radius: 50%;
         transform-style: preserve-3d;
+        border: 0px;
     }
 
     .domain #mimgD {
@@ -221,43 +238,37 @@
         background: rgba(255, 255, 255, 0.15);
         border-radius: 50%;
         transform-style: preserve-3d;
+        border: 0px;
     }
 
     .domain .mi1 {
+        height: 100px;
+        width: 100px;
         margin-top: -147px;
         background: rgba(255, 255, 255, 0.15);
         border-radius: 50%;
         transform-style: preserve-3d;
-        height: 100px;
-        width: 100px;
-        padding-left: 30px;
-        padding-top: 20px;
-        padding-right: 20px;
-        padding-bottom: 20px;
+        border: 0px;
     }
 
     .domain .mi2 {
         height: 100px;
         width: 100px;
         margin-top: -147px;
-        transform-style: preserve-3d;
         background: rgba(255, 255, 255, 0.15);
         border-radius: 50%;
+        transform-style: preserve-3d;
+        border: 0px;
     }
 
     .domain .mi4 {
+        height: 100px;
+        width: 100px;
         margin-top: -147px;
         background: rgba(255, 255, 255, 0.15);
         border-radius: 50%;
         transform-style: preserve-3d;
-        height: 100px;
-        width: 100px;
-        padding-bottom: 20px;
-    }
-
-    .domain .mimg2 {
-        width: 100px;
-        height: 100px;
+        border: 0px;
     }
 
     .domain #mimgD {

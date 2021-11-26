@@ -534,20 +534,20 @@
 
 html::-webkit-scrollbar,
 html::-webkit-scrollbar-track,
-html::-webkit-scrollbar-thumb{
+html::-webkit-scrollbar-thumb {
     display: none;
 }
 
 /***** Scroll Indicator *****/
 
-.vertical-progress-bar{
+.vertical-progress-bar {
     position: fixed;
     top: 54%;
     right: -7px;
     transform: translateY(-50%);
 }
 
-.vertical-progress-bar ul{
+.vertical-progress-bar ul {
     list-style: none;
     height: 60vh;
     display: flex;
@@ -556,16 +556,16 @@ html::-webkit-scrollbar-thumb{
     position: relative;
 }
 
-.vertical-progress-bar ul li{
+.vertical-progress-bar ul li {
     z-index: 1000;
 }
 
-.vertical-progress-bar ul li a{
+.vertical-progress-bar ul li a {
     display: block;
     text-decoration: none;
-    height: 15px;   
-    width: 15px;    
-    background: #0c8a2f;
+    height: 15px;
+    width: 15px;
+    background: white;
     color: white;
     border-radius: 50%;
     text-align: center;
@@ -575,15 +575,14 @@ html::-webkit-scrollbar-thumb{
     box-shadow: 1px 1px 10px #0c8a2f;
 }
 
-ul .line{
+ul .line {
     position: absolute;
     top: 0;
     left: 25px;
     height: 0px;
     width: 6px;
-    background: #0c8a2f;
+    background: white;
     border-radius: 50px;
-    box-shadow: 1px 1px 10px #0c8a2f;
-    transition: all .2s ease-out;
+    box-shadow: 1px 1px 10px white;
+    transition: all 0.2s ease-out;
 }
-
