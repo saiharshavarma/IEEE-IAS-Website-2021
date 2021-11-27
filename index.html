@@ -215,14 +215,14 @@
                                 <img
                                     onmouseover="rotateAnimation('img1', 20)"
                                     onmouseout="stoprotate()"   
-                                    onclick= "StopScroll()"                                 
+                                    onclick= "store_n(1); checkForChanges()"                                 
                                     src="images/domain/technical.png"
                                     alt=""
                                     type="button"
                                     button
                                     class="btn btn-primary img2"
                                     data-toggle="modal"
-                                    data-target="#exampleModal"
+                                    data-target="#exampleModal1"
                                 />
                                 <h3 id="text">Technical</h3>
                             </div>
@@ -231,14 +231,14 @@
                                 <img
                                     onmouseover="rotateAnimation('im', 20)"
                                     onmouseout="stoprotate()"
-                                    onclick= "StopScroll()"
+                                    onclick= "store_n(2); checkForChanges()"
                                     src="images/domain/uiux.png"
                                     alt=""
                                     type="button"
                                     button
                                     class="btn btn-primary i2"
                                     data-toggle="modal"
-                                    data-target="#exampleModal1"
+                                    data-target="#exampleModal2"
                                 />
                                 <h3 id="text">UI/UX</h3>
                             </div>
@@ -249,14 +249,14 @@
                                 <img
                                     onmouseover="rotateAnimation('im1', 20)"
                                     onmouseout="stoprotate()"
-                                    onclick= "StopScroll()"
+                                    onclick= "store_n(3); checkForChanges()"
                                     src="images/domain/finance.png"
                                     alt=""
                                     type="button"
                                     button
                                     class="btn btn-primary i1"
                                     data-toggle="modal"
-                                    data-target="#exampleModal2"
+                                    data-target="#exampleModal3"
                                 />
                                 <h3 id="text">Finance</h3>
                             </div>
@@ -265,7 +265,7 @@
                                 <img
                                     onmouseover="rotateAnimation('im2', 20)"
                                     onmouseout="stoprotate()"
-                                    onclick= "StopScroll()"
+                                    onclick= "store_n(4); checkForChanges()"
                                     src="images/domain/pnm.png"
                                     style="padding: 0 10px;"
                                     alt=""
@@ -273,7 +273,7 @@
                                     button
                                     class="btn btn-primary img2"
                                     data-toggle="modal"
-                                    data-target="#exampleModal3"
+                                    data-target="#exampleModal4"
                                 />
                                 <h3 id="text">PnM</h3>
                             </div>
@@ -284,14 +284,14 @@
                                 <img
                                     onmouseover="rotateAnimation('im3', 20)"
                                     onmouseout="stoprotate()"
-                                    onclick= "StopScroll()"
+                                    onclick= "store_n(5); checkForChanges()"
                                     src="images/domain/design.png"
                                     alt=""
                                     type="button"
                                     button
                                     class="btn btn-primary i4"
                                     data-toggle="modal"
-                                    data-target="#exampleModal4"
+                                    data-target="#exampleModal5"
                                 />
                                 <h3 id="text">Design</h3>
                             </div>
@@ -301,14 +301,14 @@
                                     id="imgD"
                                     onmouseover="rotateAnimation('im4', 20)"
                                     onmouseout="stoprotate()"
-                                    onclick= "StopScroll()"
+                                    onclick= "store_n(6); checkForChanges()"
                                     src="images/domain/editorial.png"
                                     alt=""
                                     type="button"
                                     button
                                     class="btn btn-primary"
                                     data-toggle="modal"
-                                    data-target="#exampleModal5"
+                                    data-target="#exampleModal6"
                                 />
                                 <h3 id="text">Editorial</h3>
                             </div>
@@ -318,9 +318,9 @@
             </div>
         </div>
         <!-- Modal 1-->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" onclick= "RestoreScroll()">
+        <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
-                <div class="modal-content green-border" style="width: 100%;">
+                <div class="modal-content green-border" id="mc-1" style="width: 100%;">
                     <div class="modal-header">
                         <div class="icon-container"><img class="modal-title sizze" id="exampleModalLabel" src="images/domain/Group 136.svg" alt="#" /></div>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white;" onclick= "RestoreScroll()"><span class="character-entity" aria-hidden="true">&times;</span></button>
@@ -338,12 +338,12 @@
             </div>
         </div>
         <!-- Modal 2-->
-        <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" onclick= "RestoreScroll()">
+        <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
-                <div class="modal-content green-border" style="width: 100%;">
+                <div class="modal-content green-border" id="mc-2" style="width: 100%;">
                     <div class="modal-header">
                         <div class="icon-container"><img class="modal-title sizze" id="exampleModalLabel" src="images/domain/Group 139.svg" alt="#" /></div>
-                        <button onclick= "RestoreScroll()" type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white;" onclick= "RestoreScroll()"><span class="character-entity" aria-hidden="true">&times;</span></button>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white;" onclick= "RestoreScroll()"><span class="character-entity" aria-hidden="true">&times;</span></button>
                     </div>
                     <div class="modal-body">
                         <div class="center-heading">
@@ -355,9 +355,9 @@
             </div>
         </div>
         <!-- Modal 3-->
-        <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" onclick= "RestoreScroll()">
+        <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
-                <div class="modal-content green-border" style="width: 100%;">
+                <div class="modal-content green-border" id="mc-3" style="width: 100%;">
                     <div class="modal-header">
                         <div class="icon-container"><img class="modal-title sizze" id="exampleModalLabel" src="images/domain/Group 138.svg" alt="#" /></div>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white;" onclick= "RestoreScroll()"><span class="character-entity" aria-hidden="true">&times;</span></button>
@@ -372,9 +372,9 @@
             </div>
         </div>
         <!-- Modal 4 -->
-        <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" onclick= "RestoreScroll()">
+        <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
-                <div class="modal-content green-border" style="width: 100%;">
+                <div class="modal-content green-border" id="mc-4" style="width: 100%;">
                     <div class="modal-header">
                         <div class="icon-container"><img class="modal-title sizze" id="exampleModalLabel" src="images/domain/Group 140.svg" alt="#" /></div>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white;" onclick= "RestoreScroll()"><span class="character-entity" aria-hidden="true">&times;</span></button>
@@ -391,9 +391,9 @@
             </div>
         </div>
         <!-- Modal 5 -->
-        <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" onclick= "RestoreScroll()">
+        <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
-                <div class="modal-content green-border" style="width: 100%;">
+                <div class="modal-content green-border" id="mc-5" style="width: 100%;">
                     <div class="modal-header">
                         <div class="icon-container"><img class="modal-title sizze" id="exampleModalLabel" src="images/domain/Group 141.svg" alt="#" /></div>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white;" onclick= "RestoreScroll()"><span class="character-entity" aria-hidden="true">&times;</span></button>
@@ -408,9 +408,9 @@
             </div>
         </div>
         <!-- Modal 6 -->
-        <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" onclick= "RestoreScroll()">
+        <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
-                <div class="modal-content green-border" style="width: 100%;">
+                <div class="modal-content green-border" id="mc-6" style="width: 100%;">
                     <div class="modal-header">
                         <div class="icon-container"><img class="modal-title sizze" id="exampleModalLabel" src="images/domain/Group 142.svg" alt="#" /></div>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white;" onclick= "RestoreScroll()"><span class="character-entity" aria-hidden="true">&times;</span></button>
@@ -433,7 +433,7 @@
                     <div class="tech col-6 col-md-4">
                         <img id="mimg1" class="rotate" src="images/domain/Ellipse 4 (1).png" />
                         <img
-                            onclick="rotateAnimation('mimg1', 20); StopScroll()"
+                            onclick="rotateAnimation('mimg1', 20); store_n(1); checkForChanges()"
                             onmouseout="stoprotate()"
                             src="images/domain/technical.png"
                             alt=""
@@ -441,14 +441,14 @@
                             button
                             class="btn btn-primary mimg2"
                             data-toggle="modal"
-                            data-target="#exampleModal"
+                            data-target="#exampleModal1"
                         />
                         <h3 id="text">Technical</h3>
                     </div>
                     <div class="tech col-6 col-md-4">
                         <img id="mim" class="rotate" src="images/domain/Ellipse 4 (1).png" />
                         <img
-                            onclick="rotateAnimation('mim', 20); StopScroll()"
+                            onclick="rotateAnimation('mim', 20); store_n(2); checkForChanges()"
                             onmouseout="stoprotate()"
                             src="images/domain/uiux.png"
                             alt=""
@@ -456,14 +456,14 @@
                             button
                             class="btn btn-primary mi2"
                             data-toggle="modal"
-                            data-target="#exampleModal1"
+                            data-target="#exampleModal2"
                         />
                         <h3 id="text">UI/UX</h3>
                     </div>
                     <div class="tech col-6 col-md-4">
                         <img id="mim1" class="rotate" src="images/domain/Ellipse 4 (1).png" />
                         <img
-                            onclick="rotateAnimation('mim1', 20); StopScroll()"
+                            onclick="rotateAnimation('mim1', 20); store_n(3); checkForChanges()"
                             onmouseout="stoprotate()"
                             src="images/domain/finance.png"
                             alt=""
@@ -471,14 +471,14 @@
                             button
                             class="btn btn-primary mi1"
                             data-toggle="modal"
-                            data-target="#exampleModal2"
+                            data-target="#exampleModal3"
                         />
                         <h3 id="text">Finance</h3>
                     </div>
                     <div class="tech col-6 col-md-4">
                         <img id="mim2" class="rotate" src="images/domain/Ellipse 4 (1).png" />
                         <img
-                            onclick="rotateAnimation('mim2', 20); StopScroll()"
+                            onclick="rotateAnimation('mim2', 20); store_n(4); checkForChanges()"
                             onmouseout="stoprotate()"
                             src="images/domain/pnm.png"
                             style="padding: 0 10px;"
@@ -487,14 +487,14 @@
                             button
                             class="btn btn-primary mimg2"
                             data-toggle="modal"
-                            data-target="#exampleModal3"
+                            data-target="#exampleModal4"
                         />
                         <h3 id="text">PnM</h3>
                     </div>
                     <div class="tech col-6 col-md-4">
                         <img id="mim3" class="rotate" src="images/domain/Ellipse 4 (1).png" />
                         <img
-                            onclick="rotateAnimation('mim3', 20); StopScroll()"
+                            onclick="rotateAnimation('mim3', 20); store_n(5); checkForChanges()"
                             onmouseout="stoprotate()"
                             src="images/domain/design.png"
                             alt=""
@@ -502,7 +502,7 @@
                             button
                             class="btn btn-primary mi4"
                             data-toggle="modal"
-                            data-target="#exampleModal4"
+                            data-target="#exampleModal5"
                         />
                         <h3 id="text">Design</h3>
                     </div>
@@ -510,7 +510,7 @@
                         <img id="mim4" class="rotate" src="images/domain/Ellipse 4 (1).png" />
                         <img
                             id="mimgD"
-                            onclick="rotateAnimation('mim4', 20); StopScroll()"
+                            onclick="rotateAnimation('mim4', 20); store_n(6); checkForChanges()"
                             onmouseout="stoprotate()"
                             src="images/domain/editorial.png"
                             alt=""
@@ -518,7 +518,7 @@
                             button
                             class="btn btn-primary"
                             data-toggle="modal"
-                            data-target="#exampleModal5"
+                            data-target="#exampleModal6"
                         />
                         <h3 id="text">Editorial</h3>
                     </div>
