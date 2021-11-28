@@ -22,35 +22,39 @@ function rotateAnimation(el, speed) {
 }
 
 function stoprotate() {
-    clearTimeout(looper);
-}
-
-function stoprotate() {
     if (looper) clearTimeout(looper);
 }
 
-function mydFunction() {
-    document.getElementById("dpara").innerHTML =
-        "IEEE-IAS is a great platform for students to hone their Technical, Leadership skills & gain experience in organizing events and where holistic development takes place. Our chapter work on several important domains.";
-}
-function mydFunction1() {
-    document.getElementById("dpara").innerHTML =
-        "The one-stop place to put our pen down and creativity up. This domain is the back of the weekly blogs, DYK's, Newsletters and many more. It's the saving grace in true essence.";
-}
-function mydFunction2() {
-    document.getElementById("dpara").innerHTML =
-        "Creative minds come together and produce starling posters and videos. This artistic contributions will make our projects more intellectual and colourful.";
+// Stopping background scroll at modal popup
+function StopScroll () {
+    document.querySelector('html').style.overflowY= "hidden";
 }
 
-function mymFunction() {
-    document.getElementById("mpara").innerHTML =
-        "IEEE-IAS is a great platform for students to hone their Technical, Leadership skills & gain experience in organizing events and where holistic development takes place. Our chapter work on several important domains.";
+function RestoreScroll () {
+    document.querySelector('html').style.overflowY= "auto";
 }
-function mymFunction1() {
-    document.getElementById("mpara").innerHTML =
-        "The one-stop place to put our pen down and creativity up. This domain is the back of the weekly blogs, DYK's, Newsletters and many more. It's the saving grace in true essence.";
-}
-function mymFunction2() {
-    document.getElementById("mpara").innerHTML =
-        "Creative minds come together and produce starling posters and videos. This artistic contributions will make our projects more intellectual and colourful.";
+
+// Ensuring scroll on clicks only outside modal
+var n;
+function store_n(k){    n= k;}
+
+function checkForChanges()
+{   
+    StopScroll();
+    if ($('#exampleModal' + n).hasClass('show'))
+    {
+        document.addEventListener("click", (evt) => {
+            const flyoutEl = document.getElementById("mc-" + n);
+            let targetEl = evt.target;    
+            do {
+              if(targetEl == flyoutEl)            
+                return;
+              targetEl = targetEl.parentNode;
+            } 
+            while (targetEl);
+            RestoreScroll();
+        });
+    }
+    else
+        setTimeout(checkForChanges, 500);
 }

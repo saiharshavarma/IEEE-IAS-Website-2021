@@ -21,6 +21,8 @@
 
 .domain .character-entity {
     color: rgb(8, 201, 8);
+    font-size: 40px;
+    line-height: 0.4;
 }
 
 .domain .close {
@@ -29,7 +31,10 @@
 
 .domain .modal {
     padding: 0px !important;
-    overflow-y: hidden;
+}
+
+.domain .show{    
+    display: -webkit-box !important;
 }
 
 .domain .modal .icon-container {
@@ -40,10 +45,12 @@
 .domain .modal-header .close {
     padding: 0;
     margin: 0;
+    position: absolute;
+    right: 10px;
 }
 
 .domain .modal-dialog {
-    margin-top: 8%;
+    margin: auto;
 }
 
 .domain .modal-body {
@@ -51,10 +58,6 @@
     margin-left: 1rem;
     margin-bottom: 0rem;
     margin-right: 1rem;
-}
-
-.domain .modal-header {
-    padding-bottom: -0.2rem;
 }
 
 .domain .sizze {
@@ -65,6 +68,7 @@
 
 .domain .modal-header {
     border-bottom: none;
+    position: relative;
 }
 
 .domain .modal-content{
@@ -282,5 +286,11 @@
 
     .domain #content-mobile {
         display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .domain .modal-dialog {
+        margin: auto 5%;
     }
 }
