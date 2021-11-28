@@ -5,6 +5,7 @@
     font-family: "Raleway", sans-serif;
     width: 100vw;
     margin-top: 4%;
+    scroll-margin-top: 200px;
 }
 
 .blogs .blogheading {

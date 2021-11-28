@@ -4,6 +4,7 @@
     width: 100vw;
     background-image: url("../images/domain/Frame.jpg");
     background-size: contain;
+    scroll-margin-top: 150px;
 }
 
 .domain h3 { 
