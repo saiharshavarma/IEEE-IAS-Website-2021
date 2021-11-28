@@ -8,10 +8,6 @@ $(".topnav a").on("click", function () {
     $(".topnav").removeClass("responsive");
 });
 
-window.onscroll = function () {
-    myFunction();
-};
-
 function myFunction() {
     var winScroll =
         document.body.scrollTop || document.documentElement.scrollTop;
@@ -26,6 +22,7 @@ function myFunction() {
 const sections = document.querySelectorAll(".scroll-section");
 const Lia = document.querySelectorAll(".navbar .topnav li a");
 window.onscroll = () => {
+    myFunction();
     var current = "";
     
     sections.forEach((section) => {
