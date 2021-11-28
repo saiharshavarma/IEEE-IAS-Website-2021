@@ -10,6 +10,10 @@
     font-family: "Mulish";
 }
 
+.modal-backdrop{
+    z-index: -100;
+}
+
 .domain .row {
     color: white;
 }
