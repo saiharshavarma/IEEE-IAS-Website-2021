@@ -26,7 +26,7 @@
     color: white;
     font-family: "Raleway", sans-serif;
     width: 100%;
-    font-size: 24px !important;
+    font-size: 20px !important;
     margin-top: 8%;
     text-align: justify !important;
     font-weight: 400;
@@ -443,5 +443,23 @@ h6 {
     .events .events-spinner {
         top: 5%;
         left: 4%;
+    }
+}
+
+/*** Spinner-Board Spacing ***/
+
+@media only screen and (max-height: 750px) {
+    .events{
+        margin-bottom: 5rem;
+    }
+}
+@media only screen and (max-height: 700px) {
+    .events{
+        margin-bottom: 10rem;
+    }
+}
+@media only screen and (max-height: 650px) {
+    .events{
+        margin-bottom: 7rem;
     }
 }
