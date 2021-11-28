@@ -39,6 +39,8 @@
 
 .domain .show{    
     display: -webkit-box !important;
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 100vh;
 }
 
 .domain .modal .icon-container {
