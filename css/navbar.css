@@ -10,6 +10,7 @@ body {
     font-family: "Mulish";
     background-color: #0e0e0e;
     overflow-x: hidden;
+    overflow-y: hidden;
     max-width: 100vw;
     position: relative;
     color: white;
@@ -66,6 +67,7 @@ h3 {
 .navbar .topnav {
     list-style-type: none;
     display: none;
+    align-items: center;
 }
 
 .navbar .nav-links,
@@ -93,10 +95,6 @@ h3 {
     cursor: pointer;
     color: black;
     font-size: 24px;
-}
-
-.navbar .active {
-    display: block;
 }
 
 .navbar .icon {
@@ -184,6 +182,7 @@ h3 {
     .navbar .nav-links:hover,
     .navbar .topnav a.active {
         background-color: rgba(12, 138, 47, 0.97);
+        align-items: center !important;
     }
     .navbar .topnav a:not(:first-child) {
         display: none;

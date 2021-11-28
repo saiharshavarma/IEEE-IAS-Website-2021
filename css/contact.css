@@ -118,6 +118,7 @@
 
 .u-list-item-3{
     padding: 10%;
+    height: 250px;
 }
 
 .u-list-item-3 .row{
@@ -367,7 +368,6 @@ textarea {
     }
 
     .u-section-1 .u-container-layout-1 {
-        padding-top: 65px;
         padding-left: 10px;
         padding-right: 10px;
         box-shadow: none;
