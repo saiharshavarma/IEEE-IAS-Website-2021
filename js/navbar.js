@@ -8,6 +8,17 @@ $(".topnav a").on("click", function () {
     $(".topnav").removeClass("responsive");
 });
 
+$(document).ready(function() {
+  $(window).scroll(function() {
+  if($(this).scrollTop() < 100) {
+    document.getElementById("scrollupbtn").style.display = "none";
+  }
+  else {
+    document.getElementById("scrollupbtn").style.display = "block";
+  }
+  })
+  })
+
 function myFunction() {
     var winScroll =
         document.body.scrollTop || document.documentElement.scrollTop;
