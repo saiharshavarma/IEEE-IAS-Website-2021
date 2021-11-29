@@ -3,6 +3,18 @@
     font-family: "Raleway", sans-serif;
 }
 
+@media screen and (min-width: 700px) {
+    .u-section-1 .u-group-1{
+        margin-top: -100px !important;
+    }    
+    .u-section-1 .u-sheet-1{
+        margin-top: 0px;
+    }
+    .u-section-1{
+        height: 100vh;
+    }
+}
+
 .u-section-1 .u-text-1, .u-section-1 .u-text-4, .u-section-1 .u-text-2, .u-section-1 .u-text-8{
     font-family: "Mulish", sans-serif;
 
