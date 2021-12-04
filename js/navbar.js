@@ -10,36 +10,32 @@ $(".topnav a").on("click", function () {
 
 $(document).ready(function() {
   $(window).scroll(function() {
-  if($(this).scrollTop() < 100) {
+  if($(this).scrollTop() < 100) 
     document.getElementById("scrollupbtn").style.display = "none";
-  }
-  else {
+  else 
     document.getElementById("scrollupbtn").style.display = "block";
-  }
   })
-  })
+})
 
-function myFunction() {
-    var winScroll =
-        document.body.scrollTop || document.documentElement.scrollTop;
-    var height =
-        document.documentElement.scrollHeight -
-        document.documentElement.clientHeight;
-    var scrolled = (winScroll / height) * 100;
-    document.getElementById("myBar").style.width = scrolled + "%";
-}
+$(document).ready(function() {
+    $(window).scroll(function() {
+        var winScroll = $(window).scrollTop();
+        var height =  $(document).height() - $(window).height();
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+    })
+})
 
 // Navbar links turn active on scrolling 
 const sections = document.querySelectorAll(".scroll-section");
 const Lia = document.querySelectorAll(".navbar .topnav li a");
 window.onscroll = () => {
-    myFunction();
     var current = "";
     
     sections.forEach((section) => {
         const sectionTop = section.offsetTop;
         const sectionHeight= section.offsetHeight;
-        if (pageYOffset >= sectionTop - (sectionHeight / 4)) 
+        if (pageYOffset >= sectionTop - (sectionHeight / 3)) 
             current = section.getAttribute("id"); 
     });
 
