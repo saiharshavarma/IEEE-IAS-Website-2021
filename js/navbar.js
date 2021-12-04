@@ -10,14 +10,12 @@ $(".topnav a").on("click", function () {
 
 $(document).ready(function() {
   $(window).scroll(function() {
-  if($(this).scrollTop() < 100) {
+  if($(this).scrollTop() < 100) 
     document.getElementById("scrollupbtn").style.display = "none";
-  }
-  else {
+  else 
     document.getElementById("scrollupbtn").style.display = "block";
-  }
   })
-  })
+})
 
 $(document).ready(function() {
     $(window).scroll(function() {
@@ -25,7 +23,6 @@ $(document).ready(function() {
         var height =  $(document).height() - $(window).height();
         var scrolled = (winScroll / height) * 100;
         document.getElementById("myBar").style.width = scrolled + "%";
-        console.log(winScroll, height, scrolled);
     })
 })
 
