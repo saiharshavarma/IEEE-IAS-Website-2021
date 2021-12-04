@@ -20,7 +20,7 @@ $(document).ready(function() {
   })
 
 $(document).ready(function() {
-    s$(window).scroll(function() {
+    $(window).scroll(function() {
         var winScroll = $(window).scrollTop();
         var height =  $(document).height() - $(window).height();
         var scrolled = (winScroll / height) * 100;
