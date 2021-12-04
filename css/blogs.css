@@ -6,6 +6,8 @@
     width: 100vw;
     margin-top: 4%;
     scroll-margin-top: 175px;
+    background: url("../images/blogs/Background.jpg") no-repeat;
+    background-size: contain;
 }
 
 .blogs .blogheading {

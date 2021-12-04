@@ -1,5 +1,4 @@
 .events {
-    background-image: url("../images/events/Group.svg");
     background-size: cover;
     display: flex;
     flex-direction: row;
@@ -8,6 +7,10 @@
     align-items: flex-start;
     margin-top: 0%;           
     scroll-margin-top: 200px;
+    background: url("../images/events/Group.svg"), url("../images/blogs/Background.jpg");
+    background-size: cover, contain;
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom , top;
 }
 
 .events .description {
