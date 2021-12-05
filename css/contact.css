@@ -12,6 +12,8 @@
     scroll-margin-top: 100px;
 }
 
+text
+
 .u-body {
     background-color: #0e0e0e;
 }
@@ -202,6 +204,10 @@ textarea {
     border-radius: 5px;
     border-bottom: 2px solid #0c8a2f !important;
     font-family: "Raleway", sans-serif;
+}
+
+textarea {
+    resize: none;
 }
 
 .u-section-1 .u-list-item-3 {

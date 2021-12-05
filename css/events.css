@@ -7,9 +7,9 @@
     align-items: flex-start;
     margin-top: 0%;           
     scroll-margin-top: 200px;
-    background: url("../images/events/Group.svg"), url("../images/blogs/Background.jpg");
-    background-size: cover, contain;
-    background-repeat: no-repeat, no-repeat;
+    background: url("../images/events/Group.svg"), url("../images/events/Background.jpg");
+    background-size: cover, cover;
+    background-repeat: no-repeat, repeat;
     background-position: bottom , top;
 }
 
@@ -181,6 +181,12 @@ h6 {
 @media only screen and (min-width: 0px) and (max-width: 800px) {
     .events {
         background-position-y: 150px;
+    }
+    .events{
+        background: url("../images/events/Group.svg"), url("../images/events/mBackground.jpg");
+        background-size: cover, contain;
+        background-repeat: no-repeat, repeat-y;
+        background-position: bottom , top;
     }
 }
 

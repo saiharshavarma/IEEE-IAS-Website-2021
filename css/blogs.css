@@ -6,8 +6,8 @@
     width: 100vw;
     margin-top: 4%;
     scroll-margin-top: 175px;
-    background: url("../images/blogs/Background.jpg") no-repeat;
-    background-size: contain;
+    background: url("../images/blogs/Background.jpg") repeat;
+    background-size: cover;
 }
 
 .blogs .blogheading {
@@ -214,6 +214,11 @@
 }
 
 @media only screen and (min-width: 0px) and (max-width: 380px) {
+    .blogs{
+        background-image: url("../images/blogs/mBackground.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
     .blogs .blogtitle {
         font-size: 34px !important;
     }
@@ -251,6 +256,11 @@
 }
 
 @media only screen and (min-width: 380px) and (max-width: 480px) {
+    .blogs{
+        background-image: url("../images/blogs/mBackground.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
     .blogs .blogtitle {
         font-size: 34px !important;
     }
@@ -289,6 +299,11 @@
     }
 }
 @media only screen and (min-width: 480px) and (max-width: 576px) {
+    .blogs{
+        background-image: url("../images/blogs/mBackground.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
     .blogs .blogtitle {
         font-size: 34px !important;
     }
@@ -323,6 +338,11 @@
     }
 }
 @media only screen and (min-width: 575px) and (max-width: 700px) {
+    .blogs{
+        background-image: url("../images/blogs/mBackground.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
     .blogs .blogtitle {
         font-size: 34px !important;
     }
@@ -361,6 +381,11 @@
     }
 }
 @media only screen and (min-width: 700px) and (max-width: 1001px) {
+    .blogs{
+        background-image: url("../images/blogs/mBackground.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
     .blogs .blogtitle {
         font-size: 26px;
     }
