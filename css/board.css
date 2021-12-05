@@ -1,7 +1,7 @@
 .dboard {
     display: block;
     height: 130vh;
-    scroll-margin-top: 150px;
+    scroll-margin-top: 50px;
 }
 
 .dcarousel-inner{
@@ -207,7 +207,7 @@
     .dboard {
         margin-top: 0;
         height: 100vh;
-        display: none !important;
+        display: none !important;        
         /* height: fit-content; */
     }
     .mboard {
