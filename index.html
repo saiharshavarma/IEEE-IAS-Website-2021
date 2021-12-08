@@ -1167,21 +1167,24 @@
                         <div class="u-container-layout u-valign-middle-xl u-valign-middle-xs u-container-layout-1">
                             <h1 class="u-text u-text-1">CONTACT US</h1>
                             <div class="u-align-left u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-form u-form-1">
-                                <form action="send_mail.php" method="POST" class="u-clearfix u-form-spacing-28 u-form-vertical u-inner-form" style="padding: 10px;" source="custom" name="form">
+                                <div class="alert">Your message has been sent</div>
+                                <form method="POST" class="u-clearfix u-form-spacing-28 u-form-vertical u-inner-form" style="padding: 10px;" id="contactForm" style="padding: 0;" source="email" name="form">
+                                    <input type="hidden" id="siteId" name="siteId" value="152434">
+                                    <input type="hidden" id="pageId" name="pageId" value="152435">
                                     <div class="row">
                                         <div class="col-lg-6 u-form-group u-form-name u-form-group-1">
                                             <label for="name-5a14" class="u-form-control-hidden u-label" wfd-invisible="true">Name</label>
-                                            <input type="text" placeholder="First Name" id="name-5a14" name="first_name" class="u-input u-input-rectangle" required="" />
+                                            <input type="text" placeholder="First Name" id="fname-5a14" name="first_name" class="u-input u-input-rectangle" required="" />
                                         </div>
                                         <div class="col-lg-6 u-form-group u-form-name u-form-group-1">
                                             <label for="name-5a14" class="u-form-control-hidden u-label" wfd-invisible="true">Name</label>
-                                            <input type="text" placeholder="Last Name" id="name-5a14" name="last_name" class="u-input u-input-rectangle" required="" />
+                                            <input type="text" placeholder="Last Name" id="lname-5a14" name="last_name" class="u-input u-input-rectangle" required="" />
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-lg-6 u-form-email u-form-group u-form-group-2">
-                                            <label for="email-5a14" class="u-form-control-hidden u-label" wfd-invisible="true">Email</label>
-                                            <input type="text" placeholder="Mobile Number" id="email-5a14" name="mobile_number" class="u-input u-input-rectangle" required="" />
+                                            <label for="email-5a14" class="u-form-control-hidden u-label" wfd-invisible="true">Mobile Number</label>
+                                            <input type="text" placeholder="Mobile Number" id="mobile-5a14" name="mobile_number" class="u-input u-input-rectangle" required="" />
                                         </div>
                                         <div class="col-lg-6 u-form-email u-form-group u-form-group-2">
                                             <label for="email-5a14" class="u-form-control-hidden u-label" wfd-invisible="true">Email</label>
@@ -1199,7 +1202,7 @@
                                     <div class="u-form-send-message u-form-send-success" wfd-invisible="true">Thank you! Your message has been sent.</div>
                                     <div class="u-form-send-error u-form-send-message" wfd-invisible="true">Unable to send your message. Please fix errors then try again.</div>
                                     <input type="hidden" value="" name="recaptchaResponse" wfd-invisible="true" />
-                                </form>
+                                  </form>
                             </div>
                         </div>
                     </div>
@@ -1382,5 +1385,10 @@ s2.686-6,6-6s6,2.686,6,6S29.491,24,26.177,24z"
     <script src="js/domain.js"></script>
     <script src="js/blogs.js"></script>
     <script src="js/events.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-analytics.js"></script>
+    <script src="js/contact.js"></script>
 </body>
 </html>

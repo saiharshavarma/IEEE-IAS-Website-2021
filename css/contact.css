@@ -12,7 +12,15 @@
     scroll-margin-top: 100px;
 }
 
-text
+.alert {
+    margin: 2% auto;
+    background-color: #0c8a2f;
+    color: white;
+    padding: 3%;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
 
 .u-body {
     background-color: #0e0e0e;
@@ -51,6 +59,7 @@ text
     margin: 20px auto 0;
 }
 .u-section-1 .btn-success1 {
+    border: none;
     color: white;
     background-color: #0c8a2f;
 }
@@ -79,6 +88,11 @@ text
     font-weight: 700;
     text-transform: uppercase;
 }
+
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }
 
 .u-section-1 .u-list-1 {
     width: 512px;
