@@ -1,29 +1,13 @@
-if (screen.width < 430) {
-    document.getElementById("boardbtn1").addEventListener(
-        "click",
-        (function1 = () => {
-            document.getElementById("M-Board21").style.display = "block";
-            document.getElementById("M-Board22").style.display = "none";
-        })
-    );
-
-    document.getElementById("boardbtn2").addEventListener(
-        "click",
-        (function2 = () => {
-            document.getElementById("M-Board21").style.display = "none";
-            document.getElementById("M-Board22").style.display = "block";
-        })
-    );
-} else {
-    document.getElementById("M-Board21").remove();
-    document.getElementById("M-Board22").remove();
-    document.getElementById("boardbtn1").remove();
-    document.getElementById("boardbtn2").remove();
+function exBoard() {
+    document.getElementsByClassName("mySwiperex")[0].style.display = "block";
+    document.getElementsByClassName("mySwipernew")[0].style.display = "none";
+    document.getElementById("boardbtn1").style.color = "#0c8a2f";
+    document.getElementById("boardbtn2").style.color = "#FFF";
 }
 
-function BoardColorChange(element) {
+function newBoard() {
+    document.getElementsByClassName("mySwiperex")[0].style.display = "none";
+    document.getElementsByClassName("mySwipernew")[0].style.display = "block";  
     document.getElementById("boardbtn1").style.color = "#FFF";
-    document.getElementById("boardbtn2").style.color = "#FFF";
-
-    element.style.color = "#0c8a2f";
+    document.getElementById("boardbtn2").style.color = "#0c8a2f"; 
 }
