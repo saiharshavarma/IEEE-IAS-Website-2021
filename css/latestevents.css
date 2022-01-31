@@ -121,6 +121,10 @@
          position: relative;
      }
 
+     #countdown ul {
+         padding-left: 0px !important;
+     }
+
      .li_event {
          display: inline-block;
          font-size: 0.8em;
