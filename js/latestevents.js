@@ -18,19 +18,23 @@
             document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
             if (distance < 0) {
 
-              let headline = document.getElementById("headline"),
+              document.getElementById("event_container").style.display = "none";
+              if (screen.width < 430)
+              {
+                document.getElementById("About").style.marginTop = "300px";
+              }
+              let headline1 = document.getElementById("headline1"),
+                  headline2 = document.getElementById("headline2"),
                   pak  = document.getElementById("pak"),
                   countdown = document.getElementById("countdown"),
                   content = document.getElementById("content");
   
-  
-  
-              headline.innerText = "EVENT IS LIVE NOW!!!";
+              headline1.innerText = "Registrations are closed";
+              headline2.innerText = "Stay tuned for the results!!";
   
               countdown.style.display = "none";
               pak.style.display = "none";
               content.style.display = "block";   
-  
   
               clearInterval(x);
             }
