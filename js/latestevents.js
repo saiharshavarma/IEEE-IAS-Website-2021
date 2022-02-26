@@ -42,3 +42,38 @@
          
         }, 0)
     }());
+    function StopScroll ()
+    {
+      document.querySelector('html').style.overflowY= "hidden";
+    }
+  
+  function RestoreScroll () 
+  {
+      document.querySelector('html').style.overflowY= "auto";
+  }
+  var n;
+  function store_n(k){    n= k;} 
+ 
+  
+  function checkForChanges()
+  {   
+      StopScroll();
+      
+      if ($('#exampleModal' + n).hasClass('show'))
+      {
+          document.addEventListener("click", (evt) => {
+              const flyoutEl = document.getElementById("mc-" + n);
+              let targetEl = evt.target;    
+              do {
+                if(targetEl == flyoutEl)            
+                  return;
+                targetEl = targetEl.parentNode;
+              } 
+              while (targetEl);
+              RestoreScroll();
+          });
+      }
+      else
+          setTimeout(checkForChanges, 500);
+  }  
+  
