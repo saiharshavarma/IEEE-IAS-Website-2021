@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.1.1/foundation.min.css" />
     <link rel="stylesheet" href="https://cdn.snipcart.com/themes/base/snipcart.min.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">  
     <link rel="stylesheet" href="css/preloader.css" />
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/homepage.css" />
@@ -152,38 +152,102 @@
     </div>
     <!-- Landing Page Ending -->
 
-    <!-- Live Event Page -->
+    
     <div class="container event_container" id="event_container">
         <div class="event_head">
-          <h1 class="mheading">Recruitments are live!!</h1>
-          <h4 class="nheading">Register by 18th Feb</h4>
+          <h1 class="mheading">CORE COMMITTEE<br> SELECTIONS!!</h1>         
         </div>
-        <div class="event_right_container">
-          <h1 id="headline1" style="font-size:1.5rem; font-weight:800;  margin-top: 1%; color: white;"></h1>
-          <h1 id="headline2" style="font-size:1.5rem; font-weight:800;  margin-top: 1%;"></h1>
-          <div id="countdown">
-            <ul>
-              <li class="li_event"><span id="days"></span>Days</li>
-              <li class="li_event"><span id="hours"></span>Hrs</li>
-              <li class="li_event"><span id="minutes"></span>Mins</li>
-              <li class="li_event"><span id="seconds"></span>Secs</li>
-            </ul>
-          </div>
-          <div class="button-box" id="button-box">
-            <div class="event_btn" id="pak">
-              <a href="https://forms.gle/8HPKwWLTSP3FjRcF7" target="_blank">
-                <button class="latest_btn">REGISTER</button>
-              </a>
+        <div class="button-box" id="button-box">
+            <div class="event_btn" id="pak">              
+                <button class="latest_btn" data-toggle="modal" data-target="#exampleModal1r" onclick= "store_n(1); checkForChanges()">RESULT</button>         
+            </div>                    
+           
+        </div>             
+    </div>
+    <div class="modal fade" id="exampleModal1r" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content green-border" id="mc-1" style="width: 100%;">
+                <div class="modal-header">
+                    
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white;" onclick= "RestoreScroll()"><span class="character-entity" aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    
+                    <form>
+                        <div class="form-group">
+                          <br><label for="inputsm" style="color:darkgreen; font-weight: 900;  font-size: 1.3rem;">FULL NAME</label>
+                          <input class="form-control input-sm" id="inputsm" type="text" placeholder="Enter Your name" style="color:white;font-weight: 800;border: solid 2px darkgreen; ">
+                        </div>
+                         <div class="form-group">
+                          <label for="inputdefault" style="color:darkgreen; font-weight: 900;  font-size: 1.3rem;">REGISTRATION NUMBER</label>
+                          <input class="form-control" id="inputdefault" type="text" placeholder="Enter Your registration number" style="color:white;font-weight: 800;border: solid 2px darkgreen;">
+                        </div>
+                        <br><div class="result_btn" style=" display:flex;justify-content: center; ">
+                            <br><button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal2r" onclick= "store_n(1); checkForChanges()" >CHECK</button>
+
+                        </div>
+                        
+                    </form>    
+                </div>
             </div>
-            <!-- <div class="event_btn1">
-              <a href="https://discord.gg/A2rGUCf8yF" target="_blank">
-                <button class="discord"><i class="fab fa-discord"></i>DISCORD</button>
-              </a>
-            </div> -->
-          </div>
         </div>
-      </div> 
-    <!-- Live Event Ending Page-->
+    </div>
+    <div class="modal fade" id="exampleModal2r" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content green-border" id="mc-1" style="width: 100%;">
+                <div class="modal-header">
+                    
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white;" onclick= "RestoreScroll()"><span class="character-entity" aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="pass_result">
+                    <div class="modal-body">
+                        <div class="center-heading" style=" display:flex;justify-content: center; color: darkgreen; ">
+                            <h1 style="font-weight: 900; font-size: 1.6rem;">CONGRATULATIONS!!!</h1>                       
+                        </div>
+                        <div class="center-heading" style=" display:flex;justify-content: center; color: darkgreen; ">                        
+                            <h4 style="font-weight: 700; font-size: 1.2rem; line-height: 1px;">20BCT0352 /KARAN KUNDRRA</h4>
+                        </div>
+                        <div class="center-heading" style=" display:flex;justify-content: center; color: white ">                        
+                            <h4 style="font-weight: 900; font-size: 1.5rem; ">Welcome to IEEE-IAS family</h4>
+                        </div>
+                        <div class="center-heading" style=" display:flex;justify-content: center; color: darkgreen; ">                        
+                            <h5 style="font-weight: 700; font-size: 0.8rem; line-height: 1px;">Check out our <a href="https://www.instagram.com/ieeeiasvit/?hl=en" style="color: darkgreen;">instagram page</a> for more details.</h5>
+                        </div>
+                    </div>
+
+                </div>
+                <!-----------
+                <div class="fail_result">
+                    <div class="modal-body">
+                        
+                        <div class="center-heading" style=" display:flex;justify-content: center; color: darkgreen; ">                        
+                            <p style="font-weight: 700; font-size: 1.2rem; line-height: 1px;">Thank You for applying for our chapter.</p>
+                        </div>
+                        <div class="center-heading" style=" display:flex;justify-content: center; color: darkgreen; ">                        
+                            <p class="1st" style="font-weight: 700; font-size: 1.2rem; line-height: 1px;">Unfortunately you couldn't make it.</p>
+                        </div>
+                        <div class="center-heading" style=" display:flex;justify-content: center; color: white ">                        
+                            <h4 style="font-weight: 900; font-size: 1.5rem; ">Better luck next time</h4>
+                        </div>
+                    </div>
+
+                </div>
+                ----->
+                
+            
+                
+            </div>
+        </div>
+    </div>
+
+          
+   
+   
+    
+    
+      
+      
+   
 
     <!-- About us Page -->
     <div class="scroll-section aboutus" id="About" >
@@ -2060,6 +2124,7 @@ s2.686-6,6-6s6,2.686,6,6S29.491,24,26.177,24z"
     <script src="js/preloader.js"></script>
     <script src="js/navbar.js"></script>
     <script src="js/homepage.js"></script>
+ 
     <script src="js/latestevents.js"></script>
     <script src="js/aboutus.js"></script>
     <script src="js/domain.js"></script>
